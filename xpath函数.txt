@@ -1,0 +1,8 @@
+1.text 获取元素内的文本（精确匹配）
+("//*[text()='通 过']")	例：<span>通 过</span>
+
+2.contains 任意位置包含（模糊匹配）
+（"//a[contains((text(),'通 过')]"）
+
+3.starts-with 开头位置包含（模糊匹配）
+（"//a[starts-with((text(),'通 过')]"）
