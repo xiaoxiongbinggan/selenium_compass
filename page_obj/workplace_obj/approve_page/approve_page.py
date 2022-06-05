@@ -21,7 +21,9 @@ class Approve(BasePage):
     def wait_approve(self,memo):
         self.click(self.type3)
         print('审批类型2')
+        time.sleep(3)
         self.click(self.detail)
+        time.sleep(3)
         print('打开详情')
         # self.input(self.pass_memo,time.ctime())
         self.input(self.pass_memo,memo)
