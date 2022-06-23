@@ -3,8 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-
-
 from page_obj.workplace_obj.workplace_page import WorkPlace
 from page_obj.workplace_obj.approve_page.approve_page import Approve
 from page_obj.login_page import Login
@@ -21,12 +19,16 @@ class Cases(unittest.TestCase):
         # chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
         # chrome_driver = r"D:\auto_test\chromedriver.exe"
         # cls.driver = webdriver.Chrome(chrome_driver, chrome_options=chrome_options)
-        # cls.driver.implicitly_wait(10)
+
         # print(cls.driver.title)
-        # chrome_driver = r"D:\auto_test\chromedriver.exe"
-        # cls.driver=webdriver.Chrome(chrome_driver)
-        cls.driver = webdriver.Remote(command_executor="http://chrome.fyzq.cc/wd/hub",
-                                  desired_capabilities=DesiredCapabilities.CHROME)
+
+        chrome_driver = r"D:\auto_test\chromedriver.exe"
+        cls.driver=webdriver.Chrome(chrome_driver)
+        cls.driver.implicitly_wait(10)
+
+        #远程启动浏览器
+        # cls.driver = webdriver.Remote(command_executor="http://chrome.fyzq.cc/wd/hub",
+        #                           desired_capabilities=DesiredCapabilities.CHROME)
 
         cls.lg = Login(cls.driver)
         cls.driver.get(cls.lg.url)

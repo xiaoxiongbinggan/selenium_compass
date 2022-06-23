@@ -6,3 +6,9 @@
 
 3.starts-with 开头位置包含（模糊匹配）
 （"//a[starts-with((text(),'通 过')]"）
+
+4.类似绝对路径的方式，层层定位
+//div[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td/a
+
+5.获取一层同类元素中的第几个
+//*[@id="popContainer"]/section/aside/div/ul/li[3]

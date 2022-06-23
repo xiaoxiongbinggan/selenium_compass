@@ -1,6 +1,11 @@
+import logging
 from time import sleep
 
 from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
+
+from logs import log_base
+# logger=log_base.logger_console()
 
 
 class BasePage:
@@ -13,18 +18,25 @@ class BasePage:
 
     # 访问URL
     def visit(self, url):
+        logging.info('访问{}网站'.format(url))
         self.driver.get(url)
 
     def locator(self, loc):
+        logging.info('定位元素{}'.format(loc))
         return self.driver.find_element(*loc)
 
     def input(self, loc, txt):
+        logging.info('{}输入框输入{}'.format(loc,txt))
         self.locator(loc).send_keys(txt)
 
     def click(self, loc):
-        self.locator(loc).click()
+
+            logging.info('点击元素{}'.format(loc))
+            self.locator(loc).click()
+
 
     def assert_text(self,loc,expect):
+        logging.info('断言有无{}'.format(expect))
         try:
             assert expect in self.locator(loc).text
         except:
@@ -32,4 +44,5 @@ class BasePage:
 
 
     def quit(self):
+        logging.info('退出浏览器')
         self.driver.quit()
