@@ -1,2 +1,18 @@
 Thu, 09 Jun 2022 20:19:05 37580 MainThread base_page.py[line:18] INFO This is info message
 Thu, 09 Jun 2022 20:19:35 37596 MainThread base_page.py[line:18] INFO This is info message
+2022-06-24 20:05:28,212base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
+2022-06-24 20:05:28,227base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
+2022-06-24 20:05:28,293base_page.pyINFO('xpath', "//input[@id='pwd']")输入框输入qinyujie008
+2022-06-24 20:05:28,293base_page.pyINFO定位元素('xpath', "//input[@id='pwd']")
+2022-06-24 20:05:28,379base_page.pyINFO点击元素('xpath', "//a[text()='登录并授权']")
+2022-06-24 20:05:28,379base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
+2022-06-24 20:05:34,666base_page.pyINFO点击元素('xpath', "//span[text()='审批管理']/..")
+2022-06-24 20:05:34,667base_page.pyINFO定位元素('xpath', "//span[text()='审批管理']/..")
+2022-06-24 20:05:36,142base_page.pyINFO点击元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
+2022-06-24 20:05:36,142base_page.pyINFO定位元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
+2022-06-24 20:05:45,038base_page.pyINFO点击元素('xpath', "//span[text()='工资付款 ']/../../label[3]")
+2022-06-24 20:05:45,038base_page.pyINFO定位元素('xpath', "//span[text()='工资付款 ']/../../label[3]")
+2022-06-24 20:05:48,482base_page.pyINFO点击元素('xpath', '//div[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td/a')
+2022-06-24 20:05:48,482base_page.pyINFO定位元素('xpath', '//div[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td/a')
+2022-06-24 20:05:48,676base_page.pyINFO点击元素('xpath', '//button[@class="ant-drawer-close"]')
+2022-06-24 20:05:48,676base_page.pyINFO定位元素('xpath', '//button[@class="ant-drawer-close"]')

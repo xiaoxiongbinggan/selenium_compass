@@ -3,9 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-from page_obj.workplace_obj.workplace_page import WorkPlace
-from page_obj.workplace_obj.approve_page.approve_page import Approve
-from page_obj.login_page import Login
+from pages.workplace_page.workplace_page import WorkPlace
+from pages.workplace_page.approve_page.approve_page import Approve
+from pages.login_page import Login
 import unittest
 import yaml
 

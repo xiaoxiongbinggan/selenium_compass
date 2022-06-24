@@ -7,10 +7,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 from base.base_page import BasePage
-from page_obj.workplace_obj.workplace_page import WorkPlace
-from page_obj.workplace_obj.approve_page.approve_page import Approve
-from page_obj.login_page import Login
-from page_obj.workplace_obj.recruit_page.recruit_page import Recruit
+from pages.workplace_page.workplace_page import WorkPlace
+from pages.workplace_page.approve_page.approve_page import Approve
+from pages.login_page import Login
+from pages.workplace_page.recruit_page.recruit_page import Recruit
 import yaml
 from logs import log_base
 class TestCase(BasePage):
