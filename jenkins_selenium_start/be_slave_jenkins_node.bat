@@ -1,0 +1,1 @@
+java -jar agent.jar -jnlpUrl http://124.222.243.173:8080/computer/Redmi/jenkins-agent.jnlp -secret f1ef91b5a8889f149ca35c8b0840a343e69deeb372ba978935da3e0ab657467c -workDir "D:\workspace"

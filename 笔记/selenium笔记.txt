@@ -1,0 +1,27 @@
+ddt只能和unnitest配合使用
+pytest 参数化@pytest.mark.parametrize()只能传字典参数，读取文本需要额外写读文本的代码
+
+@pytest.mark.web
+只运行web标记的测，在cmd运行的时候加-m web，指定参数值web
+
+
+selenium接管已打开浏览器
+cmd命令：
+chrome.exe --remote-debugging-port=9527 --user-data-dir="D:\AutomationProfile"
+
+D:\AutomationProfile表示浏览器所在的位置
+这条命令输完之后会出现一个浏览器，把自己想要进行操作的网页打开操作，然后停留
+
+
+
+selenium启动远程服务器端的浏览器
+cmd命令：
+java -jar D:\auto_test\selenium-server-4.2.2.jar standalone
+
+
+
+
+捕获toast，消息几秒钟后自动消失不好定位。浏览器F12，source下出现toast后点击暂停即可
+
+隐式等待不能替换显示等待，比如下拉框加载元素，下拉框能找到，但是里面的值还没有出来，隐式等待就不会等待
+

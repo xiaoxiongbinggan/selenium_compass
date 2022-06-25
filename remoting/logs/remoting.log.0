@@ -1,0 +1,29 @@
+六月 24, 2022 11:04:31 下午 hudson.remoting.jnlp.Main createEngine
+信息: Setting up agent: Redmi
+六月 24, 2022 11:04:31 下午 hudson.remoting.jnlp.Main$CuiListener <init>
+信息: Jenkins agent is running in headless mode.
+六月 24, 2022 11:04:31 下午 hudson.remoting.Engine startEngine
+信息: Using Remoting version: 4.12
+六月 24, 2022 11:04:31 下午 org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+信息: Using D:\auto_test\remoting as a remoting work directory
+六月 24, 2022 11:04:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Locating server among [http://124.222.243.173:8080/]
+六月 24, 2022 11:04:32 下午 org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+信息: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+六月 24, 2022 11:04:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Agent discovery successful
+  Agent address: 124.222.243.173
+  Agent port:    50000
+  Identity:      0d:81:ee:e6:c5:ef:af:60:28:c9:23:4e:7a:f8:e6:bc
+六月 24, 2022 11:04:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Handshaking
+六月 24, 2022 11:04:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connecting to 124.222.243.173:50000
+六月 24, 2022 11:04:32 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Trying protocol: JNLP4-connect
+六月 24, 2022 11:04:41 下午 org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+信息: Waiting for ProtocolStack to start.
+六月 24, 2022 11:04:41 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Remote identity confirmed: 0d:81:ee:e6:c5:ef:af:60:28:c9:23:4e:7a:f8:e6:bc
+六月 24, 2022 11:04:42 下午 hudson.remoting.jnlp.Main$CuiListener status
+信息: Connected

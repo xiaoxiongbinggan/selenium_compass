@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.test_case_pytest",
+    "children" : [ {
+      "name" : "测试登录-审批管理",
+      "uid" : "6c7a32e92fd2cc70",
+      "parentUid" : "d786e884ed764ab575759eb944d77efc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656141275490,
+        "stop" : 1656141282002,
+        "duration" : 6512
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试登录-我要报备",
+      "uid" : "1f6d0a377385c2ea",
+      "parentUid" : "d786e884ed764ab575759eb944d77efc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656141282020,
+        "stop" : 1656141289057,
+        "duration" : 7037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "case.test_case_pytest"
+  } ]
+}

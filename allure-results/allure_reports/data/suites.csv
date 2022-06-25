@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 25 15:14:42 CST 2022","Sat Jun 25 15:14:49 CST 2022","7037","case","test_case_pytest","","","","测试登录-我要报备",""
+"passed","Sat Jun 25 15:14:35 CST 2022","Sat Jun 25 15:14:42 CST 2022","6512","case","test_case_pytest","","","","测试登录-审批管理",""

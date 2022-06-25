@@ -1,0 +1,39 @@
+Python Pytest集成Allure Report
+集成
+执行以下命令安装：
+$ pip install allure-pytest
+它会同时安装allure-pytest和allure-python-commons两个包。
+
+方法1：
+（1）：运行测试用例，生产测试报告文件
+
+pytest 	test.py 		--alluredir=./tmp/results
+	脚本		测试报告文件路径
+运行之后，会在tmp路径下生成测试报告文件（可以写相对路径或者绝对路径）
+
+
+
+
+ （2）：在上面脚本执行完成之后，运行这条命令查看报告自动打开网页
+
+allure 	serve 		./tmp/results
+	启动服务		测试报告文件路径
+
+
+方法2：:
+（1）： 也可以直接生成一个allure的html格式的报告
+
+allure	 generate 	 ./tmp/results
+	收集数据		测试报告文件路径
+
+
+
+（2）：可以看到另外生成了一个allure-report的文件夹，找到里面的index.html就是我们要的报告。
+右键点击index.html--Open In--Browser--随便选择一个喜欢用的浏览器，就能打开报告了，和命令2打开的报告是一样的。（需要在pycharm里打开）
+
+
+pytest D:\auto_test\case\test_case_pytest.py -m web --alluredir=D:\auto_test\reports\reports
+allure serve D:\auto_test\reports\reports
+
+
+
