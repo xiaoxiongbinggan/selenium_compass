@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 
 from logs import log_base
 
-logger=log_base.logger_text()
+logger=log_base.logger_console()
 
 class BasePage:
     # driver=webdriver.Chrome()

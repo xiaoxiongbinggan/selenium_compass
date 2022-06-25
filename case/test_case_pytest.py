@@ -22,13 +22,13 @@ def remote_driver():
     #                           desired_capabilities=DesiredCapabilities.CHROME)
 
     # 远程启动浏览器配置1
-    # desired_caps={}
-    # desired_caps['platform'] = 'WINDOWS'
-    # desired_caps['browserName'] = 'chrome'
-    # driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub',desired_caps)
+    desired_caps={}
+    desired_caps['platform'] = 'WINDOWS'
+    desired_caps['browserName'] = 'chrome'
+    driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub',desired_caps)
 
     # 远程启动浏览器配置2
-    driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
+    # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
 
     url="https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
         "2Fconnect%2Foauth2%2Fsns_authorize%3Fappid%3Ddingoakln867f37kuvrott%26response_type%3D" \
@@ -63,21 +63,25 @@ def user_driver():
     #用例执行后置部分
     driver.quit()
 
+@pytest.mark.web
 @allure.title("测试登录-审批管理")
 # @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
-def test_01(user_driver):
-    wp = WorkPlace(user_driver)
-    ap = Approve(user_driver)
+def test_01(remote_driver):
+    wp = WorkPlace(remote_driver)
+    ap = Approve(remote_driver)
     wp.open_approve()
     ap.wait_approve()
 
-@allure.title("测试登录-我要报备")
-def test_02(user_driver):
 
-    wp=WorkPlace(user_driver)
-    re=Recruit(user_driver)
+@pytest.mark.web
+@allure.title("测试登录-我要报备")
+def test_02(remote_driver):
+
+    wp=WorkPlace(remote_driver)
+    re=Recruit(remote_driver)
     wp.open_recruit()
     re.report(3)
+
 
 def test_03(remote_driver):
     wp = WorkPlace(remote_driver)

@@ -25,7 +25,7 @@ def logger_text():
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)
 
-    filehandle=logging.FileHandler('../logs/mylog.log',encoding='utf-8')
+    filehandle=logging.FileHandler(r'D:\auto_test\logs\mylog.log',encoding='utf-8')
     #创建文本处理器 指定信息输出到文本处理器
 
     logger.addHandler(filehandle)
