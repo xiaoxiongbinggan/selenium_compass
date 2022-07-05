@@ -23,7 +23,7 @@ creatby = ['仵鹏',  '李勇', '仇洪伟', '管小芳', '战丽梅', '朱继�
 eger = ['男', '女']
 
 
-def creat_report(number):
+def nor_creat_report(number):
     filepath = r'D:\auto_test\script\报备导入测试数据{0}条.xlsx'.format(number)
     fake = Faker('zh_CN')
     wb = openpyxl.Workbook()
@@ -47,10 +47,34 @@ def creat_report(number):
     print('创建成功:', filepath)
     wb.close()
 
+def abnor_creat_report(number):
+    filepath = r'D:\auto_test\script\报备导入测试数据{0}条.xlsx'.format(number)
+    fake = Faker('zh_CN')
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.append(header)
+    for _ in range(number):
+        a1 = random.choice(channel)
+        if a1 == '院校':
+            a2 = random.choice(yuanxiao)
+        elif a1 == '供应商':
+            a2 = random.choice(conduit)
+        elif a1 == '内荐':
+            a2 = random.choice(neijian)
+        else:
+            a2 = random.choice(creatby)
+        test_lst = [random.choice(creatby), a1, a2, random.choice(
+            market), random.choice(em_type), fake.ssn(min_age=18, max_age=35), fake.phone_number(),
+            fake.date_time_between(start_date='-10d',end_date='-3d'), fake.name(), random.choice(eger)]
+        ws.append(test_lst)
+    wb.save(filepath)
+    print('创建成功:', filepath)
+    wb.close()
+
 if __name__ == '__main__':
     number = 5
     try:
-        creat_report(int(number))
+        nor_creat_report(int(number))
     except Exception as e:
         print('创建失败:', e)
 

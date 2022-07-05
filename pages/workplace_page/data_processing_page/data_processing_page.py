@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.service import Service
 from base.base_page import BasePage
-from script.report_data_script import creat_report
+from script.report_data_script import nor_creat_report
 
 from pages.workplace_page.workplace_page import WorkPlace
 

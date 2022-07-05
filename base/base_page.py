@@ -21,6 +21,7 @@ class BasePage:
         logging.info('定位元素{}'.format(loc))
         return self.driver.find_element(*loc)
 
+
     def input(self, loc, txt):
         logging.info('{}输入框输入{}'.format(loc,txt))
         self.locator(loc).send_keys(txt)
@@ -28,6 +29,7 @@ class BasePage:
     def click(self, loc):
             logging.info('点击元素{}'.format(loc))
             self.locator(loc).click()
+
 
     def assert_text(self,loc,expect):
         logging.info('断言有无{}'.format(expect))

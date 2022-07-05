@@ -1,3 +1,5 @@
+import time
+
 import allure
 import pytest
 from selenium import webdriver
@@ -19,13 +21,13 @@ def remote_driver():
     #                           desired_capabilities=DesiredCapabilities.CHROME)
 
 
-    """ 远程启动浏览器配置方法1"""
+    """ 远程启动浏览器配置1"""
     desired_caps={}
     desired_caps['platform'] = 'WINDOWS'
     desired_caps['browserName'] = 'chrome'
     driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub',desired_caps)
 
-    """ 远程启动浏览器配置方法2"""
+    """ 远程启动浏览器配置2"""
     # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
 
     url="https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
@@ -62,9 +64,19 @@ def user_driver():
     driver.quit()
 
 @pytest.mark.workspace
-@allure.title("处理待审批")
-# @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
+@allure.title("发起异常报备")
 def test_01(remote_driver):
+    wp=WorkPlace(remote_driver)
+    # ap=Approve(remote_driver)
+    wp.open_recruit()
+    re=Recruit(remote_driver)
+    re.abnormal_report(1)
+
+
+@pytest.mark.workspace
+@allure.title("处理异常报备的审批")
+# @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
+def test_02(remote_driver):
     wp = WorkPlace(remote_driver)
     ap = Approve(remote_driver)
     wp.open_approve()
@@ -73,16 +85,16 @@ def test_01(remote_driver):
 
 @pytest.mark.workspace
 @allure.title("上传报备人员")
-def test_02(remote_driver):
+def test_03(remote_driver):
 
     wp=WorkPlace(remote_driver)
     re=Recruit(remote_driver)
     wp.open_recruit()
     re.report(3)
-
+    time.sleep(60)
 @pytest.mark.workspace
 @allure.title("报备人员面试通过")
-def test_03(remote_driver):
+def test_04(remote_driver):
     wp = WorkPlace(remote_driver)
     wp.open_datas()
     dp=DataProcessing(remote_driver)
