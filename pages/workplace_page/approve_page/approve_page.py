@@ -38,8 +38,7 @@ class Approve(BasePage):
         print('输入审批意见')
         self.click(self.pass_btn)
         print('通过')
-        self.click(self.confirm_btn)
-        print('确认')
+
 
         # self.click(self.close_btn)
         # print('关闭')

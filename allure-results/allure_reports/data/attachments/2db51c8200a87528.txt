@@ -1,0 +1,8 @@
+2022-07-05 15:17:37,506base_page.pyINFO点击元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-05 15:17:37,507base_page.pyINFO定位元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-05 15:17:38,603base_page.pyINFO点击元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-05 15:17:38,604base_page.pyINFO定位元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-05 15:17:38,762base_page.pyINFO点击元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-05 15:17:38,763base_page.pyINFO定位元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-05 15:17:39,885base_page.pyINFO点击元素('xpath', "//div[text()='请选择需求']")
+2022-07-05 15:17:39,886base_page.pyINFO定位元素('xpath', "//div[text()='请选择需求']")

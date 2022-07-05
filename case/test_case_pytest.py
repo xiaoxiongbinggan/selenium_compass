@@ -67,7 +67,6 @@ def user_driver():
 @allure.title("发起异常报备")
 def test_01(remote_driver):
     wp=WorkPlace(remote_driver)
-    # ap=Approve(remote_driver)
     wp.open_recruit()
     re=Recruit(remote_driver)
     re.abnormal_report(1)
@@ -84,14 +83,14 @@ def test_02(remote_driver):
 
 
 @pytest.mark.workspace
-@allure.title("上传报备人员")
+@allure.title("发起正常报备")
 def test_03(remote_driver):
 
     wp=WorkPlace(remote_driver)
     re=Recruit(remote_driver)
     wp.open_recruit()
     re.report(3)
-    time.sleep(60)
+    time.sleep(40)
 @pytest.mark.workspace
 @allure.title("报备人员面试通过")
 def test_04(remote_driver):

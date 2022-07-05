@@ -1,0 +1,382 @@
+{
+  "uid" : "76e02d6b3c7232a8",
+  "name" : "处理异常报备的审批",
+  "fullName" : "case.test_case_pytest#test_02",
+  "historyId" : "e8faf59d162d81fae8e7526ad54ccfb9",
+  "time" : {
+    "start" : 1657014473908,
+    "stop" : 1657014479317,
+    "duration" : 5409
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657014446371,
+      "stop" : 1657014462523,
+      "duration" : 16152
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657014446310,
+      "stop" : 1657014446371,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c191dfb64b8e7878",
+      "name" : "log",
+      "source" : "c191dfb64b8e7878.txt",
+      "type" : "text/plain",
+      "size" : 1230
+    }, {
+      "uid" : "d98041ba9d7d9247",
+      "name" : "stdout",
+      "source" : "d98041ba9d7d9247.txt",
+      "type" : "text/plain",
+      "size" : 84
+    }, {
+      "uid" : "afcdaced5cb9a53f",
+      "name" : "stderr",
+      "source" : "afcdaced5cb9a53f.txt",
+      "type" : "text/plain",
+      "size" : 1339
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657014488618,
+      "stop" : 1657014489662,
+      "duration" : 1044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "12128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3c7cfab60b2a55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657013175621,
+        "stop" : 1657013181418,
+        "duration" : 5797
+      }
+    }, {
+      "uid" : "1388c54ccefe7774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657013052549,
+        "stop" : 1657013058370,
+        "duration" : 5821
+      }
+    }, {
+      "uid" : "8af121051974abe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657012967712,
+        "stop" : 1657012973182,
+        "duration" : 5470
+      }
+    }, {
+      "uid" : "98d739356edc156b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657012531647,
+        "stop" : 1657012537934,
+        "duration" : 6287
+      }
+    }, {
+      "uid" : "da37ed360355fa9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657011985139,
+        "stop" : 1657011990804,
+        "duration" : 5665
+      }
+    }, {
+      "uid" : "67fe283aaf0d8fae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657007470245,
+        "stop" : 1657007474656,
+        "duration" : 4411
+      }
+    }, {
+      "uid" : "75131a28f53dd69",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 200). Other element would receive the click: <div tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\" class=\"ant-modal-wrap \">...</div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1657007230645,
+        "stop" : 1657007231784,
+        "duration" : 1139
+      }
+    }, {
+      "uid" : "d091f44433995087",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657007138521,
+        "stop" : 1657007142842,
+        "duration" : 4321
+      }
+    }, {
+      "uid" : "1366f78d61b98e59",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 200). Other element would receive the click: <div tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\" class=\"ant-modal-wrap \">...</div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1657005593963,
+        "stop" : 1657005595084,
+        "duration" : 1121
+      }
+    }, {
+      "uid" : "a77e9f93b73d1f55",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 200). Other element would receive the click: <div tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\" class=\"ant-modal-wrap \">...</div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1657005559325,
+        "stop" : 1657005560408,
+        "duration" : 1083
+      }
+    }, {
+      "uid" : "e0acd12b4dca81e6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"确 定\"]/..\"}\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B99500+1021184]\n\tOrdinal0 [0x00B9979B+1021851]\n\tOrdinal0 [0x00BC6502+1205506]\n\tOrdinal0 [0x00BB44E4+1131748]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1657005432931,
+        "stop" : 1657005457327,
+        "duration" : 24396
+      }
+    }, {
+      "uid" : "8926b6d4e5b446d8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 200). Other element would receive the click: <div tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"rcDialogTitle0\" class=\"ant-modal-wrap \">...</div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1657005341256,
+        "stop" : 1657005342509,
+        "duration" : 1253
+      }
+    }, {
+      "uid" : "c8c0ae4c9d283f58",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder=\"请输入审批意见\"]\"}\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B99500+1021184]\n\tOrdinal0 [0x00B9979B+1021851]\n\tOrdinal0 [0x00BC6502+1205506]\n\tOrdinal0 [0x00BB44E4+1131748]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1657004296704,
+        "stop" : 1657004323664,
+        "duration" : 26960
+      }
+    }, {
+      "uid" : "44b81afbcffb3e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656987486395,
+        "stop" : 1656987494505,
+        "duration" : 8110
+      }
+    }, {
+      "uid" : "5d1e12787a3eea0b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 392). Other element would receive the click: <div class=\"ant-drawer-mask\"></div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1656987146226,
+        "stop" : 1656987147365,
+        "duration" : 1139
+      }
+    }, {
+      "uid" : "29df86df462492f1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 392). Other element would receive the click: <div class=\"ant-drawer-mask\"></div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
+      "time" : {
+        "start" : 1656987017291,
+        "stop" : 1656987018419,
+        "duration" : 1128
+      }
+    }, {
+      "uid" : "f8133c8a15eee894",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0458B370>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1656914413059,
+        "stop" : 1656914413059,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e86f5b8d4a144291",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0465C3B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1656839664543,
+        "stop" : 1656839664543,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "554413316236400d",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0468F3D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1656660695835,
+        "stop" : 1656660695835,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1f5591995e59249f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656323043577,
+        "stop" : 1656323053345,
+        "duration" : 9768
+      }
+    }, {
+      "uid" : "e95670924c4e371c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656322423261,
+        "stop" : 1656322433399,
+        "duration" : 10138
+      }
+    }, {
+      "uid" : "f6eba8ff7bc7bf92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656319653792,
+        "stop" : 1656319662180,
+        "duration" : 8388
+      }
+    }, {
+      "uid" : "368d4161c94bdad1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: Could not start a new session. New session request timed out\nBuild info: version: '4.2.2', revision: '683ccb65d6'\nSystem info: host: 'LAPTOP-5D6NI12E', ip: '192.168.7.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: driver.version: unknown\nStacktrace:\n    at org.openqa.selenium.grid.sessionqueue.local.LocalNewSessionQueue.addToQueue (LocalNewSessionQueue.java:181)\n    at org.openqa.selenium.grid.sessionqueue.NewSessionQueue.lambda$new$0 (NewSessionQueue.java:68)\n    at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle (Route.java:192)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.grid.sessionqueue.NewSessionQueue.execute (NewSessionQueue.java:120)\n    at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute (SpanWrappedHttpHandler.java:86)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.grid.router.Router.execute (Router.java:91)\n    at org.openqa.selenium.grid.web.CheckOriginHeader.lambda$apply$0 (CheckOriginHeader.java:66)\n    at org.openqa.selenium.grid.web.CheckContentTypeHeader.lambda$apply$0 (CheckContentTypeHeader.java:70)\n    at org.openqa.selenium.grid.web.EnsureSpecCompliantResponseHeaders.lambda$apply$0 (EnsureSpecCompliantResponseHeaders.java:34)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$NestedRoute.handle (Route.java:270)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.AddWebDriverSpecHeaders.lambda$apply$0 (AddWebDriverSpecHeaders.java:35)\n    at org.openqa.selenium.remote.ErrorFilter.lambda$apply$0 (ErrorFilter.java:44)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.ErrorFilter.lambda$apply$0 (ErrorFilter.java:44)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0 (SeleniumHandler.java:44)\n    at java.util.concurrent.Executors$RunnableAdapter.call (None:-1)\n    at java.util.concurrent.FutureTask.run (None:-1)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)\n    at java.lang.Thread.run (None:-1)",
+      "time" : {
+        "start" : 1656308723151,
+        "stop" : 1656308723151,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14e3647e76d6d754",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: Could not start a new session. New session request timed out\nBuild info: version: '4.2.2', revision: '683ccb65d6'\nSystem info: host: 'LAPTOP-5D6NI12E', ip: '192.168.7.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: driver.version: unknown\nStacktrace:\n    at org.openqa.selenium.grid.sessionqueue.local.LocalNewSessionQueue.addToQueue (LocalNewSessionQueue.java:181)\n    at org.openqa.selenium.grid.sessionqueue.NewSessionQueue.lambda$new$0 (NewSessionQueue.java:68)\n    at org.openqa.selenium.remote.http.Route$TemplatizedRoute.handle (Route.java:192)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.grid.sessionqueue.NewSessionQueue.execute (NewSessionQueue.java:120)\n    at org.openqa.selenium.remote.tracing.SpanWrappedHttpHandler.execute (SpanWrappedHttpHandler.java:86)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.grid.router.Router.execute (Router.java:91)\n    at org.openqa.selenium.grid.web.CheckOriginHeader.lambda$apply$0 (CheckOriginHeader.java:66)\n    at org.openqa.selenium.grid.web.CheckContentTypeHeader.lambda$apply$0 (CheckContentTypeHeader.java:70)\n    at org.openqa.selenium.grid.web.EnsureSpecCompliantResponseHeaders.lambda$apply$0 (EnsureSpecCompliantResponseHeaders.java:34)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$NestedRoute.handle (Route.java:270)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.http.Route$CombinedRoute.handle (Route.java:336)\n    at org.openqa.selenium.remote.http.Route.execute (Route.java:68)\n    at org.openqa.selenium.remote.AddWebDriverSpecHeaders.lambda$apply$0 (AddWebDriverSpecHeaders.java:35)\n    at org.openqa.selenium.remote.ErrorFilter.lambda$apply$0 (ErrorFilter.java:44)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.remote.ErrorFilter.lambda$apply$0 (ErrorFilter.java:44)\n    at org.openqa.selenium.remote.http.Filter$1.execute (Filter.java:64)\n    at org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0 (SeleniumHandler.java:44)\n    at java.util.concurrent.Executors$RunnableAdapter.call (None:-1)\n    at java.util.concurrent.FutureTask.run (None:-1)\n    at java.util.concurrent.ThreadPoolExecutor.runWorker (None:-1)\n    at java.util.concurrent.ThreadPoolExecutor$Worker.run (None:-1)\n    at java.lang.Thread.run (None:-1)",
+      "time" : {
+        "start" : 1656296353552,
+        "stop" : 1656296353552,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f09773efe243963f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656290675006,
+        "stop" : 1656290682505,
+        "duration" : 7499
+      }
+    }, {
+      "uid" : "dabf82607ebfec8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656141282020,
+        "stop" : 1656141289057,
+        "duration" : 7037
+      }
+    }, {
+      "uid" : "293be975335c9b38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656141142705,
+        "stop" : 1656141149712,
+        "duration" : 7007
+      }
+    }, {
+      "uid" : "177024da61984ed4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656140852396,
+        "stop" : 1656140859236,
+        "duration" : 6840
+      }
+    }, {
+      "uid" : "fc9840e11f8a6d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656140140688,
+        "stop" : 1656140148262,
+        "duration" : 7574
+      }
+    }, {
+      "uid" : "d02efdc5faf7016b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656139703996,
+        "stop" : 1656139711195,
+        "duration" : 7199
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "workspace" ]
+  },
+  "source" : "76e02d6b3c7232a8.json",
+  "parameterValues" : [ ]
+}
