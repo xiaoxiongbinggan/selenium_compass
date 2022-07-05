@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     chrome_options = Options()
     chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
-    s = Service(r"D:\auto_test\chromedriver.exe")
+    s = Service(r"D:\auto_test\jenkins_selenium_start\chromedriver.exe")
     driver = webdriver.Chrome(service=s, options=chrome_options)
     driver.maximize_window()
     print(driver.title)

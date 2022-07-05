@@ -1,20 +1,30 @@
 [ {
-  "uid" : "6c7a32e92fd2cc70",
-  "name" : "测试登录-审批管理",
+  "uid" : "ed5447128b92b36a",
+  "name" : "处理待审批",
   "time" : {
-    "start" : 1656141275490,
-    "stop" : 1656141282002,
-    "duration" : 6512
+    "start" : 1656987478723,
+    "stop" : 1656987486364,
+    "duration" : 7641
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1f6d0a377385c2ea",
-  "name" : "测试登录-我要报备",
+  "uid" : "1c2160fd67b66e08",
+  "name" : "报备人员面试通过",
   "time" : {
-    "start" : 1656141282020,
-    "stop" : 1656141289057,
-    "duration" : 7037
+    "start" : 1656987494514,
+    "stop" : 1656987520235,
+    "duration" : 25721
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d74fdb67d1316f87",
+  "name" : "上传报备人员",
+  "time" : {
+    "start" : 1656987486395,
+    "stop" : 1656987494505,
+    "duration" : 8110
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,33 +1,31 @@
 import allure
 import pytest
 from selenium import webdriver
-from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
-from logs import log_base
-from pages.workplace_page.workplace_page import WorkPlace
-from pages.workplace_page.approve_page.approve_page import Approve
 from pages.login_page import Login
+from pages.workplace_page.approve_page.approve_page import Approve
+from pages.workplace_page.data_processing_page.data_processing_page import DataProcessing
 from pages.workplace_page.recruit_page.recruit_page import Recruit
-import yaml
-
+from pages.workplace_page.workplace_page import WorkPlace
 
 
 # 测试用例
 @pytest.fixture(scope="session")
 def remote_driver():
-    #远程启动云服务器的浏览器
+    """远程启动云服务器的浏览器"""
     # driver = webdriver.Remote(command_executor="http://chrome.fyzq.cc/wd/hub",
     #                           desired_capabilities=DesiredCapabilities.CHROME)
 
-    # 远程启动浏览器配置1
+
+    """ 远程启动浏览器配置方法1"""
     desired_caps={}
     desired_caps['platform'] = 'WINDOWS'
     desired_caps['browserName'] = 'chrome'
     driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub',desired_caps)
 
-    # 远程启动浏览器配置2
+    """ 远程启动浏览器配置方法2"""
     # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
 
     url="https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
@@ -63,8 +61,8 @@ def user_driver():
     #用例执行后置部分
     driver.quit()
 
-@pytest.mark.web
-@allure.title("测试登录-审批管理")
+@pytest.mark.workspace
+@allure.title("处理待审批")
 # @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
 def test_01(remote_driver):
     wp = WorkPlace(remote_driver)
@@ -73,8 +71,8 @@ def test_01(remote_driver):
     ap.wait_approve()
 
 
-@pytest.mark.web
-@allure.title("测试登录-我要报备")
+@pytest.mark.workspace
+@allure.title("上传报备人员")
 def test_02(remote_driver):
 
     wp=WorkPlace(remote_driver)
@@ -82,10 +80,13 @@ def test_02(remote_driver):
     wp.open_recruit()
     re.report(3)
 
-
+@pytest.mark.workspace
+@allure.title("报备人员面试通过")
 def test_03(remote_driver):
     wp = WorkPlace(remote_driver)
-    wp.open_recruit()
+    wp.open_datas()
+    dp=DataProcessing(remote_driver)
+    dp.interview_results()
 
 
 

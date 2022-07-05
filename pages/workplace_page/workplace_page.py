@@ -17,6 +17,8 @@ class WorkPlace(BasePage):
 
     recruit_manage=(By.XPATH,"//span[text()='招聘管理']/..")
     recruit_center = (By.XPATH, "//div[@aria-owns='/workplace/recruitmentCenter$Menu']")
+    data_center=(By.XPATH,"//*[text()='综合数据处理']/../../../li[2]/div[1]")
+
     #元素的操作流
     def open_approve(self):
         self.click(self.approve_manage)
@@ -27,6 +29,12 @@ class WorkPlace(BasePage):
         print('招聘管理')
         time.sleep(1)
 
+    def open_datas(self):
+        self.click(self.data_center)
+        print('综合数据处理')
+
+
+
 
 
 
@@ -36,8 +44,11 @@ if __name__ == '__main__':
     #接管已经打开的指南针界面
     chrome_options = Options()
     chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
-    s = Service(r"D:\auto_test\chromedriver.exe")
+    s = Service(r"D:\auto_test\jenkins_selenium_start\chromedriver.exe")
     driver = webdriver.Chrome(service=s, options=chrome_options)
+    """
+    接管已经打开的指南针界面
+    """
     driver.maximize_window()
     print(driver.title)
     driver.implicitly_wait(10)

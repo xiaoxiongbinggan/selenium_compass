@@ -10,13 +10,12 @@ from pages.workplace_page.workplace_page import WorkPlace
 class Approve(BasePage):
     url='http://test-cp.tking.com/#/workplace/approvalManagement/approvalMine'
     my_approve = (By.XPATH, '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
-    # type2=(By.XPATH,"//span[text()='发薪申请 ']/..")
-    type3=(By.XPATH,"//span[text()='工资付款 ']/../../label[3]")
-    # type1=(By.XPATH,'//*[@id="popContainer"]/section/section/main/div/div[2]/div/div[2]/div/div[2]/label[1]/span[2]')
-    detail=(By.XPATH,'//div[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td/a')
+    type=(By.XPATH,"//span[text()='工资付款 ']/..")
+    type2=(By.XPATH,'//*[@class="ant-radio-group ant-radio-group-outline ant-radio-group-default"]/label[7]')
+    detail=(By.XPATH,'//*[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td')
+    approve_memo=(By.XPATH,'//input[@placeholder="请输入审批意见"]')
+
     pass_btn=(By.XPATH,"//span[text()='通 过']/..")
-    pass_btn2=(By.LINK_TEXT,"通 过")
-    pass_memo=(By.XPATH,'/html/body/div[2]/div/div[2]/div/div/div[2]/div/form/div[1]/div[2]/div/span/input')
     confirm_btn=(By.XPATH,'//span[text()="确 定"]/..')
     tips=(By.XPATH,'//div[@class="ant-message"]')
     close_btn=(By.XPATH,'//button[@class="ant-drawer-close"]')
@@ -24,33 +23,35 @@ class Approve(BasePage):
     def wait_approve(self):
         self.click(self.my_approve)
         print('我审批的')
-        self.click(self.type3)
+        self.click(self.type)
         print('选择审批类型')
         time.sleep(3)
         self.click(self.detail)
         # time.sleep(3)
         print('打开详情')
-        self.click(self.close_btn)
-        print('关闭')
-        # self.input(self.pass_memo,time.ctime())
-        # self.input(self.pass_memo,memo)
+        time.sleep(1)
+        # self.input(self.approve_memo,time.localtime())
+
+
         # print('输入审批备注')
         # self.click(self.pass_btn2)
         # print('通过')
         # self.click(self.confirm_btn)
         # print('确认')
-        # # self.assert_text(self.tips,'提示-该问款单号问款信息不存在,问款单号：KFWK20220517000001')
 
+        self.click(self.close_btn)
+        print('关闭')
 
 
 if __name__ == '__main__':
-    #接管已经打开的指南针界面
-
 
     chrome_options = Options()
     chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
-    s=Service( r"D:\auto_test\chromedriver.exe")
+    s = Service(r"D:\auto_test\jenkins_selenium_start\chromedriver.exe")
     driver = webdriver.Chrome( service=s, options=chrome_options)
+    """
+    接管已经打开的指南针界面
+    """
     print(driver.title)
     driver.implicitly_wait(10)
     wp=WorkPlace(driver)

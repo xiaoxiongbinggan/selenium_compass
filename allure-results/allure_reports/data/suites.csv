@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Jun 25 15:14:42 CST 2022","Sat Jun 25 15:14:49 CST 2022","7037","case","test_case_pytest","","","","测试登录-我要报备",""
-"passed","Sat Jun 25 15:14:35 CST 2022","Sat Jun 25 15:14:42 CST 2022","6512","case","test_case_pytest","","","","测试登录-审批管理",""
+"passed","Tue Jul 05 10:18:06 CST 2022","Tue Jul 05 10:18:14 CST 2022","8110","case","test_case_pytest","","","","上传报备人员",""
+"broken","Tue Jul 05 10:18:14 CST 2022","Tue Jul 05 10:18:40 CST 2022","25721","case","test_case_pytest","","","","报备人员面试通过",""
+"passed","Tue Jul 05 10:17:58 CST 2022","Tue Jul 05 10:18:06 CST 2022","7641","case","test_case_pytest","","","","处理待审批",""

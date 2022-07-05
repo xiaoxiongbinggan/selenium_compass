@@ -2,4 +2,4 @@
 D:
 
 
-pytest D:\auto_test\case\test_case_pytest.py -m web --alluredir=D:\auto_test\reports
+pytest D:\auto_test\case\test_case_pytest.py -m workspace --alluredir=D:\auto_test\reports

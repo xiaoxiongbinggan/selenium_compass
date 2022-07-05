@@ -4,27 +4,40 @@
   "children" : [ {
     "name" : "case.test_case_pytest",
     "children" : [ {
-      "name" : "测试登录-审批管理",
-      "uid" : "6c7a32e92fd2cc70",
+      "name" : "处理待审批",
+      "uid" : "ed5447128b92b36a",
       "parentUid" : "d786e884ed764ab575759eb944d77efc",
       "status" : "passed",
       "time" : {
-        "start" : 1656141275490,
-        "stop" : 1656141282002,
-        "duration" : 6512
+        "start" : 1656987478723,
+        "stop" : 1656987486364,
+        "duration" : 7641
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "测试登录-我要报备",
-      "uid" : "1f6d0a377385c2ea",
+      "name" : "上传报备人员",
+      "uid" : "d74fdb67d1316f87",
       "parentUid" : "d786e884ed764ab575759eb944d77efc",
       "status" : "passed",
       "time" : {
-        "start" : 1656141282020,
-        "stop" : 1656141289057,
-        "duration" : 7037
+        "start" : 1656987486395,
+        "stop" : 1656987494505,
+        "duration" : 8110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "报备人员面试通过",
+      "uid" : "1c2160fd67b66e08",
+      "parentUid" : "d786e884ed764ab575759eb944d77efc",
+      "status" : "broken",
+      "time" : {
+        "start" : 1656987494514,
+        "stop" : 1656987520235,
+        "duration" : 25721
       },
       "flaky" : false,
       "newFailed" : false,
