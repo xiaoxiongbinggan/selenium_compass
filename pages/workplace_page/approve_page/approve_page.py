@@ -11,7 +11,7 @@ class Approve(BasePage):
     url='http://test-cp.tking.com/#/workplace/approvalManagement/approvalMine'
     my_approve = (By.XPATH, '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
     type=(By.XPATH,"//span[text()='工资付款 ']/..")
-    type2=(By.XPATH,'//*[@class="ant-radio-group ant-radio-group-outline ant-radio-group-default"]/label[7]')
+    type2=(By.XPATH,"//span[text()='异常报备 ']/..")
     detail=(By.XPATH,'//*[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td')
     approve_memo=(By.XPATH,'//input[@placeholder="请输入审批意见"]')
 
