@@ -1,0 +1,2 @@
+2022-07-05 23:40:29,936base_page.pyINFO点击元素('xpath', "//span[text()='审批管理']/..")
+2022-07-05 23:40:29,936base_page.pyINFO定位元素('xpath', "//span[text()='审批管理']/..")

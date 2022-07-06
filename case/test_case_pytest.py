@@ -63,15 +63,19 @@ def user_driver():
     #用例执行后置部分
     driver.quit()
 
+
+
+@pytest.mark.run(order=1)
 @pytest.mark.workspace
 @allure.title("发起异常报备")
 def test_01(remote_driver):
     wp=WorkPlace(remote_driver)
+    re = Recruit(remote_driver)
     wp.open_recruit()
-    re=Recruit(remote_driver)
     re.abnormal_report(1)
+    time.sleep(1)
 
-
+@pytest.mark.run(order=2)
 @pytest.mark.workspace
 @allure.title("处理异常报备的审批")
 # @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
@@ -80,17 +84,19 @@ def test_02(remote_driver):
     ap = Approve(remote_driver)
     wp.open_approve()
     ap.wait_approve()
+    time.sleep(1)
 
-
+@pytest.mark.run(order=3)
 @pytest.mark.workspace
 @allure.title("发起正常报备")
 def test_03(remote_driver):
-
     wp=WorkPlace(remote_driver)
     re=Recruit(remote_driver)
     wp.open_recruit()
     re.report(3)
-    time.sleep(40)
+    time.sleep(1)
+
+@pytest.mark.run(order=4)
 @pytest.mark.workspace
 @allure.title("报备人员面试通过")
 def test_04(remote_driver):
@@ -98,6 +104,7 @@ def test_04(remote_driver):
     wp.open_datas()
     dp=DataProcessing(remote_driver)
     dp.interview_results()
+
 
 
 

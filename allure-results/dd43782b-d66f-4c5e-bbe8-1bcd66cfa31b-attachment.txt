@@ -1,0 +1,28 @@
+2022-07-05 17:53:13,173base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
+2022-07-05 17:53:13,175base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
+2022-07-05 17:53:13,423base_page.pyINFO('xpath', "//input[@id='pwd']")输入框输入qinyujie008
+2022-07-05 17:53:13,423base_page.pyINFO定位元素('xpath', "//input[@id='pwd']")
+2022-07-05 17:53:13,677base_page.pyINFO点击元素('xpath', "//a[text()='登录并授权']")
+2022-07-05 17:53:13,677base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
+2022-07-05 17:53:22,036base_page.pyINFO点击元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-05 17:53:22,036base_page.pyINFO定位元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-05 17:53:25,864base_page.pyINFO点击元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-05 17:53:25,866base_page.pyINFO定位元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-05 17:53:26,775base_page.pyINFO点击元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-05 17:53:26,775base_page.pyINFO定位元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-05 17:53:27,901base_page.pyINFO点击元素('xpath', '//*[text()="异常报备"]/../span')
+2022-07-05 17:53:27,902base_page.pyINFO定位元素('xpath', '//*[text()="异常报备"]/../span')
+2022-07-05 17:53:28,248base_page.pyINFO点击元素('xpath', "//div[text()='请选择需求']")
+2022-07-05 17:53:28,249base_page.pyINFO定位元素('xpath', "//div[text()='请选择需求']")
+2022-07-05 17:53:30,666base_page.pyINFO点击元素('xpath', "//li[@title='报备测试']")
+2022-07-05 17:53:30,667base_page.pyINFO定位元素('xpath', "//li[@title='报备测试']")
+2022-07-05 17:53:30,848base_page.pyINFO点击元素('xpath', "//span[text()='下一步']/..")
+2022-07-05 17:53:30,848base_page.pyINFO定位元素('xpath', "//span[text()='下一步']/..")
+2022-07-05 17:53:32,174base_page.pyINFO('xpath', "//input[@accept='.xlsx, .xls']")输入框输入D:\auto_test\script\报备导入测试数据1条.xlsx
+2022-07-05 17:53:32,174base_page.pyINFO定位元素('xpath', "//input[@accept='.xlsx, .xls']")
+2022-07-05 17:53:33,393base_page.pyINFO点击元素('xpath', "//span[text()='下一步']/..")
+2022-07-05 17:53:33,393base_page.pyINFO定位元素('xpath', "//span[text()='下一步']/..")
+2022-07-05 17:53:33,621base_page.pyINFO断言有无上传成功！1111
+2022-07-05 17:53:33,621base_page.pyINFO定位元素('xpath', "//*[@class='ant-message-custom-content ant-message-success']/span")
+2022-07-05 17:53:33,780base_page.pyINFO点击元素('xpath', "//span[@class='ant-modal-close-x']")
+2022-07-05 17:53:33,781base_page.pyINFO定位元素('xpath', "//span[@class='ant-modal-close-x']")

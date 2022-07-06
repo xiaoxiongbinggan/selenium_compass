@@ -4,114 +4,1535 @@
   "children" : [ {
     "name" : "LAPTOP-5D6NI12E",
     "children" : [ {
-      "name" : "28072-MainThread",
+      "name" : "19124-MainThread",
       "children" : [ {
-        "name" : "发起正常报备",
-        "uid" : "aa3652be41d4c3c8",
-        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
-        "status" : "broken",
+        "name" : "测试登录-我要报备",
+        "uid" : "49f81096ec5903bb",
+        "parentUid" : "57e79e728d79b0b92a675364b45a7d8b",
+        "status" : "passed",
         "time" : {
-          "start" : 1657013181434,
-          "stop" : 1657013182690,
-          "duration" : 1256
+          "start" : 1656141282020,
+          "stop" : 1656141289057,
+          "duration" : 7037
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "发起异常报备",
-        "uid" : "637235012832dda",
-        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
+        "name" : "测试登录-审批管理",
+        "uid" : "b5d29850a1234ddd",
+        "parentUid" : "57e79e728d79b0b92a675364b45a7d8b",
         "status" : "passed",
         "time" : {
-          "start" : 1657013163602,
-          "stop" : 1657013175604,
-          "duration" : 12002
+          "start" : 1656141275490,
+          "stop" : 1656141282002,
+          "duration" : 6512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57e79e728d79b0b92a675364b45a7d8b"
+    }, {
+      "name" : "25668-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "cb1ef36107b09569",
+        "parentUid" : "83da5587578b2837825b7151f91f4f30",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657069471882,
+          "stop" : 1657069472959,
+          "duration" : 1077
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "da58599d6f99ec0",
-        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
-        "status" : "passed",
+        "uid" : "d33560130263d0a4",
+        "parentUid" : "83da5587578b2837825b7151f91f4f30",
+        "status" : "broken",
         "time" : {
-          "start" : 1657013182897,
-          "stop" : 1657013191235,
-          "duration" : 8338
+          "start" : 1657069472995,
+          "stop" : 1657069474084,
+          "duration" : 1089
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "处理异常报备的审批",
-        "uid" : "f3c7cfab60b2a55",
-        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
-        "status" : "passed",
+        "uid" : "4ef69933cc9ddc19",
+        "parentUid" : "83da5587578b2837825b7151f91f4f30",
+        "status" : "broken",
         "time" : {
-          "start" : 1657013175621,
-          "stop" : 1657013181418,
-          "duration" : 5797
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0f1817416898ac7da8dd79da6e3932cf"
-    }, {
-      "name" : "19924-MainThread",
-      "children" : [ {
-        "name" : "上传报备人员",
-        "uid" : "44b81afbcffb3e0",
-        "parentUid" : "a1e51cffb0b8fada44d7cd5da506f4ef",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656987486395,
-          "stop" : 1656987494505,
-          "duration" : 8110
+          "start" : 1657069470773,
+          "stop" : 1657069471837,
+          "duration" : 1064
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "处理待审批",
-        "uid" : "9a7b8667c897c8ff",
-        "parentUid" : "a1e51cffb0b8fada44d7cd5da506f4ef",
-        "status" : "passed",
+        "name" : "发起异常报备",
+        "uid" : "f134aab2c8ffb7fa",
+        "parentUid" : "83da5587578b2837825b7151f91f4f30",
+        "status" : "broken",
         "time" : {
-          "start" : 1656987478723,
-          "stop" : 1656987486364,
-          "duration" : 7641
+          "start" : 1657069443681,
+          "stop" : 1657069470661,
+          "duration" : 26980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83da5587578b2837825b7151f91f4f30"
+    }, {
+      "name" : "28540-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "2f10b1948ea04724",
+        "parentUid" : "95c9bd34ed116556bb0f2459fcfb1dd7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657035603251,
+          "stop" : 1657035629765,
+          "duration" : 26514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "3fe453c156902503",
+        "parentUid" : "95c9bd34ed116556bb0f2459fcfb1dd7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657035629937,
+          "stop" : 1657035631034,
+          "duration" : 1097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "b6a58bf72003e1d1",
+        "parentUid" : "95c9bd34ed116556bb0f2459fcfb1dd7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657035631083,
+          "stop" : 1657035632156,
+          "duration" : 1073
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "9067d92d2bf90f45",
-        "parentUid" : "a1e51cffb0b8fada44d7cd5da506f4ef",
+        "uid" : "20c8dfbd12676758",
+        "parentUid" : "95c9bd34ed116556bb0f2459fcfb1dd7",
         "status" : "broken",
         "time" : {
-          "start" : 1656987494514,
-          "stop" : 1656987520235,
-          "duration" : 25721
+          "start" : 1657035632204,
+          "stop" : 1657035633339,
+          "duration" : 1135
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a1e51cffb0b8fada44d7cd5da506f4ef"
+      "uid" : "95c9bd34ed116556bb0f2459fcfb1dd7"
     }, {
-      "name" : "3844-MainThread",
+      "name" : "23544-MainThread",
       "children" : [ {
-        "name" : "测试登录-我要报备",
-        "uid" : "368d4161c94bdad1",
-        "parentUid" : "860514bc68f845f476c396b1a2c32908",
+        "name" : "报备人员面试通过",
+        "uid" : "6b07233c26d88cb6",
+        "parentUid" : "adb3507bc9281f124ff38b5c4592e305",
         "status" : "broken",
         "time" : {
-          "start" : 1656308723151,
-          "stop" : 1656308723151,
+          "start" : 1657034307867,
+          "stop" : 1657034309013,
+          "duration" : 1146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "2126770e8361c2f0",
+        "parentUid" : "adb3507bc9281f124ff38b5c4592e305",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034278467,
+          "stop" : 1657034289176,
+          "duration" : 10709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "e51a9d67f82d8b8",
+        "parentUid" : "adb3507bc9281f124ff38b5c4592e305",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657034295165,
+          "stop" : 1657034307697,
+          "duration" : 12532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "4f520c3d381b3520",
+        "parentUid" : "adb3507bc9281f124ff38b5c4592e305",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034289180,
+          "stop" : 1657034295142,
+          "duration" : 5962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adb3507bc9281f124ff38b5c4592e305"
+    }, {
+      "name" : "26008-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "c4cac80b5bc683b",
+        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657011985139,
+          "stop" : 1657011990804,
+          "duration" : 5665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "d13cb20aa5ae2159",
+        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012016148,
+          "stop" : 1657012024519,
+          "duration" : 8371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "c0cd5fe07f1a255c",
+        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657011990864,
+          "stop" : 1657012015944,
+          "duration" : 25080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "86f48b0c377f6956",
+        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657011973669,
+          "stop" : 1657011985128,
+          "duration" : 11459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "110bf6a3552f321cb1fe700ae716995d"
+    }, {
+      "name" : "25604-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "5df54997bc84be2d",
+        "parentUid" : "197d172f30717438a262e49d74326f03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015224306,
+          "stop" : 1657015237128,
+          "duration" : 12822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "77d73d6ea367c5d0",
+        "parentUid" : "197d172f30717438a262e49d74326f03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015244338,
+          "stop" : 1657015253360,
+          "duration" : 9022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "82263b54de855e0d",
+        "parentUid" : "197d172f30717438a262e49d74326f03",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657015242711,
+          "stop" : 1657015243887,
+          "duration" : 1176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "302d902885fd97a",
+        "parentUid" : "197d172f30717438a262e49d74326f03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015237143,
+          "stop" : 1657015242704,
+          "duration" : 5561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "197d172f30717438a262e49d74326f03"
+    }, {
+      "name" : "41760-MainThread",
+      "children" : [ {
+        "name" : "测试登录-审批管理",
+        "uid" : "b465dbb81bf56903",
+        "parentUid" : "6de83efadf080ee169dfb5f012c3df51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656290667799,
+          "stop" : 1656290674993,
+          "duration" : 7194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录-我要报备",
+        "uid" : "416a1dfa487af262",
+        "parentUid" : "6de83efadf080ee169dfb5f012c3df51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656290675006,
+          "stop" : 1656290682505,
+          "duration" : 7499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6de83efadf080ee169dfb5f012c3df51"
+    }, {
+      "name" : "9100-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "9dd56160863fdcb0",
+        "parentUid" : "71ee10d4abdb6bac415c3ab08ca27838",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657069369800,
+          "stop" : 1657069375463,
+          "duration" : 5663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "752666af6113015d",
+        "parentUid" : "71ee10d4abdb6bac415c3ab08ca27838",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657069348092,
+          "stop" : 1657069369793,
+          "duration" : 21701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "3d59022f5dc3b0f4",
+        "parentUid" : "71ee10d4abdb6bac415c3ab08ca27838",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657069375468,
+          "stop" : 1657069384590,
+          "duration" : 9122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "8d8a0ab2db0ff32f",
+        "parentUid" : "71ee10d4abdb6bac415c3ab08ca27838",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657069384595,
+          "stop" : 1657069411311,
+          "duration" : 26716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71ee10d4abdb6bac415c3ab08ca27838"
+    }, {
+      "name" : "27336-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "53280d5b556fe729",
+        "parentUid" : "c2e7b26fa7a08de8df201382b7bb3134",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657034100588,
+          "stop" : 1657034125424,
+          "duration" : 24836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "ec951a80e122cc3a",
+        "parentUid" : "c2e7b26fa7a08de8df201382b7bb3134",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657034125601,
+          "stop" : 1657034126682,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "9fa4ebea9c3779eb",
+        "parentUid" : "c2e7b26fa7a08de8df201382b7bb3134",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034095239,
+          "stop" : 1657034100566,
+          "duration" : 5327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "3d8ba6409918b8f9",
+        "parentUid" : "c2e7b26fa7a08de8df201382b7bb3134",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034084967,
+          "stop" : 1657034095234,
+          "duration" : 10267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2e7b26fa7a08de8df201382b7bb3134"
+    }, {
+      "name" : "28300-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "904fc6eea96a4560",
+        "parentUid" : "6131f1e5d33e929ae096f8ccbf834a89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015321993,
+          "stop" : 1657015327874,
+          "duration" : 5881
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "3fd55d646264c8f8",
+        "parentUid" : "6131f1e5d33e929ae096f8ccbf834a89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657015329290,
+          "stop" : 1657015332433,
+          "duration" : 3143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "1a36f264fbe465f8",
+        "parentUid" : "6131f1e5d33e929ae096f8ccbf834a89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657015316024,
+          "stop" : 1657015321663,
+          "duration" : 5639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "6fdbcbba2bec4e1d",
+        "parentUid" : "6131f1e5d33e929ae096f8ccbf834a89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657015327890,
+          "stop" : 1657015329172,
+          "duration" : 1282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6131f1e5d33e929ae096f8ccbf834a89"
+    }, {
+      "name" : "17788-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "80d68754e2be47ae",
+        "parentUid" : "0219f622e43135997552552a801530cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014713848,
+          "stop" : 1657014725556,
+          "duration" : 11708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "e4f3aeeac72c6e42",
+        "parentUid" : "0219f622e43135997552552a801530cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014725567,
+          "stop" : 1657014731215,
+          "duration" : 5648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "13ade2e987070fca",
+        "parentUid" : "0219f622e43135997552552a801530cf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657014731226,
+          "stop" : 1657014732465,
+          "duration" : 1239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "645d9fbb4ac5df3a",
+        "parentUid" : "0219f622e43135997552552a801530cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014732822,
+          "stop" : 1657014740832,
+          "duration" : 8010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0219f622e43135997552552a801530cf"
+    }, {
+      "name" : "26688-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "fa45f002a3ddf03f",
+        "parentUid" : "a5b3f1c43a51cbbf3b352652fc08eb69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073786749,
+          "stop" : 1657073795267,
+          "duration" : 8518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "64e6178fea0d3075",
+        "parentUid" : "a5b3f1c43a51cbbf3b352652fc08eb69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073769275,
+          "stop" : 1657073781103,
+          "duration" : 11828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "6e3191b5716b9af5",
+        "parentUid" : "a5b3f1c43a51cbbf3b352652fc08eb69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073781106,
+          "stop" : 1657073786743,
+          "duration" : 5637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "788c5457f22242ce",
+        "parentUid" : "a5b3f1c43a51cbbf3b352652fc08eb69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073795271,
+          "stop" : 1657073801970,
+          "duration" : 6699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5b3f1c43a51cbbf3b352652fc08eb69"
+    }, {
+      "name" : "20616-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "13b99429b1b66eed",
+        "parentUid" : "48ffd6cb286894250a6a53431f78d1a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074523413,
+          "stop" : 1657074528769,
+          "duration" : 5356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "78a8b11ce5150619",
+        "parentUid" : "48ffd6cb286894250a6a53431f78d1a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074537136,
+          "stop" : 1657074543724,
+          "duration" : 6588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "74dd243625f0c08",
+        "parentUid" : "48ffd6cb286894250a6a53431f78d1a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074528773,
+          "stop" : 1657074537132,
+          "duration" : 8359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "621d7591374ba802",
+        "parentUid" : "48ffd6cb286894250a6a53431f78d1a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074510638,
+          "stop" : 1657074523407,
+          "duration" : 12769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48ffd6cb286894250a6a53431f78d1a3"
+    }, {
+      "name" : "15656-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "2a5622cca7be112f",
+        "parentUid" : "3bedcefadd89cb067d77a2bda41c4abc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657085994117,
+          "stop" : 1657085994117,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "36020da258f7ac21",
+        "parentUid" : "3bedcefadd89cb067d77a2bda41c4abc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657085994167,
+          "stop" : 1657085994167,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "f7438601d5b6a4f5",
+        "parentUid" : "3bedcefadd89cb067d77a2bda41c4abc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657085994064,
+          "stop" : 1657085994064,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "e919e5c7e154236c",
+        "parentUid" : "3bedcefadd89cb067d77a2bda41c4abc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657085929988,
+          "stop" : 1657085929988,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3bedcefadd89cb067d77a2bda41c4abc"
+    }, {
+      "name" : "18748-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "4d3cdf40175d114c",
+        "parentUid" : "9497d867e9df66b2cfcf40558f2bc612",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074887495,
+          "stop" : 1657074902908,
+          "duration" : 15413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "1a9857b59859aea4",
+        "parentUid" : "9497d867e9df66b2cfcf40558f2bc612",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074836519,
+          "stop" : 1657074858156,
+          "duration" : 21637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "c282f9c1beaf505c",
+        "parentUid" : "9497d867e9df66b2cfcf40558f2bc612",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074858161,
+          "stop" : 1657074869213,
+          "duration" : 11052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "b4d40811afbf49be",
+        "parentUid" : "9497d867e9df66b2cfcf40558f2bc612",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074869259,
+          "stop" : 1657074887491,
+          "duration" : 18232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9497d867e9df66b2cfcf40558f2bc612"
+    }, {
+      "name" : "20920-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "56d3c991f8fea187",
+        "parentUid" : "b42029ddef300825313615336f4e7d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005479993,
+          "stop" : 1657005502022,
+          "duration" : 22029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "6abfcf17acd51ce3",
+        "parentUid" : "b42029ddef300825313615336f4e7d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005432931,
+          "stop" : 1657005457327,
+          "duration" : 24396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "9d91a417caed16a",
+        "parentUid" : "b42029ddef300825313615336f4e7d19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657005424077,
+          "stop" : 1657005432919,
+          "duration" : 8842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "上传报备人员",
+        "uid" : "ff00da0ee1231012",
+        "parentUid" : "b42029ddef300825313615336f4e7d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005457506,
+          "stop" : 1657005479939,
+          "duration" : 22433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b42029ddef300825313615336f4e7d19"
+    }, {
+      "name" : "17376-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "55f6ef1671903a75",
+        "parentUid" : "ad06fcdbe4666775e6a2ef7a72a98340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086066241,
+          "stop" : 1657086073139,
+          "duration" : 6898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "6f6bff7f34eaef14",
+        "parentUid" : "ad06fcdbe4666775e6a2ef7a72a98340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086084616,
+          "stop" : 1657086094029,
+          "duration" : 9413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "6dfcdd830e8b6610",
+        "parentUid" : "ad06fcdbe4666775e6a2ef7a72a98340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086054637,
+          "stop" : 1657086066236,
+          "duration" : 11599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "388a27f9af0bea73",
+        "parentUid" : "ad06fcdbe4666775e6a2ef7a72a98340",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086073176,
+          "stop" : 1657086084610,
+          "duration" : 11434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad06fcdbe4666775e6a2ef7a72a98340"
+    }, {
+      "name" : "24800-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "1503341ec021aed7",
+        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657004296704,
+          "stop" : 1657004323664,
+          "duration" : 26960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "上传报备人员",
+        "uid" : "c16b761f14487b27",
+        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657004324274,
+          "stop" : 1657004325517,
+          "duration" : 1243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "2a0adc6974c38845",
+        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657004282335,
+          "stop" : 1657004296684,
+          "duration" : 14349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "376ce4e6494fd000",
+        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657004325700,
+          "stop" : 1657004326929,
+          "duration" : 1229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e5f1e987f82b02889c60eb71c12b1b4"
+    }, {
+      "name" : "10192-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "abbf0852c570e2ca",
+        "parentUid" : "a221ccf687973323feb80b4c3dfe6aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085616737,
+          "stop" : 1657085628893,
+          "duration" : 12156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "52fa15d3a9c087ee",
+        "parentUid" : "a221ccf687973323feb80b4c3dfe6aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085647260,
+          "stop" : 1657085656655,
+          "duration" : 9395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "bf59bb12d7f2493c",
+        "parentUid" : "a221ccf687973323feb80b4c3dfe6aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085628901,
+          "stop" : 1657085635768,
+          "duration" : 6867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "b4eca0de8b154b76",
+        "parentUid" : "a221ccf687973323feb80b4c3dfe6aef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085635772,
+          "stop" : 1657085647254,
+          "duration" : 11482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a221ccf687973323feb80b4c3dfe6aef"
+    }, {
+      "name" : "20484-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "1f9244a32955cad5",
+        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007231835,
+          "stop" : 1657007232902,
+          "duration" : 1067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "7b150580dc50ba5f",
+        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007225072,
+          "stop" : 1657007230381,
+          "duration" : 5309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "4ca48b31869f0ae4",
+        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007232966,
+          "stop" : 1657007234083,
+          "duration" : 1117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "fa340ca9ecd082f4",
+        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007230645,
+          "stop" : 1657007231784,
+          "duration" : 1139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6440e552355f906b1d4240a9a0dbc65"
+    }, {
+      "name" : "20304-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "2ec76a6942cf522d",
+        "parentUid" : "570faa9895435bf7d8c80e6db39957ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657086797157,
+          "stop" : 1657086797469,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "fae626168b543ae9",
+        "parentUid" : "570faa9895435bf7d8c80e6db39957ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086763808,
+          "stop" : 1657086774510,
+          "duration" : 10702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "9d863494860c30ab",
+        "parentUid" : "570faa9895435bf7d8c80e6db39957ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657086774515,
+          "stop" : 1657086796550,
+          "duration" : 22035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "bfcd2e6c89cf4aa1",
+        "parentUid" : "570faa9895435bf7d8c80e6db39957ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657086796802,
+          "stop" : 1657086797115,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "570faa9895435bf7d8c80e6db39957ac"
+    }, {
+      "name" : "31064-MainThread",
+      "children" : [ {
+        "name" : "测试登录-审批管理",
+        "uid" : "50d1078f35e2b132",
+        "parentUid" : "0783c0e852aee4498a0e85d58590acaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656323036198,
+          "stop" : 1656323043534,
+          "duration" : 7336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录-我要报备",
+        "uid" : "e58dd530c8bb5bbd",
+        "parentUid" : "0783c0e852aee4498a0e85d58590acaf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656323043577,
+          "stop" : 1656323053345,
+          "duration" : 9768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0783c0e852aee4498a0e85d58590acaf"
+    }, {
+      "name" : "21320-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "df2c9b69ced5cd05",
+        "parentUid" : "c4c6496a07240fd0ec2a576ebb88fd32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086423721,
+          "stop" : 1657086434014,
+          "duration" : 10293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "b9ef58777242d2e7",
+        "parentUid" : "c4c6496a07240fd0ec2a576ebb88fd32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086434018,
+          "stop" : 1657086440807,
+          "duration" : 6789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "1c6dc6d3cd09d081",
+        "parentUid" : "c4c6496a07240fd0ec2a576ebb88fd32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086452600,
+          "stop" : 1657086461834,
+          "duration" : 9234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "2cbd721d9c7cbea4",
+        "parentUid" : "c4c6496a07240fd0ec2a576ebb88fd32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657086440811,
+          "stop" : 1657086452595,
+          "duration" : 11784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4c6496a07240fd0ec2a576ebb88fd32"
+    }, {
+      "name" : "29364-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "8e7436959387d23c",
+        "parentUid" : "4cca72d95afa82bdd227244f07e9aa3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071908612,
+          "stop" : 1657071915890,
+          "duration" : 7278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "ab7bd2d61146344e",
+        "parentUid" : "4cca72d95afa82bdd227244f07e9aa3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071900398,
+          "stop" : 1657071908607,
+          "duration" : 8209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "4aa7399a9b452f75",
+        "parentUid" : "4cca72d95afa82bdd227244f07e9aa3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071885549,
+          "stop" : 1657071896975,
+          "duration" : 11426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "efe0915cc4d9af30",
+        "parentUid" : "4cca72d95afa82bdd227244f07e9aa3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657071896980,
+          "stop" : 1657071900219,
+          "duration" : 3239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cca72d95afa82bdd227244f07e9aa3f"
+    }, {
+      "name" : "23476-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "6a66b2f64794ab62",
+        "parentUid" : "49b4870435ef9bfac8f07426a3da4937",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657013052549,
+          "stop" : 1657013058370,
+          "duration" : 5821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "9ff1f65048a32ab4",
+        "parentUid" : "49b4870435ef9bfac8f07426a3da4937",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657013041075,
+          "stop" : 1657013052536,
+          "duration" : 11461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "71d801ebc297674c",
+        "parentUid" : "49b4870435ef9bfac8f07426a3da4937",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657013058401,
+          "stop" : 1657013059882,
+          "duration" : 1481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49b4870435ef9bfac8f07426a3da4937"
+    }, {
+      "name" : "24420-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "7acb952d562b6475",
+        "parentUid" : "42810ccc9c1c4a3cb024f16654cfb66b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074228798,
+          "stop" : 1657074235439,
+          "duration" : 6641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "991105b79df068ca",
+        "parentUid" : "42810ccc9c1c4a3cb024f16654cfb66b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074202392,
+          "stop" : 1657074214836,
+          "duration" : 12444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "fc00ee315be3c82a",
+        "parentUid" : "42810ccc9c1c4a3cb024f16654cfb66b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074214842,
+          "stop" : 1657074220047,
+          "duration" : 5205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "d916c5f4d122fd31",
+        "parentUid" : "42810ccc9c1c4a3cb024f16654cfb66b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074220084,
+          "stop" : 1657074228793,
+          "duration" : 8709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42810ccc9c1c4a3cb024f16654cfb66b"
+    }, {
+      "name" : "25944-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "c875c1cdd7d617f4",
+        "parentUid" : "4c144b7e673afca083b74bd87565d46d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073569506,
+          "stop" : 1657073578732,
+          "duration" : 9226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "f065e9131d2ce0ff",
+        "parentUid" : "4c144b7e673afca083b74bd87565d46d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073545808,
+          "stop" : 1657073563091,
+          "duration" : 17283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "f100ae28a5f54677",
+        "parentUid" : "4c144b7e673afca083b74bd87565d46d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073578737,
+          "stop" : 1657073585444,
+          "duration" : 6707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "87cc0bfa007b2e95",
+        "parentUid" : "4c144b7e673afca083b74bd87565d46d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073563097,
+          "stop" : 1657073569487,
+          "duration" : 6390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c144b7e673afca083b74bd87565d46d"
+    }, {
+      "name" : "24028-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "f61f1e7fbae52f6",
+        "parentUid" : "1badf5fdd799063f2ee45553fa01844a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012967712,
+          "stop" : 1657012973182,
+          "duration" : 5470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "7fa267e57b48eccb",
+        "parentUid" : "1badf5fdd799063f2ee45553fa01844a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657012973197,
+          "stop" : 1657012974520,
+          "duration" : 1323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "bcb94f86f27138c0",
+        "parentUid" : "1badf5fdd799063f2ee45553fa01844a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012955901,
+          "stop" : 1657012967696,
+          "duration" : 11795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1badf5fdd799063f2ee45553fa01844a"
+    }, {
+      "name" : "28864-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "fd936c86d679868d",
+        "parentUid" : "c0e5acaf56a530a1411ced86510d2b72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657072020779,
+          "stop" : 1657072047194,
+          "duration" : 26415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "142467336ac53d48",
+        "parentUid" : "c0e5acaf56a530a1411ced86510d2b72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657072012388,
+          "stop" : 1657072020775,
+          "duration" : 8387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "6aea229b0019a9af",
+        "parentUid" : "c0e5acaf56a530a1411ced86510d2b72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657072007137,
+          "stop" : 1657072012380,
+          "duration" : 5243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "a9c99800fa09479a",
+        "parentUid" : "c0e5acaf56a530a1411ced86510d2b72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071996509,
+          "stop" : 1657072007132,
+          "duration" : 10623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0e5acaf56a530a1411ced86510d2b72"
+    }, {
+      "name" : "13520-MainThread",
+      "children" : [ {
+        "name" : "测试登录-我要报备",
+        "uid" : "b72f7c2e5520d1d3",
+        "parentUid" : "d275e6721b58a97a88c27e81a7bc4e46",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656296353552,
+          "stop" : 1656296353552,
           "duration" : 0
         },
         "flaky" : false,
@@ -119,123 +1540,756 @@
         "parameters" : [ ]
       }, {
         "name" : "测试登录-审批管理",
-        "uid" : "f09a621f64c89622",
-        "parentUid" : "860514bc68f845f476c396b1a2c32908",
+        "uid" : "748bc752d44b0e49",
+        "parentUid" : "d275e6721b58a97a88c27e81a7bc4e46",
         "status" : "broken",
         "time" : {
-          "start" : 1656308422948,
-          "stop" : 1656308422948,
+          "start" : 1656296053058,
+          "stop" : 1656296053058,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "860514bc68f845f476c396b1a2c32908"
+      "uid" : "d275e6721b58a97a88c27e81a7bc4e46"
     }, {
-      "name" : "23560-MainThread",
+      "name" : "27608-MainThread",
       "children" : [ {
-        "name" : "报备人员面试通过",
-        "uid" : "14b9f987c56f7f05",
-        "parentUid" : "d2a2ad9b61e8539efd16bd1e715568c6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656660696052,
-          "stop" : 1656660696052,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "上传报备人员",
-        "uid" : "554413316236400d",
-        "parentUid" : "d2a2ad9b61e8539efd16bd1e715568c6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656660695835,
-          "stop" : 1656660695835,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理待审批",
-        "uid" : "bd39e7acb210fac8",
-        "parentUid" : "d2a2ad9b61e8539efd16bd1e715568c6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656660687239,
-          "stop" : 1656660687239,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d2a2ad9b61e8539efd16bd1e715568c6"
-    }, {
-      "name" : "25344-MainThread",
-      "children" : [ {
-        "name" : "发起正常报备",
-        "uid" : "41bb703a84526650",
-        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657007474665,
-          "stop" : 1657007475965,
-          "duration" : 1300
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "处理异常报备的审批",
-        "uid" : "67fe283aaf0d8fae",
-        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
+        "uid" : "dd4d4e8389daeb0",
+        "parentUid" : "005c285b2aa2203ff7021ad239f81ea6",
         "status" : "passed",
         "time" : {
-          "start" : 1657007470245,
-          "stop" : 1657007474656,
-          "duration" : 4411
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "报备人员面试通过",
-        "uid" : "9dac380cecc51996",
-        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657007476269,
-          "stop" : 1657007482941,
-          "duration" : 6672
+          "start" : 1657035324107,
+          "stop" : 1657035329455,
+          "duration" : 5348
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起异常报备",
-        "uid" : "56c16c9d06464451",
-        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
+        "uid" : "6a715484b651f30a",
+        "parentUid" : "005c285b2aa2203ff7021ad239f81ea6",
         "status" : "passed",
         "time" : {
-          "start" : 1657007460179,
-          "stop" : 1657007470230,
-          "duration" : 10051
+          "start" : 1657035313611,
+          "stop" : 1657035324099,
+          "duration" : 10488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "b96d1c26bd5ae6d8",
+        "parentUid" : "005c285b2aa2203ff7021ad239f81ea6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657035329460,
+          "stop" : 1657035396752,
+          "duration" : 67292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "c8b75b792691efce",
+        "parentUid" : "005c285b2aa2203ff7021ad239f81ea6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657035396761,
+          "stop" : 1657035416979,
+          "duration" : 20218
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1bc138bf6f2439a0273feb0c65504c18"
+      "uid" : "005c285b2aa2203ff7021ad239f81ea6"
+    }, {
+      "name" : "15420-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "a471ffdf1093fc48",
+        "parentUid" : "a7fe2693ebbfc8215990fd6b59f75a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074957443,
+          "stop" : 1657074970989,
+          "duration" : 13546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "447dc396eae0ea1c",
+        "parentUid" : "a7fe2693ebbfc8215990fd6b59f75a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074970995,
+          "stop" : 1657074981883,
+          "duration" : 10888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "60d3ec316801b72d",
+        "parentUid" : "a7fe2693ebbfc8215990fd6b59f75a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074932859,
+          "stop" : 1657074949445,
+          "duration" : 16586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "e1128b4ccfd90e49",
+        "parentUid" : "a7fe2693ebbfc8215990fd6b59f75a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074949453,
+          "stop" : 1657074957439,
+          "duration" : 7986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7fe2693ebbfc8215990fd6b59f75a85"
+    }, {
+      "name" : "7928-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "3331c5ba5a280ce7",
+        "parentUid" : "c92a5719c17910d4e28283cb86e9edf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078251924,
+          "stop" : 1657078253317,
+          "duration" : 1393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "a147276e66f6b1d0",
+        "parentUid" : "c92a5719c17910d4e28283cb86e9edf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078241716,
+          "stop" : 1657078248880,
+          "duration" : 7164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "e8257dcc6ef0e190",
+        "parentUid" : "c92a5719c17910d4e28283cb86e9edf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078248994,
+          "stop" : 1657078250423,
+          "duration" : 1429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "74eb4e1efdb8914d",
+        "parentUid" : "c92a5719c17910d4e28283cb86e9edf8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078250457,
+          "stop" : 1657078251889,
+          "duration" : 1432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c92a5719c17910d4e28283cb86e9edf8"
+    }, {
+      "name" : "16676-MainThread",
+      "children" : [ {
+        "name" : "上传报备人员",
+        "uid" : "49e38f1b6e96b82c",
+        "parentUid" : "b723c614f8546e1b2ff0ca9c193f2a58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656987146226,
+          "stop" : 1656987147365,
+          "duration" : 1139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理待审批",
+        "uid" : "2cf5feeb7c439f20",
+        "parentUid" : "b723c614f8546e1b2ff0ca9c193f2a58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656987117549,
+          "stop" : 1656987146043,
+          "duration" : 28494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "a2f67a105063478",
+        "parentUid" : "b723c614f8546e1b2ff0ca9c193f2a58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656987147431,
+          "stop" : 1656987148575,
+          "duration" : 1144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b723c614f8546e1b2ff0ca9c193f2a58"
+    }, {
+      "name" : "22188-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "4cdd72fbfd9fe4cc",
+        "parentUid" : "97329ed8aa112c683645b49aab436662",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033748462,
+          "stop" : 1657033749575,
+          "duration" : 1113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "48e00549af4f4ad3",
+        "parentUid" : "97329ed8aa112c683645b49aab436662",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033746171,
+          "stop" : 1657033747259,
+          "duration" : 1088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "aaa4509fb9390820",
+        "parentUid" : "97329ed8aa112c683645b49aab436662",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033747314,
+          "stop" : 1657033748408,
+          "duration" : 1094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "12cc25444acc4af2",
+        "parentUid" : "97329ed8aa112c683645b49aab436662",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033741215,
+          "stop" : 1657033745914,
+          "duration" : 4699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97329ed8aa112c683645b49aab436662"
+    }, {
+      "name" : "14796-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "f1babe1e9ea3835d",
+        "parentUid" : "aa10aca4b2b621ed251b425d7a2063ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074723699,
+          "stop" : 1657074739275,
+          "duration" : 15576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "62ac44614630f086",
+        "parentUid" : "aa10aca4b2b621ed251b425d7a2063ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074710182,
+          "stop" : 1657074721399,
+          "duration" : 11217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "15305ab24b1eb04f",
+        "parentUid" : "aa10aca4b2b621ed251b425d7a2063ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657074721403,
+          "stop" : 1657074723542,
+          "duration" : 2139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "8a33ec43a0b1b0a1",
+        "parentUid" : "aa10aca4b2b621ed251b425d7a2063ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074688302,
+          "stop" : 1657074710177,
+          "duration" : 21875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa10aca4b2b621ed251b425d7a2063ca"
+    }, {
+      "name" : "29396-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "5738c96e61f6e6d7",
+        "parentUid" : "57185e037d67b8d2544207c3c0ccf121",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033613218,
+          "stop" : 1657033614779,
+          "duration" : 1561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "46411ac57b6b7ae3",
+        "parentUid" : "57185e037d67b8d2544207c3c0ccf121",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657033548017,
+          "stop" : 1657033558440,
+          "duration" : 10423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "74cc0e434ef7948a",
+        "parentUid" : "57185e037d67b8d2544207c3c0ccf121",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657033563880,
+          "stop" : 1657033613209,
+          "duration" : 49329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "9559100b12dbb2e2",
+        "parentUid" : "57185e037d67b8d2544207c3c0ccf121",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657033558445,
+          "stop" : 1657033563867,
+          "duration" : 5422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57185e037d67b8d2544207c3c0ccf121"
+    }, {
+      "name" : "21284-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "d7117a3d40c0b224",
+        "parentUid" : "ef6ad54a2b2f36a16c158f688931dd17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657035152661,
+          "stop" : 1657035163841,
+          "duration" : 11180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "b3c796abd5fca158",
+        "parentUid" : "ef6ad54a2b2f36a16c158f688931dd17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657035163849,
+          "stop" : 1657035169071,
+          "duration" : 5222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "aaaffe893ace80a0",
+        "parentUid" : "ef6ad54a2b2f36a16c158f688931dd17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657035169078,
+          "stop" : 1657035226470,
+          "duration" : 57392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "a6f7684b6efd1bba",
+        "parentUid" : "ef6ad54a2b2f36a16c158f688931dd17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657035226475,
+          "stop" : 1657035233343,
+          "duration" : 6868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef6ad54a2b2f36a16c158f688931dd17"
+    }, {
+      "name" : "19140-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "51f90d8af705c434",
+        "parentUid" : "b7da8b8d16f2f51797656b2322468324",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657070898149,
+          "stop" : 1657070907492,
+          "duration" : 9343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "c631fc135a97f37a",
+        "parentUid" : "b7da8b8d16f2f51797656b2322468324",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657070907496,
+          "stop" : 1657071088883,
+          "duration" : 181387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "da15f4ca45158fd2",
+        "parentUid" : "b7da8b8d16f2f51797656b2322468324",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657070892303,
+          "stop" : 1657070898146,
+          "duration" : 5843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "4284c4b3fc19e884",
+        "parentUid" : "b7da8b8d16f2f51797656b2322468324",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657070876343,
+          "stop" : 1657070892297,
+          "duration" : 15954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7da8b8d16f2f51797656b2322468324"
+    }, {
+      "name" : "27456-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "1ecca1905db329de",
+        "parentUid" : "4b8a176cb89f2ccc8af4c343ec61b758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657087664865,
+          "stop" : 1657087675972,
+          "duration" : 11107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "65636e0f47b078bf",
+        "parentUid" : "4b8a176cb89f2ccc8af4c343ec61b758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657087675976,
+          "stop" : 1657087685156,
+          "duration" : 9180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "5102723cfb16d54a",
+        "parentUid" : "4b8a176cb89f2ccc8af4c343ec61b758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657087658099,
+          "stop" : 1657087664854,
+          "duration" : 6755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "4921d7a8ba18f024",
+        "parentUid" : "4b8a176cb89f2ccc8af4c343ec61b758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657087645928,
+          "stop" : 1657087658095,
+          "duration" : 12167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b8a176cb89f2ccc8af4c343ec61b758"
+    }, {
+      "name" : "17852-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "56c01ca0edc234eb",
+        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012519883,
+          "stop" : 1657012531631,
+          "duration" : 11748
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "985485eb03347195",
+        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012539535,
+          "stop" : 1657012547865,
+          "duration" : 8330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "66e9b2838c4d3b6b",
+        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012531647,
+          "stop" : 1657012537934,
+          "duration" : 6287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "3373959e19ef3032",
+        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657012537951,
+          "stop" : 1657012539121,
+          "duration" : 1170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e44c4c2a91e3898bbd91442d0403b0ca"
+    }, {
+      "name" : "19152-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "dba74eb2958b4acb",
+        "parentUid" : "86ac1b90a97d3b58bb1b4d43210b3fa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657012811891,
+          "stop" : 1657012866024,
+          "duration" : 54133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86ac1b90a97d3b58bb1b4d43210b3fa4"
+    }, {
+      "name" : "26936-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "a1fb4ffc52704620",
+        "parentUid" : "2ae89cd957ddaf618175a5ae3fc31969",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657036217160,
+          "stop" : 1657036217160,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "68d874807be33aad",
+        "parentUid" : "2ae89cd957ddaf618175a5ae3fc31969",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657036169786,
+          "stop" : 1657036169786,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "1904a8e2337c5d4",
+        "parentUid" : "2ae89cd957ddaf618175a5ae3fc31969",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657036217390,
+          "stop" : 1657036217390,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "7db8a4ed92c83ac9",
+        "parentUid" : "2ae89cd957ddaf618175a5ae3fc31969",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657036216824,
+          "stop" : 1657036216824,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ae89cd957ddaf618175a5ae3fc31969"
+    }, {
+      "name" : "18732-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "e115a4d6fd0011e6",
+        "parentUid" : "d80af1c275a5b06a874da071669bbfd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657078726146,
+          "stop" : 1657078737804,
+          "duration" : 11658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "ed9ab7cf44ce28aa",
+        "parentUid" : "d80af1c275a5b06a874da071669bbfd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657078737815,
+          "stop" : 1657078747103,
+          "duration" : 9288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "b4080eece08ba9fe",
+        "parentUid" : "d80af1c275a5b06a874da071669bbfd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657078707637,
+          "stop" : 1657078719226,
+          "duration" : 11589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "9407a6beb28d8d96",
+        "parentUid" : "d80af1c275a5b06a874da071669bbfd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657078719237,
+          "stop" : 1657078726134,
+          "duration" : 6897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d80af1c275a5b06a874da071669bbfd0"
     }, {
       "name" : "25084-MainThread",
       "children" : [ {
         "name" : "处理待审批",
-        "uid" : "d8ef028027011f5",
+        "uid" : "9d01c632e0bc759e",
         "parentUid" : "cd723ee410594e982ff4c4ec205c30f2",
         "status" : "broken",
         "time" : {
@@ -248,7 +2302,7 @@
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "cbafd58473d074fc",
+        "uid" : "e13ee579ea83e6a3",
         "parentUid" : "cd723ee410594e982ff4c4ec205c30f2",
         "status" : "broken",
         "time" : {
@@ -261,7 +2315,7 @@
         "parameters" : [ ]
       }, {
         "name" : "上传报备人员",
-        "uid" : "f8133c8a15eee894",
+        "uid" : "5188c05887ac78b2",
         "parentUid" : "cd723ee410594e982ff4c4ec205c30f2",
         "status" : "broken",
         "time" : {
@@ -277,8 +2331,21 @@
     }, {
       "name" : "19164-MainThread",
       "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "bfc0c574c94cf004",
+        "parentUid" : "dfd8046dde8758aa56bdc04d9c2784c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005343727,
+          "stop" : 1657005344848,
+          "duration" : 1121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "上传报备人员",
-        "uid" : "ba9b96da10a0e75b",
+        "uid" : "266cbb9e0449f9a3",
         "parentUid" : "dfd8046dde8758aa56bdc04d9c2784c7",
         "status" : "broken",
         "time" : {
@@ -291,7 +2358,7 @@
         "parameters" : [ ]
       }, {
         "name" : "处理异常报备的审批",
-        "uid" : "8926b6d4e5b446d8",
+        "uid" : "5b0589fe9e9b8486",
         "parentUid" : "dfd8046dde8758aa56bdc04d9c2784c7",
         "status" : "broken",
         "time" : {
@@ -304,7 +2371,7 @@
         "parameters" : [ ]
       }, {
         "name" : "发起异常报备",
-        "uid" : "86a250c7026770b2",
+        "uid" : "cf41d82dce6a7050",
         "parentUid" : "dfd8046dde8758aa56bdc04d9c2784c7",
         "status" : "broken",
         "time" : {
@@ -315,250 +2382,125 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "报备人员面试通过",
-        "uid" : "b17c6b0b1c4b7ffb",
-        "parentUid" : "dfd8046dde8758aa56bdc04d9c2784c7",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005343727,
-          "stop" : 1657005344848,
-          "duration" : 1121
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
       } ],
       "uid" : "dfd8046dde8758aa56bdc04d9c2784c7"
     }, {
-      "name" : "12128-MainThread",
+      "name" : "22604-MainThread",
       "children" : [ {
-        "name" : "发起异常报备",
-        "uid" : "dc7c6ffaea5a5e47",
-        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "name" : "报备人员面试通过",
+        "uid" : "458d20b5020376d1",
+        "parentUid" : "513aeca0d9a9452f5bfa89287b1e3cfc",
         "status" : "passed",
         "time" : {
-          "start" : 1657014462525,
-          "stop" : 1657014473894,
-          "duration" : 11369
+          "start" : 1657074455997,
+          "stop" : 1657074463998,
+          "duration" : 8001
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "报备人员面试通过",
-        "uid" : "9253a238b3770d26",
-        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "name" : "处理异常报备的审批",
+        "uid" : "ac00f2fda0717a2",
+        "parentUid" : "513aeca0d9a9452f5bfa89287b1e3cfc",
         "status" : "passed",
         "time" : {
-          "start" : 1657014481002,
-          "stop" : 1657014488617,
-          "duration" : 7615
+          "start" : 1657074441328,
+          "stop" : 1657074447465,
+          "duration" : 6137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "ee90dc13f7c71c8b",
+        "parentUid" : "513aeca0d9a9452f5bfa89287b1e3cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074429163,
+          "stop" : 1657074441321,
+          "duration" : 12158
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起正常报备",
-        "uid" : "ffc684b616281ae1",
-        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657014479334,
-          "stop" : 1657014480695,
-          "duration" : 1361
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "76e02d6b3c7232a8",
-        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "uid" : "e391c75857b05df8",
+        "parentUid" : "513aeca0d9a9452f5bfa89287b1e3cfc",
         "status" : "passed",
         "time" : {
-          "start" : 1657014473908,
-          "stop" : 1657014479317,
-          "duration" : 5409
+          "start" : 1657074447470,
+          "stop" : 1657074455992,
+          "duration" : 8522
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "71b17e273283c23f3d1c89ec01a36656"
+      "uid" : "513aeca0d9a9452f5bfa89287b1e3cfc"
     }, {
-      "name" : "16676-MainThread",
+      "name" : "22464-MainThread",
       "children" : [ {
-        "name" : "上传报备人员",
-        "uid" : "5d1e12787a3eea0b",
-        "parentUid" : "b723c614f8546e1b2ff0ca9c193f2a58",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656987146226,
-          "stop" : 1656987147365,
-          "duration" : 1139
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理待审批",
-        "uid" : "fd17d1c4f792551d",
-        "parentUid" : "b723c614f8546e1b2ff0ca9c193f2a58",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656987117549,
-          "stop" : 1656987146043,
-          "duration" : 28494
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "报备人员面试通过",
-        "uid" : "11de7af292aac757",
-        "parentUid" : "b723c614f8546e1b2ff0ca9c193f2a58",
+        "uid" : "1c9c23254ebf8be0",
+        "parentUid" : "222e5ad6b8d08c930bc4f0c84623b234",
         "status" : "broken",
         "time" : {
-          "start" : 1656987147431,
-          "stop" : 1656987148575,
-          "duration" : 1144
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b723c614f8546e1b2ff0ca9c193f2a58"
-    }, {
-      "name" : "20484-MainThread",
-      "children" : [ {
-        "name" : "处理异常报备的审批",
-        "uid" : "75131a28f53dd69",
-        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657007230645,
-          "stop" : 1657007231784,
-          "duration" : 1139
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起异常报备",
-        "uid" : "1e733b38f792edd8",
-        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657007225072,
-          "stop" : 1657007230381,
-          "duration" : 5309
+          "start" : 1657068136943,
+          "stop" : 1657068163424,
+          "duration" : 26481
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起正常报备",
-        "uid" : "1b2d43e8a4cf4e83",
-        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
-        "status" : "broken",
+        "uid" : "918535cacc9f3e8d",
+        "parentUid" : "222e5ad6b8d08c930bc4f0c84623b234",
+        "status" : "passed",
         "time" : {
-          "start" : 1657007231835,
-          "stop" : 1657007232902,
-          "duration" : 1067
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "报备人员面试通过",
-        "uid" : "c28e525a3002030f",
-        "parentUid" : "a6440e552355f906b1d4240a9a0dbc65",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657007232966,
-          "stop" : 1657007234083,
-          "duration" : 1117
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a6440e552355f906b1d4240a9a0dbc65"
-    }, {
-      "name" : "20920-MainThread",
-      "children" : [ {
-        "name" : "上传报备人员",
-        "uid" : "1001037c03f7a907",
-        "parentUid" : "b42029ddef300825313615336f4e7d19",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005457506,
-          "stop" : 1657005479939,
-          "duration" : 22433
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "e0acd12b4dca81e6",
-        "parentUid" : "b42029ddef300825313615336f4e7d19",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005432931,
-          "stop" : 1657005457327,
-          "duration" : 24396
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "报备人员面试通过",
-        "uid" : "d89c3df9f2c29e9",
-        "parentUid" : "b42029ddef300825313615336f4e7d19",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005479993,
-          "stop" : 1657005502022,
-          "duration" : 22029
+          "start" : 1657068128616,
+          "stop" : 1657068136938,
+          "duration" : 8322
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起异常报备",
-        "uid" : "f1a50f69124a2c37",
-        "parentUid" : "b42029ddef300825313615336f4e7d19",
+        "uid" : "61ba1d559ec24469",
+        "parentUid" : "222e5ad6b8d08c930bc4f0c84623b234",
         "status" : "passed",
         "time" : {
-          "start" : 1657005424077,
-          "stop" : 1657005432919,
-          "duration" : 8842
+          "start" : 1657068113175,
+          "stop" : 1657068123345,
+          "duration" : 10170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "fab3c18dfe2ba0f5",
+        "parentUid" : "222e5ad6b8d08c930bc4f0c84623b234",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657068123351,
+          "stop" : 1657068128611,
+          "duration" : 5260
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b42029ddef300825313615336f4e7d19"
+      "uid" : "222e5ad6b8d08c930bc4f0c84623b234"
     }, {
       "name" : "1748-MainThread",
       "children" : [ {
-        "name" : "测试登录-审批管理",
-        "uid" : "b701b78eb44b715c",
-        "parentUid" : "3f55516c617be850e00a6a757d48499a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656139697648,
-          "stop" : 1656139703981,
-          "duration" : 6333
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "测试登录-我要报备",
-        "uid" : "d02efdc5faf7016b",
+        "uid" : "ea50d27da18051b3",
         "parentUid" : "3f55516c617be850e00a6a757d48499a",
         "status" : "passed",
         "time" : {
@@ -569,297 +2511,82 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "测试登录-审批管理",
+        "uid" : "500297210e824885",
+        "parentUid" : "3f55516c617be850e00a6a757d48499a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656139697648,
+          "stop" : 1656139703981,
+          "duration" : 6333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "3f55516c617be850e00a6a757d48499a"
     }, {
-      "name" : "17852-MainThread",
+      "name" : "20500-MainThread",
       "children" : [ {
         "name" : "处理异常报备的审批",
-        "uid" : "98d739356edc156b",
-        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
+        "uid" : "8e49ca053b5d2f2a",
+        "parentUid" : "65c254be30efca85a25ee058801daeb7",
         "status" : "passed",
         "time" : {
-          "start" : 1657012531647,
-          "stop" : 1657012537934,
-          "duration" : 6287
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起异常报备",
-        "uid" : "1eebc62e095de171",
-        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657012519883,
-          "stop" : 1657012531631,
-          "duration" : 11748
+          "start" : 1657034683295,
+          "stop" : 1657034688776,
+          "duration" : 5481
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起正常报备",
-        "uid" : "43abd2c20e8e43d9",
-        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
-        "status" : "broken",
+        "uid" : "904abec98e5b281d",
+        "parentUid" : "65c254be30efca85a25ee058801daeb7",
+        "status" : "passed",
         "time" : {
-          "start" : 1657012537951,
-          "stop" : 1657012539121,
-          "duration" : 1170
+          "start" : 1657034688782,
+          "stop" : 1657034747646,
+          "duration" : 58864
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "345c822847af57e5",
-        "parentUid" : "e44c4c2a91e3898bbd91442d0403b0ca",
+        "uid" : "24c7871df549d4db",
+        "parentUid" : "65c254be30efca85a25ee058801daeb7",
         "status" : "passed",
         "time" : {
-          "start" : 1657012539535,
-          "stop" : 1657012547865,
-          "duration" : 8330
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e44c4c2a91e3898bbd91442d0403b0ca"
-    }, {
-      "name" : "7820-MainThread",
-      "children" : [ {
-        "name" : "报备人员面试通过",
-        "uid" : "e4d77312d80215f6",
-        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657007144440,
-          "stop" : 1657007146324,
-          "duration" : 1884
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "d091f44433995087",
-        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657007138521,
-          "stop" : 1657007142842,
-          "duration" : 4321
+          "start" : 1657034747673,
+          "stop" : 1657034770366,
+          "duration" : 22693
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起异常报备",
-        "uid" : "853a5812501f8e2",
-        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
+        "uid" : "d9354ef3ff130044",
+        "parentUid" : "65c254be30efca85a25ee058801daeb7",
         "status" : "passed",
         "time" : {
-          "start" : 1657007129750,
-          "stop" : 1657007138514,
-          "duration" : 8764
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起正常报备",
-        "uid" : "cdf822d508e39764",
-        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657007142858,
-          "stop" : 1657007144031,
-          "duration" : 1173
+          "start" : 1657034655748,
+          "stop" : 1657034683288,
+          "duration" : 27540
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fcbfbfc65d9399235a6d9906aed46ac2"
-    }, {
-      "name" : "24520-MainThread",
-      "children" : [ {
-        "name" : "发起异常报备",
-        "uid" : "cc67d238e887ec06",
-        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005552752,
-          "stop" : 1657005559127,
-          "duration" : 6375
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "上传报备人员",
-        "uid" : "b681f4054a3c0f98",
-        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005560458,
-          "stop" : 1657005561575,
-          "duration" : 1117
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "a77e9f93b73d1f55",
-        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005559325,
-          "stop" : 1657005560408,
-          "duration" : 1083
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "报备人员面试通过",
-        "uid" : "432445651c2d3f8e",
-        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657005561625,
-          "stop" : 1657005562757,
-          "duration" : 1132
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a28ae376aff8fc8adb335291880029ae"
-    }, {
-      "name" : "19996-MainThread",
-      "children" : [ {
-        "name" : "处理异常报备的审批",
-        "uid" : "80b4df8ed14cc0b",
-        "parentUid" : "224105ca302f5ad86f177a1410bab8bc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657000005386,
-          "stop" : 1657000005386,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起异常报备",
-        "uid" : "5e853c5780888b3f",
-        "parentUid" : "224105ca302f5ad86f177a1410bab8bc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656999785651,
-          "stop" : 1656999785651,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "224105ca302f5ad86f177a1410bab8bc"
-    }, {
-      "name" : "26008-MainThread",
-      "children" : [ {
-        "name" : "报备人员面试通过",
-        "uid" : "91833afb89554f2f",
-        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657012016148,
-          "stop" : 1657012024519,
-          "duration" : 8371
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起正常报备",
-        "uid" : "c55888c7b2dab42",
-        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657011990864,
-          "stop" : 1657012015944,
-          "duration" : 25080
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起异常报备",
-        "uid" : "654ee40335e550f5",
-        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657011973669,
-          "stop" : 1657011985128,
-          "duration" : 11459
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "da37ed360355fa9b",
-        "parentUid" : "110bf6a3552f321cb1fe700ae716995d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657011985139,
-          "stop" : 1657011990804,
-          "duration" : 5665
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "110bf6a3552f321cb1fe700ae716995d"
-    }, {
-      "name" : "42340-MainThread",
-      "children" : [ {
-        "name" : "测试登录-审批管理",
-        "uid" : "bd5b2d07f42b113f",
-        "parentUid" : "4b3c05165eec2aa9a5fa88a5a4b65c75",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656322415934,
-          "stop" : 1656322423230,
-          "duration" : 7296
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "测试登录-我要报备",
-        "uid" : "e95670924c4e371c",
-        "parentUid" : "4b3c05165eec2aa9a5fa88a5a4b65c75",
-        "status" : "passed",
-        "time" : {
-          "start" : 1656322423261,
-          "stop" : 1656322433399,
-          "duration" : 10138
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "4b3c05165eec2aa9a5fa88a5a4b65c75"
+      "uid" : "65c254be30efca85a25ee058801daeb7"
     }, {
       "name" : "22336-MainThread",
       "children" : [ {
         "name" : "测试登录-审批管理",
-        "uid" : "7246325efa86cfc1",
+        "uid" : "8a1bb38c1084b1a1",
         "parentUid" : "5a67a3603be77b7f23eff9cb0d03cff3",
         "status" : "broken",
         "time" : {
@@ -872,7 +2599,7 @@
         "parameters" : [ ]
       }, {
         "name" : "测试登录-我要报备",
-        "uid" : "177024da61984ed4",
+        "uid" : "d2f99c483b9ffb07",
         "parentUid" : "5a67a3603be77b7f23eff9cb0d03cff3",
         "status" : "passed",
         "time" : {
@@ -886,169 +2613,66 @@
       } ],
       "uid" : "5a67a3603be77b7f23eff9cb0d03cff3"
     }, {
-      "name" : "13520-MainThread",
+      "name" : "19212-MainThread",
       "children" : [ {
-        "name" : "测试登录-审批管理",
-        "uid" : "a52f7975aeac93f2",
-        "parentUid" : "d275e6721b58a97a88c27e81a7bc4e46",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656296053058,
-          "stop" : 1656296053058,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "测试登录-我要报备",
-        "uid" : "14e3647e76d6d754",
-        "parentUid" : "d275e6721b58a97a88c27e81a7bc4e46",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656296353552,
-          "stop" : 1656296353552,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d275e6721b58a97a88c27e81a7bc4e46"
-    }, {
-      "name" : "20080-MainThread",
-      "children" : [ {
-        "name" : "上传报备人员",
-        "uid" : "29df86df462492f1",
-        "parentUid" : "fc88a861ff307768eec038b6a8831ba6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656987017291,
-          "stop" : 1656987018419,
-          "duration" : 1128
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理待审批",
-        "uid" : "7ff2b06b77b2a93c",
-        "parentUid" : "fc88a861ff307768eec038b6a8831ba6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656986989767,
-          "stop" : 1656987017056,
-          "duration" : 27289
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "报备人员面试通过",
-        "uid" : "1a83d1e38af0953d",
-        "parentUid" : "fc88a861ff307768eec038b6a8831ba6",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656987018463,
-          "stop" : 1656987019589,
-          "duration" : 1126
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fc88a861ff307768eec038b6a8831ba6"
-    }, {
-      "name" : "25732-MainThread",
-      "children" : [ {
-        "name" : "报备人员面试通过",
-        "uid" : "e4e0ebb5867165e7",
-        "parentUid" : "930c174f1951466227281285dcb7f290",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656839664692,
-          "stop" : 1656839664692,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理待审批",
-        "uid" : "f4e653d238fc912b",
-        "parentUid" : "930c174f1951466227281285dcb7f290",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656839656014,
-          "stop" : 1656839656014,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "上传报备人员",
-        "uid" : "e86f5b8d4a144291",
-        "parentUid" : "930c174f1951466227281285dcb7f290",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656839664543,
-          "stop" : 1656839664543,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "930c174f1951466227281285dcb7f290"
-    }, {
-      "name" : "32840-MainThread",
-      "children" : [ {
-        "name" : "测试登录-审批管理",
-        "uid" : "7cd78b587bd0a87e",
-        "parentUid" : "4547b1bf21b9d67c8eaab80856b9f6e5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1656141138998,
-          "stop" : 1656141142518,
-          "duration" : 3520
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "测试登录-我要报备",
-        "uid" : "293be975335c9b38",
-        "parentUid" : "4547b1bf21b9d67c8eaab80856b9f6e5",
+        "name" : "发起正常报备",
+        "uid" : "a0c955d033ad0a7f",
+        "parentUid" : "e136fef8b233100e1cf22ac34f569c64",
         "status" : "passed",
         "time" : {
-          "start" : 1656141142705,
-          "stop" : 1656141149712,
-          "duration" : 7007
+          "start" : 1657074288973,
+          "stop" : 1657074297960,
+          "duration" : 8987
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "4547b1bf21b9d67c8eaab80856b9f6e5"
-    }, {
-      "name" : "19800-MainThread",
-      "children" : [ {
+      }, {
         "name" : "发起异常报备",
-        "uid" : "a7048875b4239273",
-        "parentUid" : "52478631b541c0cbc9fea039b1d20a6a",
-        "status" : "broken",
+        "uid" : "4d2d086005ed5e5d",
+        "parentUid" : "e136fef8b233100e1cf22ac34f569c64",
+        "status" : "passed",
         "time" : {
-          "start" : 1657005589270,
-          "stop" : 1657005593744,
-          "duration" : 4474
+          "start" : 1657074271743,
+          "stop" : 1657074283502,
+          "duration" : 11759
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "处理异常报备的审批",
-        "uid" : "1366f78d61b98e59",
+        "uid" : "e50da0e75624476f",
+        "parentUid" : "e136fef8b233100e1cf22ac34f569c64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074283506,
+          "stop" : 1657074288962,
+          "duration" : 5456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "d84483e62d06f426",
+        "parentUid" : "e136fef8b233100e1cf22ac34f569c64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657074297965,
+          "stop" : 1657074304415,
+          "duration" : 6450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e136fef8b233100e1cf22ac34f569c64"
+    }, {
+      "name" : "19800-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "cce073af4ba2f2e6",
         "parentUid" : "52478631b541c0cbc9fea039b1d20a6a",
         "status" : "broken",
         "time" : {
@@ -1061,7 +2685,7 @@
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "6868d4df66a519e3",
+        "uid" : "b0c9ffea2e7d8c97",
         "parentUid" : "52478631b541c0cbc9fea039b1d20a6a",
         "status" : "broken",
         "time" : {
@@ -1073,8 +2697,21 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "发起异常报备",
+        "uid" : "22bde0d6a295ba58",
+        "parentUid" : "52478631b541c0cbc9fea039b1d20a6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005589270,
+          "stop" : 1657005593744,
+          "duration" : 4474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
         "name" : "上传报备人员",
-        "uid" : "84ad672c4cd1d277",
+        "uid" : "ab8aad424bc2173e",
         "parentUid" : "52478631b541c0cbc9fea039b1d20a6a",
         "status" : "broken",
         "time" : {
@@ -1088,212 +2725,1009 @@
       } ],
       "uid" : "52478631b541c0cbc9fea039b1d20a6a"
     }, {
-      "name" : "24028-MainThread",
+      "name" : "28152-MainThread",
       "children" : [ {
-        "name" : "发起异常报备",
-        "uid" : "d56454a7e57e3536",
-        "parentUid" : "1badf5fdd799063f2ee45553fa01844a",
-        "status" : "passed",
+        "name" : "报备人员面试通过",
+        "uid" : "260f3a2f2f0fe3c5",
+        "parentUid" : "49bcc8bded5e7c99571568ad19fdc78e",
+        "status" : "broken",
         "time" : {
-          "start" : 1657012955901,
-          "stop" : 1657012967696,
-          "duration" : 11795
+          "start" : 1657069293231,
+          "stop" : 1657069319946,
+          "duration" : 26715
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "报备人员面试通过",
-        "uid" : "4ff257aef188f7f6",
-        "parentUid" : "1badf5fdd799063f2ee45553fa01844a",
-        "status" : "broken",
+        "name" : "发起正常报备",
+        "uid" : "2cbacdfbcecde804",
+        "parentUid" : "49bcc8bded5e7c99571568ad19fdc78e",
+        "status" : "passed",
         "time" : {
-          "start" : 1657012973197,
-          "stop" : 1657012974520,
-          "duration" : 1323
+          "start" : 1657069284118,
+          "stop" : 1657069293225,
+          "duration" : 9107
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "处理异常报备的审批",
-        "uid" : "8af121051974abe3",
-        "parentUid" : "1badf5fdd799063f2ee45553fa01844a",
+        "uid" : "8b0a6d72528aa5db",
+        "parentUid" : "49bcc8bded5e7c99571568ad19fdc78e",
         "status" : "passed",
         "time" : {
-          "start" : 1657012967712,
-          "stop" : 1657012973182,
-          "duration" : 5470
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1badf5fdd799063f2ee45553fa01844a"
-    }, {
-      "name" : "23476-MainThread",
-      "children" : [ {
-        "name" : "报备人员面试通过",
-        "uid" : "bcd69dd212c4e923",
-        "parentUid" : "49b4870435ef9bfac8f07426a3da4937",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657013058401,
-          "stop" : 1657013059882,
-          "duration" : 1481
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "1388c54ccefe7774",
-        "parentUid" : "49b4870435ef9bfac8f07426a3da4937",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657013052549,
-          "stop" : 1657013058370,
-          "duration" : 5821
+          "start" : 1657069277737,
+          "stop" : 1657069284103,
+          "duration" : 6366
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起异常报备",
-        "uid" : "c8a6de7c3c6108e0",
-        "parentUid" : "49b4870435ef9bfac8f07426a3da4937",
+        "uid" : "89385b8bc97199d6",
+        "parentUid" : "49bcc8bded5e7c99571568ad19fdc78e",
         "status" : "passed",
         "time" : {
-          "start" : 1657013041075,
-          "stop" : 1657013052536,
-          "duration" : 11461
+          "start" : 1657069266152,
+          "stop" : 1657069277732,
+          "duration" : 11580
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "49b4870435ef9bfac8f07426a3da4937"
+      "uid" : "49bcc8bded5e7c99571568ad19fdc78e"
     }, {
-      "name" : "41760-MainThread",
+      "name" : "18192-MainThread",
       "children" : [ {
-        "name" : "测试登录-审批管理",
-        "uid" : "82e3f83d3bcf9dc3",
-        "parentUid" : "6de83efadf080ee169dfb5f012c3df51",
+        "name" : "报备人员面试通过",
+        "uid" : "eb10fe8aeb4d83b0",
+        "parentUid" : "b0bf7d86d1368c8f6fad2aaddc7b6aa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033972177,
+          "stop" : 1657033997861,
+          "duration" : 25684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "10cce2c760141ed8",
+        "parentUid" : "b0bf7d86d1368c8f6fad2aaddc7b6aa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033912258,
+          "stop" : 1657033917169,
+          "duration" : 4911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "f04bbb7ab12361ea",
+        "parentUid" : "b0bf7d86d1368c8f6fad2aaddc7b6aa6",
         "status" : "passed",
         "time" : {
-          "start" : 1656290667799,
-          "stop" : 1656290674993,
-          "duration" : 7194
+          "start" : 1657033917378,
+          "stop" : 1657033922738,
+          "duration" : 5360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "ca77be0aac0d31a5",
+        "parentUid" : "b0bf7d86d1368c8f6fad2aaddc7b6aa6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657033922744,
+          "stop" : 1657033972172,
+          "duration" : 49428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0bf7d86d1368c8f6fad2aaddc7b6aa6"
+    }, {
+      "name" : "27808-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "67f616b8ac29e98e",
+        "parentUid" : "12813998ddd7df2c4ec9854740ee0b74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657068025477,
+          "stop" : 1657068046216,
+          "duration" : 20739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "b6d5983fac9e2c7f",
+        "parentUid" : "12813998ddd7df2c4ec9854740ee0b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657068010661,
+          "stop" : 1657068016723,
+          "duration" : 6062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "7a25a9ef444ce0d3",
+        "parentUid" : "12813998ddd7df2c4ec9854740ee0b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657068000557,
+          "stop" : 1657068010658,
+          "duration" : 10101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "5bbb561f2abe0cb3",
+        "parentUid" : "12813998ddd7df2c4ec9854740ee0b74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657068016730,
+          "stop" : 1657068025472,
+          "duration" : 8742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12813998ddd7df2c4ec9854740ee0b74"
+    }, {
+      "name" : "32840-MainThread",
+      "children" : [ {
+        "name" : "测试登录-审批管理",
+        "uid" : "2a3d5e587a4b8a85",
+        "parentUid" : "4547b1bf21b9d67c8eaab80856b9f6e5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656141138998,
+          "stop" : 1656141142518,
+          "duration" : 3520
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "测试登录-我要报备",
-        "uid" : "f09773efe243963f",
-        "parentUid" : "6de83efadf080ee169dfb5f012c3df51",
+        "uid" : "235e895b8fceedd2",
+        "parentUid" : "4547b1bf21b9d67c8eaab80856b9f6e5",
         "status" : "passed",
         "time" : {
-          "start" : 1656290675006,
-          "stop" : 1656290682505,
-          "duration" : 7499
+          "start" : 1656141142705,
+          "stop" : 1656141149712,
+          "duration" : 7007
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6de83efadf080ee169dfb5f012c3df51"
+      "uid" : "4547b1bf21b9d67c8eaab80856b9f6e5"
     }, {
-      "name" : "19124-MainThread",
+      "name" : "22724-MainThread",
       "children" : [ {
-        "name" : "测试登录-审批管理",
-        "uid" : "2a72838dc5057810",
-        "parentUid" : "57e79e728d79b0b92a675364b45a7d8b",
+        "name" : "报备人员面试通过",
+        "uid" : "2e8f0cff9cd78c3c",
+        "parentUid" : "7759a961bb3f7e38870769f2813db7ef",
         "status" : "passed",
         "time" : {
-          "start" : 1656141275490,
-          "stop" : 1656141282002,
-          "duration" : 6512
+          "start" : 1657078661354,
+          "stop" : 1657078670687,
+          "duration" : 9333
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "测试登录-我要报备",
-        "uid" : "dabf82607ebfec8a",
-        "parentUid" : "57e79e728d79b0b92a675364b45a7d8b",
+        "name" : "处理异常报备的审批",
+        "uid" : "a7af2759bce33ef8",
+        "parentUid" : "7759a961bb3f7e38870769f2813db7ef",
         "status" : "passed",
         "time" : {
-          "start" : 1656141282020,
-          "stop" : 1656141289057,
-          "duration" : 7037
+          "start" : 1657078631578,
+          "stop" : 1657078638479,
+          "duration" : 6901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "75cb86f94e349d5b",
+        "parentUid" : "7759a961bb3f7e38870769f2813db7ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078638482,
+          "stop" : 1657078661312,
+          "duration" : 22830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "266bf371ce2498a5",
+        "parentUid" : "7759a961bb3f7e38870769f2813db7ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078626033,
+          "stop" : 1657078631470,
+          "duration" : 5437
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "57e79e728d79b0b92a675364b45a7d8b"
+      "uid" : "7759a961bb3f7e38870769f2813db7ef"
     }, {
-      "name" : "24800-MainThread",
+      "name" : "28072-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "9ba6687a261b0ff9",
+        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657013163602,
+          "stop" : 1657013175604,
+          "duration" : 12002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "c03a031053043f98",
+        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657013175621,
+          "stop" : 1657013181418,
+          "duration" : 5797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "6bc8ae63f757020a",
+        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657013182897,
+          "stop" : 1657013191235,
+          "duration" : 8338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "41f0599a611bb738",
+        "parentUid" : "0f1817416898ac7da8dd79da6e3932cf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657013181434,
+          "stop" : 1657013182690,
+          "duration" : 1256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f1817416898ac7da8dd79da6e3932cf"
+    }, {
+      "name" : "28648-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "6b6dc26ebc95d7a2",
+        "parentUid" : "5c0b869fd69deea18084245af756d744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078203195,
+          "stop" : 1657078204615,
+          "duration" : 1420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "19bae3ee56d8ce9c",
+        "parentUid" : "5c0b869fd69deea18084245af756d744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078204652,
+          "stop" : 1657078206064,
+          "duration" : 1412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "7f677fc3b5554cd2",
+        "parentUid" : "5c0b869fd69deea18084245af756d744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078194776,
+          "stop" : 1657078201542,
+          "duration" : 6766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "ddfa8bd59dde3830",
+        "parentUid" : "5c0b869fd69deea18084245af756d744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657078201716,
+          "stop" : 1657078203150,
+          "duration" : 1434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c0b869fd69deea18084245af756d744"
+    }, {
+      "name" : "21884-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "b47a29461f108ed7",
+        "parentUid" : "3896cc8e9a5194fc7a2b496ff75ceb7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033850857,
+          "stop" : 1657033850857,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "586f4f5da5648f9a",
+        "parentUid" : "3896cc8e9a5194fc7a2b496ff75ceb7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033850749,
+          "stop" : 1657033850749,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "bd3e2ac5f9a74aab",
+        "parentUid" : "3896cc8e9a5194fc7a2b496ff75ceb7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033825189,
+          "stop" : 1657033825189,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "4f28ee2bea747d21",
+        "parentUid" : "3896cc8e9a5194fc7a2b496ff75ceb7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657033850800,
+          "stop" : 1657033850800,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3896cc8e9a5194fc7a2b496ff75ceb7c"
+    }, {
+      "name" : "27692-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "cbe589bb9abdf043",
+        "parentUid" : "51e443ba09fce95c2c68c4e7f2694d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071193649,
+          "stop" : 1657071198823,
+          "duration" : 5174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "fd89d823be89759f",
+        "parentUid" : "51e443ba09fce95c2c68c4e7f2694d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071198829,
+          "stop" : 1657071207114,
+          "duration" : 8285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "ff5cb0f8c4a58e61",
+        "parentUid" : "51e443ba09fce95c2c68c4e7f2694d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071207120,
+          "stop" : 1657071213793,
+          "duration" : 6673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "c84dadf43d0a3a29",
+        "parentUid" : "51e443ba09fce95c2c68c4e7f2694d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071182507,
+          "stop" : 1657071193645,
+          "duration" : 11138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51e443ba09fce95c2c68c4e7f2694d9f"
+    }, {
+      "name" : "12128-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "f7641586da237a24",
+        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014473908,
+          "stop" : 1657014479317,
+          "duration" : 5409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "7c613354bb55eeb7",
+        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014462525,
+          "stop" : 1657014473894,
+          "duration" : 11369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "9a2a1ee0c703ec9",
+        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657014479334,
+          "stop" : 1657014480695,
+          "duration" : 1361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "513833c6511e7a3",
+        "parentUid" : "71b17e273283c23f3d1c89ec01a36656",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014481002,
+          "stop" : 1657014488617,
+          "duration" : 7615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71b17e273283c23f3d1c89ec01a36656"
+    }, {
+      "name" : "3844-MainThread",
+      "children" : [ {
+        "name" : "测试登录-我要报备",
+        "uid" : "b42210230dc49526",
+        "parentUid" : "860514bc68f845f476c396b1a2c32908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656308723151,
+          "stop" : 1656308723151,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录-审批管理",
+        "uid" : "35c8bd40ad13c8ff",
+        "parentUid" : "860514bc68f845f476c396b1a2c32908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656308422948,
+          "stop" : 1656308422948,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "860514bc68f845f476c396b1a2c32908"
+    }, {
+      "name" : "11108-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "6ab9fde55522b549",
+        "parentUid" : "7c296f533e261fd63c139bd2b693a003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085775324,
+          "stop" : 1657085786082,
+          "duration" : 10758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "7a64948a3ee09037",
+        "parentUid" : "7c296f533e261fd63c139bd2b693a003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085804531,
+          "stop" : 1657085813874,
+          "duration" : 9343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "d62946eaaa647c15",
+        "parentUid" : "7c296f533e261fd63c139bd2b693a003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085793019,
+          "stop" : 1657085804510,
+          "duration" : 11491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "e3f7288462e2c635",
+        "parentUid" : "7c296f533e261fd63c139bd2b693a003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657085786090,
+          "stop" : 1657085793009,
+          "duration" : 6919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c296f533e261fd63c139bd2b693a003"
+    }, {
+      "name" : "7212-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "2a74c8f1f42f7f24",
+        "parentUid" : "4e153bb3b9820b617f690e1a43415cc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075044020,
+          "stop" : 1657075050858,
+          "duration" : 6838
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "74130a1525d50426",
+        "parentUid" : "4e153bb3b9820b617f690e1a43415cc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075050866,
+          "stop" : 1657075062111,
+          "duration" : 11245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "e0d0e0f11bb4ff43",
+        "parentUid" : "4e153bb3b9820b617f690e1a43415cc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075062116,
+          "stop" : 1657075071260,
+          "duration" : 9144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "465a92aeeafa7f20",
+        "parentUid" : "4e153bb3b9820b617f690e1a43415cc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075029785,
+          "stop" : 1657075044016,
+          "duration" : 14231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e153bb3b9820b617f690e1a43415cc8"
+    }, {
+      "name" : "7820-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "626e885aef5a8168",
+        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007142858,
+          "stop" : 1657007144031,
+          "duration" : 1173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "3861d995d1863751",
+        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007144440,
+          "stop" : 1657007146324,
+          "duration" : 1884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "2232f8f7febd559f",
+        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657007129750,
+          "stop" : 1657007138514,
+          "duration" : 8764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "27ef9fed844954bf",
+        "parentUid" : "fcbfbfc65d9399235a6d9906aed46ac2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657007138521,
+          "stop" : 1657007142842,
+          "duration" : 4321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcbfbfc65d9399235a6d9906aed46ac2"
+    }, {
+      "name" : "23560-MainThread",
       "children" : [ {
         "name" : "上传报备人员",
-        "uid" : "dd380e1a8a77cb26",
-        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
+        "uid" : "3c8c227f0fccb8bd",
+        "parentUid" : "d2a2ad9b61e8539efd16bd1e715568c6",
         "status" : "broken",
         "time" : {
-          "start" : 1657004324274,
-          "stop" : 1657004325517,
-          "duration" : 1243
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "处理异常报备的审批",
-        "uid" : "c8c0ae4c9d283f58",
-        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657004296704,
-          "stop" : 1657004323664,
-          "duration" : 26960
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "发起异常报备",
-        "uid" : "39a5d73c89134394",
-        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1657004282335,
-          "stop" : 1657004296684,
-          "duration" : 14349
+          "start" : 1656660695835,
+          "stop" : 1656660695835,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "72ddad8651ecc3b",
-        "parentUid" : "4e5f1e987f82b02889c60eb71c12b1b4",
+        "uid" : "1072052a64dbabe3",
+        "parentUid" : "d2a2ad9b61e8539efd16bd1e715568c6",
         "status" : "broken",
         "time" : {
-          "start" : 1657004325700,
-          "stop" : 1657004326929,
-          "duration" : 1229
+          "start" : 1656660696052,
+          "stop" : 1656660696052,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理待审批",
+        "uid" : "326f98e0164bbcae",
+        "parentUid" : "d2a2ad9b61e8539efd16bd1e715568c6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656660687239,
+          "stop" : 1656660687239,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4e5f1e987f82b02889c60eb71c12b1b4"
+      "uid" : "d2a2ad9b61e8539efd16bd1e715568c6"
+    }, {
+      "name" : "2964-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "980197dc21f7ad73",
+        "parentUid" : "91335cfb18e29940b5a65f11253de8b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014819902,
+          "stop" : 1657014871268,
+          "duration" : 51366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "59afd73d2210c385",
+        "parentUid" : "91335cfb18e29940b5a65f11253de8b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014802036,
+          "stop" : 1657014814218,
+          "duration" : 12182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "8d3f7bd95aa990f2",
+        "parentUid" : "91335cfb18e29940b5a65f11253de8b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014871280,
+          "stop" : 1657014879449,
+          "duration" : 8169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "9d584ee2a869d31b",
+        "parentUid" : "91335cfb18e29940b5a65f11253de8b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657014814231,
+          "stop" : 1657014819885,
+          "duration" : 5654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91335cfb18e29940b5a65f11253de8b2"
+    }, {
+      "name" : "24428-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "c36eaa2941df2e78",
+        "parentUid" : "72b134bac2c05ebcb82731d28bcd1ca7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657027212177,
+          "stop" : 1657027223501,
+          "duration" : 11324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "4240a7e9f7d182c8",
+        "parentUid" : "72b134bac2c05ebcb82731d28bcd1ca7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657027287066,
+          "stop" : 1657027293450,
+          "duration" : 6384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "51c73944f6444d77",
+        "parentUid" : "72b134bac2c05ebcb82731d28bcd1ca7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657027229122,
+          "stop" : 1657027287057,
+          "duration" : 57935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "5dcf10a33bd3d9ae",
+        "parentUid" : "72b134bac2c05ebcb82731d28bcd1ca7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657027223506,
+          "stop" : 1657027229116,
+          "duration" : 5610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72b134bac2c05ebcb82731d28bcd1ca7"
+    }, {
+      "name" : "24520-MainThread",
+      "children" : [ {
+        "name" : "上传报备人员",
+        "uid" : "34c1a5c607cbfac8",
+        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005560458,
+          "stop" : 1657005561575,
+          "duration" : 1117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "f5eb13c41cc05f7a",
+        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005561625,
+          "stop" : 1657005562757,
+          "duration" : 1132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "282e1f1789e57e0c",
+        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005552752,
+          "stop" : 1657005559127,
+          "duration" : 6375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "559725f7a621b6fc",
+        "parentUid" : "a28ae376aff8fc8adb335291880029ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657005559325,
+          "stop" : 1657005560408,
+          "duration" : 1083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a28ae376aff8fc8adb335291880029ae"
+    }, {
+      "name" : "21176-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "a0af7ded932ae1f7",
+        "parentUid" : "49eae1151796a8b0e5453c41f347a797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075123540,
+          "stop" : 1657075133468,
+          "duration" : 9928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "2054e5274109ea46",
+        "parentUid" : "49eae1151796a8b0e5453c41f347a797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075133473,
+          "stop" : 1657075140393,
+          "duration" : 6920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "7674657e0caa0873",
+        "parentUid" : "49eae1151796a8b0e5453c41f347a797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075140408,
+          "stop" : 1657075147328,
+          "duration" : 6920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "8bb541b535b5640e",
+        "parentUid" : "49eae1151796a8b0e5453c41f347a797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657075147333,
+          "stop" : 1657075156457,
+          "duration" : 9124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49eae1151796a8b0e5453c41f347a797"
     }, {
       "name" : "11332-MainThread",
       "children" : [ {
         "name" : "测试登录-我要报备",
-        "uid" : "f6eba8ff7bc7bf92",
+        "uid" : "8783b7a5e5c25646",
         "parentUid" : "00e8da6620d93e8007a20746fc84ba73",
         "status" : "passed",
         "time" : {
@@ -1306,7 +3740,7 @@
         "parameters" : [ ]
       }, {
         "name" : "测试登录-审批管理",
-        "uid" : "f2af553ad6c44f61",
+        "uid" : "61a549cafe557fad",
         "parentUid" : "00e8da6620d93e8007a20746fc84ba73",
         "status" : "passed",
         "time" : {
@@ -1320,70 +3754,376 @@
       } ],
       "uid" : "00e8da6620d93e8007a20746fc84ba73"
     }, {
-      "name" : "7824-MainThread",
+      "name" : "23816-MainThread",
       "children" : [ {
-        "name" : "测试登录-我要报备",
-        "uid" : "fc9840e11f8a6d86",
-        "parentUid" : "c19b92d97fb634677b5db747a5c519bc",
+        "name" : "发起异常报备",
+        "uid" : "bafe9038a76623b",
+        "parentUid" : "043c213e985a80905d39eb1c6b6da44c",
         "status" : "passed",
         "time" : {
-          "start" : 1656140140688,
-          "stop" : 1656140148262,
-          "duration" : 7574
+          "start" : 1657015848657,
+          "stop" : 1657015860747,
+          "duration" : 12090
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "测试登录-审批管理",
-        "uid" : "ddcfa4aa0a5481a3",
-        "parentUid" : "c19b92d97fb634677b5db747a5c519bc",
+        "name" : "处理异常报备的审批",
+        "uid" : "c86fb49f1819390a",
+        "parentUid" : "043c213e985a80905d39eb1c6b6da44c",
         "status" : "passed",
         "time" : {
-          "start" : 1656140134108,
-          "stop" : 1656140140672,
-          "duration" : 6564
+          "start" : 1657015860757,
+          "stop" : 1657015867118,
+          "duration" : 6361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "1cff64723c17d718",
+        "parentUid" : "043c213e985a80905d39eb1c6b6da44c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015868976,
+          "stop" : 1657015877146,
+          "duration" : 8170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备1",
+        "uid" : "95e56183d58279ee",
+        "parentUid" : "043c213e985a80905d39eb1c6b6da44c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657015867133,
+          "stop" : 1657015868651,
+          "duration" : 1518
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c19b92d97fb634677b5db747a5c519bc"
+      "uid" : "043c213e985a80905d39eb1c6b6da44c"
     }, {
-      "name" : "31064-MainThread",
+      "name" : "25732-MainThread",
       "children" : [ {
-        "name" : "测试登录-我要报备",
-        "uid" : "1f5591995e59249f",
-        "parentUid" : "0783c0e852aee4498a0e85d58590acaf",
-        "status" : "passed",
+        "name" : "上传报备人员",
+        "uid" : "fbbb000c59430e2a",
+        "parentUid" : "930c174f1951466227281285dcb7f290",
+        "status" : "broken",
         "time" : {
-          "start" : 1656323043577,
-          "stop" : 1656323053345,
-          "duration" : 9768
+          "start" : 1656839664543,
+          "stop" : 1656839664543,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "测试登录-审批管理",
-        "uid" : "78721d5fac0ea6da",
-        "parentUid" : "0783c0e852aee4498a0e85d58590acaf",
-        "status" : "passed",
+        "name" : "报备人员面试通过",
+        "uid" : "c505566e0d7876c7",
+        "parentUid" : "930c174f1951466227281285dcb7f290",
+        "status" : "broken",
         "time" : {
-          "start" : 1656323036198,
-          "stop" : 1656323043534,
-          "duration" : 7336
+          "start" : 1656839664692,
+          "stop" : 1656839664692,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理待审批",
+        "uid" : "79902ae4cf74f8e2",
+        "parentUid" : "930c174f1951466227281285dcb7f290",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656839656014,
+          "stop" : 1656839656014,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0783c0e852aee4498a0e85d58590acaf"
+      "uid" : "930c174f1951466227281285dcb7f290"
+    }, {
+      "name" : "16880-MainThread",
+      "children" : [ {
+        "name" : "发起正常报备",
+        "uid" : "ee4b62a098bab626",
+        "parentUid" : "4b916e600fe27fbe6b17a611a3542591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071737539,
+          "stop" : 1657071745998,
+          "duration" : 8459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "ddcac5ee03236c92",
+        "parentUid" : "4b916e600fe27fbe6b17a611a3542591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071731977,
+          "stop" : 1657071737516,
+          "duration" : 5539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "a4a955704cb87ec6",
+        "parentUid" : "4b916e600fe27fbe6b17a611a3542591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071719603,
+          "stop" : 1657071731972,
+          "duration" : 12369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "95c606ed4db2d8ac",
+        "parentUid" : "4b916e600fe27fbe6b17a611a3542591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657071746004,
+          "stop" : 1657071752492,
+          "duration" : 6488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b916e600fe27fbe6b17a611a3542591"
+    }, {
+      "name" : "26820-MainThread",
+      "children" : [ {
+        "name" : "处理异常报备的审批",
+        "uid" : "775ac551fc56bef3",
+        "parentUid" : "257b6167ae87ef093802cd529c8769f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015501719,
+          "stop" : 1657015508061,
+          "duration" : 6342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "f8bbbdecf6d4546",
+        "parentUid" : "257b6167ae87ef093802cd529c8769f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015509771,
+          "stop" : 1657015518919,
+          "duration" : 9148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "49f3250b458525c0",
+        "parentUid" : "257b6167ae87ef093802cd529c8769f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657015508074,
+          "stop" : 1657015509380,
+          "duration" : 1306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "68da8a8ebc449864",
+        "parentUid" : "257b6167ae87ef093802cd529c8769f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657015488022,
+          "stop" : 1657015501702,
+          "duration" : 13680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "257b6167ae87ef093802cd529c8769f0"
+    }, {
+      "name" : "26204-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "bc786684dc7aff96",
+        "parentUid" : "ea206b2ce14d3f91fa54d1549215f1df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034836878,
+          "stop" : 1657034848213,
+          "duration" : 11335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "ba8ccff549b12177",
+        "parentUid" : "ea206b2ce14d3f91fa54d1549215f1df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034848218,
+          "stop" : 1657034853540,
+          "duration" : 5322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "298987b8f42a4a19",
+        "parentUid" : "ea206b2ce14d3f91fa54d1549215f1df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657034910857,
+          "stop" : 1657034912393,
+          "duration" : 1536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "8cf6cea008be147b",
+        "parentUid" : "ea206b2ce14d3f91fa54d1549215f1df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657034853546,
+          "stop" : 1657034910847,
+          "duration" : 57301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea206b2ce14d3f91fa54d1549215f1df"
+    }, {
+      "name" : "20080-MainThread",
+      "children" : [ {
+        "name" : "处理待审批",
+        "uid" : "a4d150e40005ebb4",
+        "parentUid" : "fc88a861ff307768eec038b6a8831ba6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656986989767,
+          "stop" : 1656987017056,
+          "duration" : 27289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "上传报备人员",
+        "uid" : "86d916a9c763087d",
+        "parentUid" : "fc88a861ff307768eec038b6a8831ba6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656987017291,
+          "stop" : 1656987018419,
+          "duration" : 1128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "c3cce3fd5b55b0f2",
+        "parentUid" : "fc88a861ff307768eec038b6a8831ba6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656987018463,
+          "stop" : 1656987019589,
+          "duration" : 1126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc88a861ff307768eec038b6a8831ba6"
+    }, {
+      "name" : "3352-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "12b52d587c8d665e",
+        "parentUid" : "c6ffc096ec1c1087400ccc0884d0aa12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073639039,
+          "stop" : 1657073645997,
+          "duration" : 6958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "ebcd6f24e706842f",
+        "parentUid" : "c6ffc096ec1c1087400ccc0884d0aa12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073624759,
+          "stop" : 1657073630151,
+          "duration" : 5392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起异常报备",
+        "uid" : "41dfac71249ddc66",
+        "parentUid" : "c6ffc096ec1c1087400ccc0884d0aa12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073612744,
+          "stop" : 1657073624755,
+          "duration" : 12011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "a7c1cfd3b7dcd304",
+        "parentUid" : "c6ffc096ec1c1087400ccc0884d0aa12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657073630167,
+          "stop" : 1657073639033,
+          "duration" : 8866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6ffc096ec1c1087400ccc0884d0aa12"
     }, {
       "name" : "21548-MainThread",
       "children" : [ {
         "name" : "发起正常报备",
-        "uid" : "f376d65e2ca766cc",
+        "uid" : "8db14f163ad67c1",
         "parentUid" : "dafab9227219df818c60ba2c80512d42",
         "status" : "broken",
         "time" : {
@@ -1397,22 +4137,194 @@
       } ],
       "uid" : "dafab9227219df818c60ba2c80512d42"
     }, {
-      "name" : "19152-MainThread",
+      "name" : "42340-MainThread",
       "children" : [ {
-        "name" : "发起正常报备",
-        "uid" : "edba43ff6699e0a6",
-        "parentUid" : "86ac1b90a97d3b58bb1b4d43210b3fa4",
+        "name" : "测试登录-我要报备",
+        "uid" : "b55cf9e6be8347d",
+        "parentUid" : "4b3c05165eec2aa9a5fa88a5a4b65c75",
         "status" : "passed",
         "time" : {
-          "start" : 1657012811891,
-          "stop" : 1657012866024,
-          "duration" : 54133
+          "start" : 1656322423261,
+          "stop" : 1656322433399,
+          "duration" : 10138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录-审批管理",
+        "uid" : "2051f9582d0bd86a",
+        "parentUid" : "4b3c05165eec2aa9a5fa88a5a4b65c75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656322415934,
+          "stop" : 1656322423230,
+          "duration" : 7296
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "86ac1b90a97d3b58bb1b4d43210b3fa4"
+      "uid" : "4b3c05165eec2aa9a5fa88a5a4b65c75"
+    }, {
+      "name" : "19996-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "c41bde43a0b29988",
+        "parentUid" : "224105ca302f5ad86f177a1410bab8bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656999785651,
+          "stop" : 1656999785651,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "2466d0c9947ac295",
+        "parentUid" : "224105ca302f5ad86f177a1410bab8bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657000005386,
+          "stop" : 1657000005386,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "224105ca302f5ad86f177a1410bab8bc"
+    }, {
+      "name" : "19924-MainThread",
+      "children" : [ {
+        "name" : "报备人员面试通过",
+        "uid" : "ebe91c6d7c12796c",
+        "parentUid" : "a1e51cffb0b8fada44d7cd5da506f4ef",
+        "status" : "broken",
+        "time" : {
+          "start" : 1656987494514,
+          "stop" : 1656987520235,
+          "duration" : 25721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理待审批",
+        "uid" : "ca93c00313bbe0a3",
+        "parentUid" : "a1e51cffb0b8fada44d7cd5da506f4ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656987478723,
+          "stop" : 1656987486364,
+          "duration" : 7641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "上传报备人员",
+        "uid" : "894fa4419fbb99a0",
+        "parentUid" : "a1e51cffb0b8fada44d7cd5da506f4ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656987486395,
+          "stop" : 1656987494505,
+          "duration" : 8110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1e51cffb0b8fada44d7cd5da506f4ef"
+    }, {
+      "name" : "7824-MainThread",
+      "children" : [ {
+        "name" : "测试登录-审批管理",
+        "uid" : "3033044589bd627",
+        "parentUid" : "c19b92d97fb634677b5db747a5c519bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656140134108,
+          "stop" : 1656140140672,
+          "duration" : 6564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试登录-我要报备",
+        "uid" : "c6321ed6800db8a9",
+        "parentUid" : "c19b92d97fb634677b5db747a5c519bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656140140688,
+          "stop" : 1656140148262,
+          "duration" : 7574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c19b92d97fb634677b5db747a5c519bc"
+    }, {
+      "name" : "25344-MainThread",
+      "children" : [ {
+        "name" : "发起异常报备",
+        "uid" : "314a635b5728caa1",
+        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657007460179,
+          "stop" : 1657007470230,
+          "duration" : 10051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发起正常报备",
+        "uid" : "64500357a218a73f",
+        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657007474665,
+          "stop" : 1657007475965,
+          "duration" : 1300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "报备人员面试通过",
+        "uid" : "99456fc3754e80bb",
+        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657007476269,
+          "stop" : 1657007482941,
+          "duration" : 6672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "处理异常报备的审批",
+        "uid" : "4304a6e5bb874de5",
+        "parentUid" : "1bc138bf6f2439a0273feb0c65504c18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657007470245,
+          "stop" : 1657007474656,
+          "duration" : 4411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bc138bf6f2439a0273feb0c65504c18"
     } ],
     "uid" : "6898b957cfc0dca9b657a266283b9ade"
   } ]

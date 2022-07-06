@@ -24,7 +24,7 @@ eger = ['男', '女']
 
 
 def nor_creat_report(number):
-    filepath = r'D:\auto_test\script\报备导入测试数据{0}条.xlsx'.format(number)
+    filepath = r'D:\auto_test\script\正常报备测试数据{0}条.xlsx'.format(number)
     fake = Faker('zh_CN')
     wb = openpyxl.Workbook()
     ws = wb.active
@@ -48,7 +48,7 @@ def nor_creat_report(number):
     wb.close()
 
 def abnor_creat_report(number):
-    filepath = r'D:\auto_test\script\报备导入测试数据{0}条.xlsx'.format(number)
+    filepath = r'D:\auto_test\script\异常报备测试数据{0}条.xlsx'.format(number)
     fake = Faker('zh_CN')
     wb = openpyxl.Workbook()
     ws = wb.active
@@ -72,11 +72,22 @@ def abnor_creat_report(number):
     wb.close()
 
 if __name__ == '__main__':
-    number = 5
-    try:
+
+    choice=input('正常报备输入1   |   异常报备输入2\n')
+    if choice=='1':
+        number=input('输入报备人数\n')
         nor_creat_report(int(number))
-    except Exception as e:
-        print('创建失败:', e)
+    elif choice=='2':
+        number=input('输入报备人数\n')
+        abnor_creat_report(int(number))
+
+
+
+    # number = 5
+    # try:
+    #     nor_creat_report(int(number))
+    # except Exception as e:
+    #     print('创建失败:', e)
 
 
 # fake = Faker('zh_TW')

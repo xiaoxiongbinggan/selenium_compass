@@ -1,4 +1,5 @@
 import logging
+import time
 from time import sleep
 
 from selenium import webdriver
@@ -7,7 +8,7 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from logs import log_base
 
 logger=log_base.logger_console()
-
+logger2=log_base.logger_text()
 class BasePage:
     # driver=webdriver.Chrome()
     # 初始化浏览器
@@ -19,6 +20,7 @@ class BasePage:
 
     def locator(self, loc):
         logging.info('定位元素{}'.format(loc))
+        time.sleep(0.3)
         return self.driver.find_element(*loc)
 
 

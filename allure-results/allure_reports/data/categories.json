@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 392). Other element would receive the click: <div data-v-ef0cc596=\"\" tabindex=\"-1\" class=\"ant-drawer ant-drawer-right\" style=\"z-index: 10;\">...</div>\n  (Session info: chrome=103.0.5060.66)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00CED953+2414931]\n\tOrdinal0 [0x00C7F5E1+1963489]\n\tOrdinal0 [0x00B6C6B8+837304]\n\tOrdinal0 [0x00B9FC27+1047591]\n\tOrdinal0 [0x00B9DC08+1039368]\n\tOrdinal0 [0x00B9B90B+1030411]\n\tOrdinal0 [0x00B9A659+1025625]\n\tOrdinal0 [0x00B90293+983699]\n\tOrdinal0 [0x00BB449C+1131676]\n\tOrdinal0 [0x00B8FC74+982132]\n\tOrdinal0 [0x00BB46B4+1132212]\n\tOrdinal0 [0x00BC4812+1198098]\n\tOrdinal0 [0x00BB42B6+1131190]\n\tOrdinal0 [0x00B8E860+976992]\n\tOrdinal0 [0x00B8F756+980822]\n\tGetHandleVerifier [0x00F5CC62+2510274]\n\tGetHandleVerifier [0x00F4F760+2455744]\n\tGetHandleVerifier [0x00D7EABA+551962]\n\tGetHandleVerifier [0x00D7D916+547446]\n\tOrdinal0 [0x00C85F3B+1990459]\n\tOrdinal0 [0x00C8A898+2009240]\n\tOrdinal0 [0x00C8A985+2009477]\n\tOrdinal0 [0x00C93AD1+2046673]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77937A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77937A6E+238]",
-      "children" : [ {
-        "name" : "发起正常报备",
-        "uid" : "ffc684b616281ae1",
-        "parentUid" : "c25be5e94bc0ba5b935a3cfbcc768b5a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1657014479334,
-          "stop" : 1657014480695,
-          "duration" : 1361
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c25be5e94bc0ba5b935a3cfbcc768b5a"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

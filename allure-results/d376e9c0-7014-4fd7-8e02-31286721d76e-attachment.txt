@@ -1,0 +1,2 @@
+INFO     root:base_page.py:32 点击元素('xpath', "//span[text()='审批管理']/..")
+INFO     root:base_page.py:22 定位元素('xpath', "//span[text()='审批管理']/..")

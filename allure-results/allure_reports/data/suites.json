@@ -7,52 +7,52 @@
       "name" : "test_case_pytest",
       "children" : [ {
         "name" : "发起异常报备",
-        "uid" : "dc7c6ffaea5a5e47",
+        "uid" : "4921d7a8ba18f024",
         "parentUid" : "15dbd7ad0f0c204823f34b86ae8f553a",
         "status" : "passed",
         "time" : {
-          "start" : 1657014462525,
-          "stop" : 1657014473894,
-          "duration" : 11369
+          "start" : 1657087645928,
+          "stop" : 1657087658095,
+          "duration" : 12167
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "处理异常报备的审批",
-        "uid" : "76e02d6b3c7232a8",
+        "uid" : "5102723cfb16d54a",
         "parentUid" : "15dbd7ad0f0c204823f34b86ae8f553a",
         "status" : "passed",
         "time" : {
-          "start" : 1657014473908,
-          "stop" : 1657014479317,
-          "duration" : 5409
+          "start" : 1657087658099,
+          "stop" : 1657087664854,
+          "duration" : 6755
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "发起正常报备",
-        "uid" : "ffc684b616281ae1",
+        "uid" : "1ecca1905db329de",
         "parentUid" : "15dbd7ad0f0c204823f34b86ae8f553a",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1657014479334,
-          "stop" : 1657014480695,
-          "duration" : 1361
+          "start" : 1657087664865,
+          "stop" : 1657087675972,
+          "duration" : 11107
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "报备人员面试通过",
-        "uid" : "9253a238b3770d26",
+        "uid" : "65636e0f47b078bf",
         "parentUid" : "15dbd7ad0f0c204823f34b86ae8f553a",
         "status" : "passed",
         "time" : {
-          "start" : 1657014481002,
-          "stop" : 1657014488617,
-          "duration" : 7615
+          "start" : 1657087675976,
+          "stop" : 1657087685156,
+          "duration" : 9180
         },
         "flaky" : false,
         "newFailed" : false,
