@@ -5,52 +5,52 @@
     "name" : "case.test_case_pytest",
     "children" : [ {
       "name" : "发起异常报备",
-      "uid" : "4921d7a8ba18f024",
+      "uid" : "dfce4d437c4a52a",
       "parentUid" : "d786e884ed764ab575759eb944d77efc",
       "status" : "passed",
       "time" : {
-        "start" : 1657087645928,
-        "stop" : 1657087658095,
-        "duration" : 12167
+        "start" : 1657091301601,
+        "stop" : 1657091316217,
+        "duration" : 14616
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "处理异常报备的审批",
-      "uid" : "5102723cfb16d54a",
+      "uid" : "f0605a06453ff090",
       "parentUid" : "d786e884ed764ab575759eb944d77efc",
       "status" : "passed",
       "time" : {
-        "start" : 1657087658099,
-        "stop" : 1657087664854,
-        "duration" : 6755
+        "start" : 1657091316247,
+        "stop" : 1657091324739,
+        "duration" : 8492
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "发起正常报备",
-      "uid" : "1ecca1905db329de",
+      "uid" : "1ce875bab1351b66",
       "parentUid" : "d786e884ed764ab575759eb944d77efc",
       "status" : "passed",
       "time" : {
-        "start" : 1657087664865,
-        "stop" : 1657087675972,
-        "duration" : 11107
+        "start" : 1657091324758,
+        "stop" : 1657091337925,
+        "duration" : 13167
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "报备人员面试通过",
-      "uid" : "65636e0f47b078bf",
+      "uid" : "c3170b4b48ad7c2",
       "parentUid" : "d786e884ed764ab575759eb944d77efc",
       "status" : "passed",
       "time" : {
-        "start" : 1657087675976,
-        "stop" : 1657087685156,
-        "duration" : 9180
+        "start" : 1657091337935,
+        "stop" : 1657091349547,
+        "duration" : 11612
       },
       "flaky" : false,
       "newFailed" : false,

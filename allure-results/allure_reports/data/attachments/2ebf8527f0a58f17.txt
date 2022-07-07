@@ -1,0 +1,16 @@
+2022-07-05 10:11:49,871base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
+2022-07-05 10:11:49,872base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
+2022-07-05 10:11:50,033base_page.pyINFO('xpath', "//input[@id='pwd']")输入框输入qinyujie008
+2022-07-05 10:11:50,033base_page.pyINFO定位元素('xpath', "//input[@id='pwd']")
+2022-07-05 10:11:50,174base_page.pyINFO点击元素('xpath', "//a[text()='登录并授权']")
+2022-07-05 10:11:50,175base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
+2022-07-05 10:11:57,548base_page.pyINFO点击元素('xpath', "//span[text()='审批管理']/..")
+2022-07-05 10:11:57,549base_page.pyINFO定位元素('xpath', "//span[text()='审批管理']/..")
+2022-07-05 10:11:59,123base_page.pyINFO点击元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
+2022-07-05 10:11:59,123base_page.pyINFO定位元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
+2022-07-05 10:12:01,056base_page.pyINFO点击元素('xpath', "//span[text()='工资付款 ']/..")
+2022-07-05 10:12:01,056base_page.pyINFO定位元素('xpath', "//span[text()='工资付款 ']/..")
+2022-07-05 10:12:04,712base_page.pyINFO点击元素('xpath', '//*[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td')
+2022-07-05 10:12:04,714base_page.pyINFO定位元素('xpath', '//*[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td')
+2022-07-05 10:12:05,972base_page.pyINFO('xpath', '//input[@placeholder="请输入审批意见"]')输入框输入time.struct_time(tm_year=2022, tm_mon=7, tm_mday=5, tm_hour=10, tm_min=12, tm_sec=5, tm_wday=1, tm_yday=186, tm_isdst=0)
+2022-07-05 10:12:05,973base_page.pyINFO定位元素('xpath', '//input[@placeholder="请输入审批意见"]')

@@ -75,6 +75,7 @@ def test_01(remote_driver):
     re.abnormal_report(1)
     time.sleep(1)
 
+
 @pytest.mark.run(order=2)
 @pytest.mark.workspace
 @allure.title("处理异常报备的审批")

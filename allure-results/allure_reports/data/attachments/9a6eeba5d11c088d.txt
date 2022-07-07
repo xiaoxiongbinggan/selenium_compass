@@ -1,0 +1,12 @@
+2022-07-05 23:11:37,314base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
+2022-07-05 23:11:37,314base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
+2022-07-05 23:11:37,465base_page.pyINFO('xpath', "//input[@id='pwd']")输入框输入qinyujie008
+2022-07-05 23:11:37,465base_page.pyINFO定位元素('xpath', "//input[@id='pwd']")
+2022-07-05 23:11:37,617base_page.pyINFO点击元素('xpath', "//a[text()='登录并授权']")
+2022-07-05 23:11:37,618base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
+2022-07-05 23:11:52,258base_page.pyINFO点击元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-05 23:11:52,259base_page.pyINFO定位元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-05 23:11:55,367base_page.pyINFO点击元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-05 23:11:55,369base_page.pyINFO定位元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-05 23:11:55,791base_page.pyINFO点击元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-05 23:11:55,791base_page.pyINFO定位元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')

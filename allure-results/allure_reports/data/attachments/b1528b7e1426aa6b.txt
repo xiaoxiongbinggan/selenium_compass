@@ -1,0 +1,12 @@
+2022-07-05 23:05:58,445base_page.pyINFO点击元素('xpath', "//span[text()='审批管理']/..")
+2022-07-05 23:05:58,446base_page.pyINFO定位元素('xpath', "//span[text()='审批管理']/..")
+2022-07-05 23:05:58,533base_page.pyINFO点击元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
+2022-07-05 23:05:58,534base_page.pyINFO定位元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
+2022-07-05 23:06:00,025base_page.pyINFO点击元素('xpath', '//*[@value="INSIDE_Audit_03"]/../..')
+2022-07-05 23:06:00,025base_page.pyINFO定位元素('xpath', '//*[@value="INSIDE_Audit_03"]/../..')
+2022-07-05 23:06:01,363base_page.pyINFO点击元素('xpath', '//*[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td/a')
+2022-07-05 23:06:01,363base_page.pyINFO定位元素('xpath', '//*[@class="ant-table-fixed-right"]/div/div/table/tbody/tr[1]/td/a')
+2022-07-05 23:06:02,542base_page.pyINFO('xpath', '//input[@placeholder="请输入审批意见"]')输入框输入Tue Jul  5 23:06:02 2022
+2022-07-05 23:06:02,542base_page.pyINFO定位元素('xpath', '//input[@placeholder="请输入审批意见"]')
+2022-07-05 23:06:02,778base_page.pyINFO点击元素('xpath', "//span[text()='通 过']/..")
+2022-07-05 23:06:02,778base_page.pyINFO定位元素('xpath', "//span[text()='通 过']/..")
