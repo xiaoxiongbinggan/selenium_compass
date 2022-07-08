@@ -42,7 +42,7 @@ class Cases(unittest.TestCase):
     def tearDownClass(cls) -> None:
         cls.driver.quit()
 
-    @file_data('../data/approve_memo.yaml')
+    @file_data('../datas/approve_memo.yaml')
     def test_01(self, **kwages):
         self.lg.login()
 

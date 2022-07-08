@@ -19,7 +19,7 @@ class Login(BasePage):
 
 
 if __name__ == '__main__':
-    chrome_driver = r"D:\auto_test\chromedriver.exe"
+    chrome_driver = r"D:\selenium_compass\start\chromedriver.exe"
     driver=webdriver.Chrome(chrome_driver)
     lg=Login(driver)
     driver.get(lg.url)

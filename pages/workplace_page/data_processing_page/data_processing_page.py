@@ -49,7 +49,7 @@ class DataProcessing(BasePage):
 if __name__ == '__main__':
     chrome_options = Options()
     chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9527")
-    s = Service(r"D:\auto_test\jenkins_selenium_start\chromedriver.exe")
+    s = Service(r"D:\selenium_compass\start\chromedriver.exe")
     driver = webdriver.Chrome(service=s, options=chrome_options)
     """
     接管已经打开的指南针界面

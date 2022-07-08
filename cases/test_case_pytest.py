@@ -46,7 +46,7 @@ def remote_driver():
 
 @pytest.fixture(scope="session")
 def user_driver():
-    s=Service(r"D:\auto_test\chromedriver.exe")
+    s=Service(r"D:\selenium_compass\start\chromedriver.exe")
     driver = webdriver.Chrome(service=s, options=Options())
     url="https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
         "2Fconnect%2Foauth2%2Fsns_authorize%3Fappid%3Ddingoakln867f37kuvrott%26response_type%3D" \
