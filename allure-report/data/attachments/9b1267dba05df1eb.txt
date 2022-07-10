@@ -1,0 +1,2 @@
+INFO     root:base_page.py:31 点击元素('xpath', "//*[text()='综合数据处理']/../../../li[2]/div[1]")
+INFO     root:base_page.py:21 定位元素('xpath', "//*[text()='综合数据处理']/../../../li[2]/div[1]")

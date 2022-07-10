@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://124.222.243.173:8080/",
+  "buildOrder" : 125,
+  "buildName" : "selenium-compass-localhost #125",
+  "buildUrl" : "http://124.222.243.173:8080/job/selenium-compass-localhost/125/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://124.222.243.173:8080/job/selenium-compass-localhost/125/allure"
+} ]

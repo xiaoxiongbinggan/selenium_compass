@@ -1,0 +1,10 @@
+[ {
+  "buildOrder" : 125,
+  "reportUrl" : "http://124.222.243.173:8080/job/selenium-compass-localhost/125/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "data" : {
+    "duration" : 12008
+  }
+} ]
