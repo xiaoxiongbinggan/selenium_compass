@@ -1,5 +1,6 @@
 import time
 
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -21,17 +22,18 @@ class WorkPlace(BasePage):
 
     #元素的操作流
     def open_approve(self):
+        allure.dynamic.description('审批管理')
         self.click(self.approve_manage)
-        print('审批管理')
 
     def open_recruit(self):
+        allure.dynamic.description('招聘管理')
         self.click(self.recruit_manage)
-        print('招聘管理')
         time.sleep(1)
 
     def open_datas(self):
+        allure.dynamic.description('综合数据处理')
         self.click(self.data_center)
-        print('综合数据处理')
+
 
 
 

@@ -1,5 +1,6 @@
 import time
 
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -24,24 +25,23 @@ class Approve(BasePage):
     close_btn=(By.XPATH,'//button[@class="ant-drawer-close"]')
 
     def wait_approve(self):
-        self.click(self.my_approve)
-        print('我审批的')
-        time.sleep(1)
-        # self.driver.find_elements(By.TAG_NAME,self.type5)[7].click()
-        self.click(self.type5)
-        print('选择审批类型')
-        time.sleep(1)
-        self.click(self.detail)
-        print('打开详情')
-        time.sleep(1)
-        self.input(self.approve_memo,str(time.asctime()))
-        print('输入审批意见')
-        self.click(self.pass_btn)
-        print('通过')
+        with allure.step('我审批的'):
+            self.click(self.my_approve)
+            time.sleep(1)
+        with allure.step('选择审批类型'):
+            self.click(self.type5)
+            time.sleep(1)
+        with allure.step('打开详情'):
+            self.click(self.detail)
+            time.sleep(1)
+        with allure.step('输入审批意见'):
+            self.input(self.approve_memo,str(time.asctime()))
+        with allure.step('通过'):
+            self.click(self.pass_btn)
 
 
-        # self.click(self.close_btn)
-        # print('关闭')
+            # self.click(self.close_btn)
+            # print('关闭')
 
 
 if __name__ == '__main__':

@@ -1,6 +1,7 @@
+import os
 import time
 
-
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -21,27 +22,31 @@ class DataProcessing(BasePage):
     time_confirm_btn=(By.XPATH,'//*[text()="确 定"]/..')
     end_btn=(By.XPATH,'//div[@class="ant-modal-confirm-btns"]/button[2]')
     def interview_results(self):
-        self.click(self.datas_processing_son)
-        time.sleep(1)
-        print('进入综合数据处理')
-        self.click(self.fed_back)
-        print('点击待反馈')
-        time.sleep(1)
-        self.click(self.choose_checkbox)
-        print('点击勾选框')
-        self.click(self.interview_sucess)
-        print('面试成功')
-        time.sleep(1)
-        self.click(self.interview_time_select)
-        print('点击面试时间框')
-        time.sleep(1)
-        self.click(self.interview_time_now)
-        print('选择面试时间')
-        self.click(self.time_confirm_btn)
-        print('确认')
-        time.sleep(1)
-        self.click(self.end_btn)
-        print('点击结束')
+        allure.dynamic.description('描述：成功或失败都结束')
+        with allure.step('进入综合数据处理'):
+            self.click(self.datas_processing_son)
+            time.sleep(1)
+        with allure.step('点击待反馈'):
+            self.click(self.fed_back)
+            time.sleep(1)
+        with allure.step('点击勾选框'):
+            self.click(self.choose_checkbox)
+        with allure.step('面试成功'):
+            self.click(self.interview_sucess)
+            time.sleep(1)
+        with allure.step('点击面试时间框'):
+            self.click(self.interview_time_select)
+            time.sleep(1)
+        with allure.step('选择面试时间'):
+            self.click(self.interview_time_now)
+        with allure.step('确认'):
+            self.click(self.time_confirm_btn)
+            time.sleep(1)
+            screen_short=self.driver.get_screenshot_as_png()
+            allure.attach(screen_short)
+
+        with allure.step('点击结束'):
+            self.click(self.end_btn)
 
 
 

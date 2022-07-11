@@ -1,6 +1,6 @@
 import time
 
-
+import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -34,61 +34,67 @@ class Recruit(BasePage):
 
 
 
-    def report(self,number):
-        self.click(self.recruit_center)
-        print('招聘中心')
-        time.sleep(1)
-        self.click(self.i_need_report_full)
-        print('我要报备')
-        time.sleep(1)
-        self.click(self.select_input)
-        print('点击需求框')
-        time.sleep(1)
-        self.click(self.select_need)
-        print('选择报备测试')
-        self.click(self.next_button)
-        print("下一步")
-        nor_creat_report(2)
-        print('执行脚本生成正常报备数据')
-        time.sleep(1)
-        self.input(self.select_text,r'D:\selenium_compass\script\正常报备测试数据{0}条.xlsx'.format(number))
-        print('上传文件')
-        time.sleep(1)
-        self.click(self.next_button)
-        print("下一步")
-        self.assert_text(self.tips,'上传成功！1111')
-        print('断言')
-        self.click(self.clost_btn)
-        print("点击关闭")
+    def normal_report(self,number):
+        with allure.step('招聘中心'):
+            self.click(self.recruit_center)
+            time.sleep(1)
+        with allure.step('我要报备'):
+            self.click(self.i_need_report_full)
+            time.sleep(1)
+        with allure.step('点击需求框'):
+            self.click(self.select_input)
+            time.sleep(1)
+        with allure.step('选择报备测试'):
+            self.click(self.select_need)
+        with allure.step('下一步'):
+            self.click(self.next_button)
+        with allure.step('执行脚本生成正常报备数据'):
+            nor_creat_report(number)
+            time.sleep(1)
+        with allure.step('上传文件'):
+            self.input(self.select_text,r'D:\selenium_compass\script\正常报备测试数据{0}条.xlsx'.format(number))
+            time.sleep(1)
+        with allure.step('下一步'):
+            self.click(self.next_button)
+            self.screen_short()
+            screen_short = self.driver.get_screenshot_as_png()
+            allure.attach(screen_short)
+        with allure.step('断言'):
+            self.assert_text(self.tips,'上传成功！1111')
+        with allure.step('点击关闭'):
+            self.click(self.clost_btn)
 
     def abnormal_report(self,number):
-        self.click(self.recruit_center)
-        print('招聘中心')
-        time.sleep(1)
-        self.click(self.i_need_report_full)
-        print('我要报备')
-        self.click(self.abnormal_report_input)
-        print('异常报备')
-        time.sleep(1)
-        self.click(self.select_input)
-        print('选择需求框')
-        # time.sleep(2)
-        self.click(self.select_need)
-        print('选择报备测试')
-        self.click(self.next_button)
-        print("下一步")
-        abnor_creat_report(2)
-        print('执行脚本生成异常报备数据')
-        time.sleep(1)
-        self.input(self.select_text,r'D:\selenium_compass\script\异常报备测试数据{0}条.xlsx'.format(number))
-        print('上传文件')
-        time.sleep(1)
-        self.click(self.next_button)
-        print("下一步")
-        self.assert_text(self.tips,'上传成功！1111')
-        print('断言')
-        self.click(self.clost_btn)
-        print("点击关闭")
+        with allure.step('招聘中心'):
+            self.click(self.recruit_center)
+            time.sleep(1)
+        with allure.step('我要报备'):
+            self.click(self.i_need_report_full)
+        with allure.step('选择异常报备'):
+            self.click(self.abnormal_report_input)
+            time.sleep(1)
+        with allure.step('选择需求框'):
+            self.click(self.select_input)
+            # time.sleep(2)
+        with allure.step('选择报备测试'):
+            self.click(self.select_need)
+        with allure.step('下一步'):
+            self.click(self.next_button)
+        with allure.step('执行脚本生成异常报备数据'):
+            abnor_creat_report(number)
+            time.sleep(1)
+        with allure.step('上传文件'):
+            self.input(self.select_text,r'D:\selenium_compass\script\异常报备测试数据{0}条.xlsx'.format(number))
+            time.sleep(1)
+        with allure.step('下一步'):
+            self.click(self.next_button)
+            self.screen_short()
+            screen_short = self.driver.get_screenshot_as_png()
+            allure.attach(screen_short)
+        with allure.step('断言'):
+            self.assert_text(self.tips,'上传成功！')
+        with allure.step('点击关闭'):
+            self.click(self.clost_btn)
 if __name__ == '__main__':
 
     chrome_options = Options()
@@ -100,15 +106,11 @@ if __name__ == '__main__':
     driver.implicitly_wait(10)
     wp=WorkPlace(driver)
     wp.open_recruit()
-    # time.sleep(1)
     re=Recruit(driver)
-    # re.report(2)
     re.abnormal_report(10)
+    re.normal_report(10)
 
 
 
 
 
-# select=Select(driver.find_element_by_id('aa'))
-# select.select_by_index(1)
-# select.select_by_value('')
