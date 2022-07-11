@@ -1,6 +1,0 @@
-INFO     root:base_page.py:32 点击元素('xpath', "//span[text()='审批管理']/..")
-INFO     root:base_page.py:22 定位元素('xpath', "//span[text()='审批管理']/..")
-INFO     root:base_page.py:32 点击元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
-INFO     root:base_page.py:22 定位元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
-INFO     root:base_page.py:32 点击元素('xpath', '//*[@value="INSIDE_Audit_03"]/../..')
-INFO     root:base_page.py:22 定位元素('xpath', '//*[@value="INSIDE_Audit_03"]/../..')

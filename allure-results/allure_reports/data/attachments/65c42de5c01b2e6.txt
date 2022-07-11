@@ -1,8 +1,0 @@
-2022-07-05 18:02:09,289base_page.pyINFO点击元素('xpath', "//*[text()='综合数据处理']/../../../li[2]/div[1]")
-2022-07-05 18:02:09,289base_page.pyINFO定位元素('xpath', "//*[text()='综合数据处理']/../../../li[2]/div[1]")
-2022-07-05 18:02:10,097base_page.pyINFO点击元素('xpath', "//*[text()='综合数据处理']/../../li")
-2022-07-05 18:02:10,098base_page.pyINFO定位元素('xpath', "//*[text()='综合数据处理']/../../li")
-2022-07-05 18:02:11,517base_page.pyINFO点击元素('xpath', "//*[text()='待反馈']/..")
-2022-07-05 18:02:11,518base_page.pyINFO定位元素('xpath', "//*[text()='待反馈']/..")
-2022-07-05 18:02:12,092base_page.pyINFO点击元素('xpath', '//div[@class="ant-table-fixed-left"]/div/div/table/tbody/tr[1]/td')
-2022-07-05 18:02:12,092base_page.pyINFO定位元素('xpath', '//div[@class="ant-table-fixed-left"]/div/div/table/tbody/tr[1]/td')
