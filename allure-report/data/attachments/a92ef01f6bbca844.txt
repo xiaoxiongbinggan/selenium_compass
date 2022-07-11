@@ -1,6 +1,0 @@
-2022-07-09 19:18:34,845base_page.pyINFO点击元素('xpath', "//span[text()='审批管理']/..")
-2022-07-09 19:18:34,846base_page.pyINFO定位元素('xpath', "//span[text()='审批管理']/..")
-2022-07-09 19:18:35,506base_page.pyINFO点击元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
-2022-07-09 19:18:35,507base_page.pyINFO定位元素('xpath', '//*[@id="popContainer"]/section/aside/div/ul/li[3]/ul/li[2]/a')
-2022-07-09 19:18:37,466base_page.pyINFO点击元素('xpath', '//*[@value="INSIDE_Audit_03"]/../..')
-2022-07-09 19:18:37,467base_page.pyINFO定位元素('xpath', '//*[@value="INSIDE_Audit_03"]/../..')
