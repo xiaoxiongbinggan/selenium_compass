@@ -1,0 +1,250 @@
+{
+  "uid" : "947982737d5bde7d",
+  "name" : "报备人员面试通过",
+  "fullName" : "cases.test_case_pytest#test_04",
+  "historyId" : "ba693dff19a7571f21ec7658a9d62b83",
+  "time" : {
+    "start" : 1657505695493,
+    "stop" : 1657505707762,
+    "duration" : 12269
+  },
+  "description" : "描述：成功或失败都结束",
+  "descriptionHtml" : "<p>描述：成功或失败都结束</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'",
+  "statusTrace" : "remote_driver = <selenium.webdriver.remote.webdriver.WebDriver (session=\"3be02e62b7389c972197fb89017d8684\")>\n\n    @pytest.mark.run(order=4)\n    @pytest.mark.workspace1\n    @allure.feature(\"正常报备\")\n    @allure.story(\"报备人员面试通过\")\n    @allure.title(\"报备人员面试通过\")\n    def test_04(remote_driver):\n        wp = WorkPlace(remote_driver)\n        wp.open_datas()\n        dp=DataProcessing(remote_driver)\n>       dp.interview_results()\n\ncases\\test_case_pytest.py:115: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.workplace_page.data_processing_page.data_processing_page.DataProcessing object at 0x0475EB98>\n\n    def interview_results(self):\n        allure.dynamic.description('描述：成功或失败都结束')\n        with allure.step('进入综合数据处理'):\n            self.click(self.datas_processing_son)\n            time.sleep(1)\n        with allure.step('点击待反馈'):\n            self.click(self.fed_back)\n            time.sleep(1)\n        with allure.step('点击勾选框'):\n            self.click(self.choose_checkbox)\n        with allure.step('面试成功'):\n            self.click(self.interview_sucess)\n            time.sleep(1)\n        with allure.step('点击面试时间框'):\n            self.click(self.interview_time_select)\n            time.sleep(1)\n        with allure.step('选择面试时间'):\n            self.click(self.interview_time_now)\n        with allure.step('确认'):\n            self.click(self.time_confirm_btn)\n            time.sleep(1)\n            self.screen_short()\n>           a=self.driver.getscreenshot_as_png()\nE           AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'\n\npages\\workplace_page\\data_processing_page\\data_processing_page.py:46: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657505674503,
+      "stop" : 1657505674546,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657505674546,
+      "stop" : 1657505695483,
+      "duration" : 20937
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "描述：成功或失败都结束",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'",
+    "statusTrace" : "remote_driver = <selenium.webdriver.remote.webdriver.WebDriver (session=\"3be02e62b7389c972197fb89017d8684\")>\n\n    @pytest.mark.run(order=4)\n    @pytest.mark.workspace1\n    @allure.feature(\"正常报备\")\n    @allure.story(\"报备人员面试通过\")\n    @allure.title(\"报备人员面试通过\")\n    def test_04(remote_driver):\n        wp = WorkPlace(remote_driver)\n        wp.open_datas()\n        dp=DataProcessing(remote_driver)\n>       dp.interview_results()\n\ncases\\test_case_pytest.py:115: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.workplace_page.data_processing_page.data_processing_page.DataProcessing object at 0x0475EB98>\n\n    def interview_results(self):\n        allure.dynamic.description('描述：成功或失败都结束')\n        with allure.step('进入综合数据处理'):\n            self.click(self.datas_processing_son)\n            time.sleep(1)\n        with allure.step('点击待反馈'):\n            self.click(self.fed_back)\n            time.sleep(1)\n        with allure.step('点击勾选框'):\n            self.click(self.choose_checkbox)\n        with allure.step('面试成功'):\n            self.click(self.interview_sucess)\n            time.sleep(1)\n        with allure.step('点击面试时间框'):\n            self.click(self.interview_time_select)\n            time.sleep(1)\n        with allure.step('选择面试时间'):\n            self.click(self.interview_time_now)\n        with allure.step('确认'):\n            self.click(self.time_confirm_btn)\n            time.sleep(1)\n            self.screen_short()\n>           a=self.driver.getscreenshot_as_png()\nE           AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'\n\npages\\workplace_page\\data_processing_page\\data_processing_page.py:46: AttributeError",
+    "steps" : [ {
+      "name" : "进入综合数据处理",
+      "time" : {
+        "start" : 1657505697766,
+        "stop" : 1657505699848,
+        "duration" : 2082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击待反馈",
+      "time" : {
+        "start" : 1657505699848,
+        "stop" : 1657505701408,
+        "duration" : 1560
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击勾选框",
+      "time" : {
+        "start" : 1657505701408,
+        "stop" : 1657505701943,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "面试成功",
+      "time" : {
+        "start" : 1657505701943,
+        "stop" : 1657505703541,
+        "duration" : 1598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击面试时间框",
+      "time" : {
+        "start" : 1657505703542,
+        "stop" : 1657505705007,
+        "duration" : 1465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择面试时间",
+      "time" : {
+        "start" : 1657505705008,
+        "stop" : 1657505705605,
+        "duration" : 597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "确认",
+      "time" : {
+        "start" : 1657505705605,
+        "stop" : 1657505707761,
+        "duration" : 2156
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'\n",
+      "statusTrace" : "  File \"D:\\selenium_compass\\pages\\workplace_page\\data_processing_page\\data_processing_page.py\", line 46, in interview_results\n    a=self.driver.getscreenshot_as_png()\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "89f0cfd0238cc0f8",
+      "name" : "log",
+      "source" : "89f0cfd0238cc0f8.txt",
+      "type" : "text/plain",
+      "size" : 2001
+    }, {
+      "uid" : "6db2b7702049c51a",
+      "name" : "stdout",
+      "source" : "6db2b7702049c51a.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "f9a737f61a730122",
+      "name" : "stderr",
+      "source" : "f9a737f61a730122.txt",
+      "type" : "text/plain",
+      "size" : 2200
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657505707861,
+      "stop" : 1657505708648,
+      "duration" : 787
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "正常报备"
+  }, {
+    "name" : "story",
+    "value" : "报备人员面试通过"
+  }, {
+    "name" : "tag",
+    "value" : "workspace1"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "11676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=4)", "workspace1" ]
+  },
+  "source" : "947982737d5bde7d.json",
+  "parameterValues" : [ ]
+}

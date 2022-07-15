@@ -1,0 +1,265 @@
+{
+  "uid" : "ccce84a32031fa2d",
+  "name" : "报备人员面试通过",
+  "fullName" : "cases.test_case_pytest#test_04",
+  "historyId" : "ba693dff19a7571f21ec7658a9d62b83",
+  "time" : {
+    "start" : 1657508134211,
+    "stop" : 1657508147160,
+    "duration" : 12949
+  },
+  "description" : "描述：成功或失败都结束",
+  "descriptionHtml" : "<p>描述：成功或失败都结束</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657508121670,
+      "stop" : 1657508134205,
+      "duration" : 12535
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657508121625,
+      "stop" : 1657508121670,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "描述：成功或失败都结束",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入综合数据处理",
+      "time" : {
+        "start" : 1657508137081,
+        "stop" : 1657508138984,
+        "duration" : 1903
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击待反馈",
+      "time" : {
+        "start" : 1657508138984,
+        "stop" : 1657508140439,
+        "duration" : 1455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击勾选框",
+      "time" : {
+        "start" : 1657508140439,
+        "stop" : 1657508140939,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "面试成功",
+      "time" : {
+        "start" : 1657508140939,
+        "stop" : 1657508142456,
+        "duration" : 1517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击面试时间框",
+      "time" : {
+        "start" : 1657508142456,
+        "stop" : 1657508143906,
+        "duration" : 1450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择面试时间",
+      "time" : {
+        "start" : 1657508143906,
+        "stop" : 1657508144392,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "确认",
+      "time" : {
+        "start" : 1657508144392,
+        "stop" : 1657508146777,
+        "duration" : 2385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35109e00f393307b",
+        "name" : "37fd6629-801a-42a4-aa8d-ed888d53be23-attachment.attach",
+        "source" : "35109e00f393307b.attach",
+        "type" : "image/png",
+        "size" : 448757
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击结束",
+      "time" : {
+        "start" : 1657508146777,
+        "stop" : 1657508147159,
+        "duration" : 382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3987b88d095654a5",
+      "name" : "log",
+      "source" : "3987b88d095654a5.txt",
+      "type" : "text/plain",
+      "size" : 2209
+    }, {
+      "uid" : "9e1a8a7af773117e",
+      "name" : "stdout",
+      "source" : "9e1a8a7af773117e.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "c5122b05a0f678ef",
+      "name" : "stderr",
+      "source" : "c5122b05a0f678ef.txt",
+      "type" : "text/plain",
+      "size" : 2426
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657508147161,
+      "stop" : 1657508147947,
+      "duration" : 786
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "正常报备"
+  }, {
+    "name" : "story",
+    "value" : "报备人员面试通过"
+  }, {
+    "name" : "tag",
+    "value" : "workspace1"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "23260-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=4)", "workspace1" ]
+  },
+  "source" : "ccce84a32031fa2d.json",
+  "parameterValues" : [ ]
+}

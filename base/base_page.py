@@ -2,9 +2,11 @@ import logging
 import os
 import time
 
+import allure
 from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
 
 from logs import log_base
 
@@ -23,6 +25,8 @@ class BasePage:
         logging.info('定位元素{}'.format(loc))
         time.sleep(0.3)
         try:
+            # WebDriverWait(self.driver,10).until(self.driver.find_element(*loc))
+
             self.driver.find_element(*loc)
         except NoSuchElementException:
             self.screen_short()
@@ -40,10 +44,14 @@ class BasePage:
 
 
     def assert_text(self,loc,expect):
-        logging.info('断言有无{}'.format(expect))
+        logging.info('断言有无：{}'.format(expect))
         try:
             assert expect in self.locator(loc).text
+            return True
         except:
+            self.screen_short()
+            screen_short = self.driver.get_screenshot_as_png()
+            allure.attach(screen_short)
             return False
 
     def screen_short(self):

@@ -1,0 +1,210 @@
+{
+  "uid" : "840e0a72a0a17de4",
+  "name" : "处理异常报备的审批",
+  "fullName" : "cases.test_case_pytest#test_02",
+  "historyId" : "ec6c7697eccf0d2352349660173774e3",
+  "time" : {
+    "start" : 1657515876780,
+    "stop" : 1657515883579,
+    "duration" : 6799
+  },
+  "description" : "审批管理",
+  "descriptionHtml" : "<p>审批管理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657515842684,
+      "stop" : 1657515859316,
+      "duration" : 16632
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657515842636,
+      "stop" : 1657515842684,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "审批管理",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我审批的",
+      "time" : {
+        "start" : 1657515877193,
+        "stop" : 1657515878817,
+        "duration" : 1624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择审批类型",
+      "time" : {
+        "start" : 1657515878817,
+        "stop" : 1657515880242,
+        "duration" : 1425
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "打开详情",
+      "time" : {
+        "start" : 1657515880242,
+        "stop" : 1657515881703,
+        "duration" : 1461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入审批意见",
+      "time" : {
+        "start" : 1657515881703,
+        "stop" : 1657515882184,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "通过",
+      "time" : {
+        "start" : 1657515882184,
+        "stop" : 1657515882571,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "802ce89622eb7605",
+      "name" : "log",
+      "source" : "802ce89622eb7605.txt",
+      "type" : "text/plain",
+      "size" : 1230
+    }, {
+      "uid" : "a2295e522503efb",
+      "name" : "stderr",
+      "source" : "a2295e522503efb.txt",
+      "type" : "text/plain",
+      "size" : 1339
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657516805406,
+      "stop" : 1657516805416,
+      "duration" : 10
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: Unable to route (DELETE) /session/e5902a8d1c915c951c73023513bec668\n\n",
+    "statusTrace" : "  File \"d:\\工具\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"d:\\工具\\python\\lib\\site-packages\\_pytest\\fixtures.py\", line 941, in _teardown_yield_fixture\n    next(it)\n  File \"D:\\selenium_compass\\cases\\test_case_pytest.py\", line 45, in remote_driver\n    driver.quit()\n  File \"d:\\工具\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 955, in quit\n    self.execute(Command.QUIT)\n  File \"d:\\工具\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 430, in execute\n    self.error_handler.check_response(response)\n  File \"d:\\工具\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 247, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "异常报备"
+  }, {
+    "name" : "story",
+    "value" : "处理异常报备的审批"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "25904-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "workspace" ]
+  },
+  "source" : "840e0a72a0a17de4.json",
+  "parameterValues" : [ ]
+}

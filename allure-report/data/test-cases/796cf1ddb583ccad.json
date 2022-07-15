@@ -1,0 +1,310 @@
+{
+  "uid" : "796cf1ddb583ccad",
+  "name" : "发起异常报备",
+  "fullName" : "cases.test_case_pytest#test_01",
+  "historyId" : "2a355f25c142cade234abd3e04252c15",
+  "time" : {
+    "start" : 1657508516465,
+    "stop" : 1657508531203,
+    "duration" : 14738
+  },
+  "description" : "招聘管理",
+  "descriptionHtml" : "<p>招聘管理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657508504609,
+      "stop" : 1657508516460,
+      "duration" : 11851
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657508504566,
+      "stop" : 1657508504609,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "招聘管理",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "招聘中心",
+      "time" : {
+        "start" : 1657508519919,
+        "stop" : 1657508521708,
+        "duration" : 1789
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "我要报备",
+      "time" : {
+        "start" : 1657508521709,
+        "stop" : 1657508522311,
+        "duration" : 602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择异常报备",
+      "time" : {
+        "start" : 1657508522311,
+        "stop" : 1657508523799,
+        "duration" : 1488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择需求框",
+      "time" : {
+        "start" : 1657508523799,
+        "stop" : 1657508524286,
+        "duration" : 487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择报备测试",
+      "time" : {
+        "start" : 1657508524286,
+        "stop" : 1657508524747,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "下一步",
+      "time" : {
+        "start" : 1657508524747,
+        "stop" : 1657508525256,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "执行脚本生成异常报备数据",
+      "time" : {
+        "start" : 1657508525257,
+        "stop" : 1657508526398,
+        "duration" : 1141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1657508526398,
+        "stop" : 1657508527842,
+        "duration" : 1444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "下一步",
+      "time" : {
+        "start" : 1657508527842,
+        "stop" : 1657508529296,
+        "duration" : 1454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4bb8e0a1d3a0e7a",
+        "name" : "c6c9aef1-d710-4a66-8533-a27bf2ea57a4-attachment.attach",
+        "source" : "4bb8e0a1d3a0e7a.attach",
+        "type" : "image/png",
+        "size" : 423822
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1657508529296,
+        "stop" : 1657508529702,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击关闭",
+      "time" : {
+        "start" : 1657508529703,
+        "stop" : 1657508530193,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b89763546f0c5beb",
+      "name" : "log",
+      "source" : "b89763546f0c5beb.txt",
+      "type" : "text/plain",
+      "size" : 2603
+    }, {
+      "uid" : "b92f6b0e63799ee",
+      "name" : "stdout",
+      "source" : "b92f6b0e63799ee.txt",
+      "type" : "text/plain",
+      "size" : 133
+    }, {
+      "uid" : "e8d33579980367b",
+      "name" : "stderr",
+      "source" : "e8d33579980367b.txt",
+      "type" : "text/plain",
+      "size" : 2856
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657508562717,
+      "stop" : 1657508563570,
+      "duration" : 853
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "异常报备"
+  }, {
+    "name" : "story",
+    "value" : "发起异常报备"
+  }, {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "14700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "workspace", "run(order=1)" ]
+  },
+  "source" : "796cf1ddb583ccad.json",
+  "parameterValues" : [ ]
+}

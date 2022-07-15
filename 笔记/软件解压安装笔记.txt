@@ -1,0 +1,15 @@
+yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel			安装依赖环境
+							
+wget https://www.python.org/ftp/python/3.8.9/Python-3.8.9.tgz	下载压缩包
+cd /opt							切换到opt路径
+tar -zxvf Python-3.8.9.tgz					解压安装包
+
+./configure 	
+make && make install		编译安装	默认在这个路径下生成文件夹/usr/local/python-3.8.9
+					
+
+ln -s /usr/local/bin/python3 /usr/bin/python			
+					把系统自带的python2和安装完的python3建立软链接
+
+
+

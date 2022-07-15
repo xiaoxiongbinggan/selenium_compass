@@ -1,0 +1,136 @@
+{
+  "uid" : "ac29b38844678716",
+  "name" : "test_01",
+  "fullName" : "cases.test_case_pytest#test_01",
+  "historyId" : "2a355f25c142cade234abd3e04252c15",
+  "time" : {
+    "start" : 1657365010922,
+    "stop" : 1657365027123,
+    "duration" : 16201
+  },
+  "description" : "招聘管理",
+  "descriptionHtml" : "<p>招聘管理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657364994382,
+      "stop" : 1657365010917,
+      "duration" : 16535
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657364994255,
+      "stop" : 1657364994382,
+      "duration" : 127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "招聘管理",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c95eccd7118ff09",
+      "name" : "log",
+      "source" : "6c95eccd7118ff09.txt",
+      "type" : "text/plain",
+      "size" : 2607
+    }, {
+      "uid" : "5faa27eae7b501e",
+      "name" : "stdout",
+      "source" : "5faa27eae7b501e.txt",
+      "type" : "text/plain",
+      "size" : 252
+    }, {
+      "uid" : "10ef2d68a3f46d52",
+      "name" : "stderr",
+      "source" : "10ef2d68a3f46d52.txt",
+      "type" : "text/plain",
+      "size" : 2860
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657365062659,
+      "stop" : 1657365063568,
+      "duration" : 909
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "发起异常报备"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "20744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "workspace", "run(order=1)" ]
+  },
+  "source" : "ac29b38844678716.json",
+  "parameterValues" : [ ]
+}

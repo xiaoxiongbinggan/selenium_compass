@@ -1,0 +1,374 @@
+{
+  "uid" : "566fc4e15cd02ab0",
+  "name" : "发起正常报备",
+  "fullName" : "cases.test_case_pytest#test_03",
+  "historyId" : "16f22687593725c12106086be8d125a7",
+  "time" : {
+    "start" : 1657688681938,
+    "stop" : 1657688694215,
+    "duration" : 12277
+  },
+  "description" : "招聘管理",
+  "descriptionHtml" : "<p>招聘管理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657688642911,
+      "stop" : 1657688658957,
+      "duration" : 16046
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657688642861,
+      "stop" : 1657688642911,
+      "duration" : 50
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "招聘管理",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "招聘中心",
+      "time" : {
+        "start" : 1657688683381,
+        "stop" : 1657688684846,
+        "duration" : 1465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "我要报备",
+      "time" : {
+        "start" : 1657688684846,
+        "stop" : 1657688686341,
+        "duration" : 1495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击需求框",
+      "time" : {
+        "start" : 1657688686341,
+        "stop" : 1657688687790,
+        "duration" : 1449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择报备测试",
+      "time" : {
+        "start" : 1657688687790,
+        "stop" : 1657688688217,
+        "duration" : 427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "下一步",
+      "time" : {
+        "start" : 1657688688217,
+        "stop" : 1657688688669,
+        "duration" : 452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "执行脚本生成正常报备数据",
+      "time" : {
+        "start" : 1657688688669,
+        "stop" : 1657688689736,
+        "duration" : 1067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1657688689736,
+        "stop" : 1657688691167,
+        "duration" : 1431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "下一步",
+      "time" : {
+        "start" : 1657688691167,
+        "stop" : 1657688692370,
+        "duration" : 1203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c224c8fa8247c4fa",
+        "name" : "3add1ee1-fade-4ad3-91a4-af511a2a4cb1-attachment.attach",
+        "source" : "c224c8fa8247c4fa.attach",
+        "type" : "image/png",
+        "size" : 408363
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1657688692370,
+        "stop" : 1657688693203,
+        "duration" : 833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "25c12acfbbef8cdb",
+      "name" : "log",
+      "source" : "25c12acfbbef8cdb.txt",
+      "type" : "text/plain",
+      "size" : 1926
+    }, {
+      "uid" : "8adb3ff6a752500c",
+      "name" : "stdout",
+      "source" : "8adb3ff6a752500c.txt",
+      "type" : "text/plain",
+      "size" : 133
+    }, {
+      "uid" : "a425e1fa8a435da5",
+      "name" : "stderr",
+      "source" : "a425e1fa8a435da5.txt",
+      "type" : "text/plain",
+      "size" : 2107
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657688703958,
+      "stop" : 1657688704742,
+      "duration" : 784
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "正常报备"
+  }, {
+    "name" : "story",
+    "value" : "发起正常报备"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "1184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f2a2bc0a06f9b1b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657626590530,
+        "stop" : 1657626603160,
+        "duration" : 12630
+      }
+    }, {
+      "uid" : "8cc1ab04f659034b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'NoneType'",
+      "time" : {
+        "start" : 1657610132771,
+        "stop" : 1657610152208,
+        "duration" : 19437
+      }
+    }, {
+      "uid" : "846724534a3741f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657516874496,
+        "stop" : 1657516887703,
+        "duration" : 13207
+      }
+    }, {
+      "uid" : "c50996b8fe40d310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657515883585,
+        "stop" : 1657515938155,
+        "duration" : 54570
+      }
+    }, {
+      "uid" : "d4b07736d9f6581c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657509289112,
+        "stop" : 1657509343072,
+        "duration" : 53960
+      }
+    }, {
+      "uid" : "3759f7d6e4d9e3ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657508538458,
+        "stop" : 1657508551740,
+        "duration" : 13282
+      }
+    }, {
+      "uid" : "46a5fae915430144",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657442122922,
+        "stop" : 1657442135483,
+        "duration" : 12561
+      }
+    }, {
+      "uid" : "bdf4dc5f6e40fc4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657441787764,
+        "stop" : 1657441799004,
+        "duration" : 11240
+      }
+    }, {
+      "uid" : "3c16a1ee9eb10323",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=103.0.5060.114)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x007DD953+2414931]\n\tOrdinal0 [0x0076F5E1+1963489]\n\tOrdinal0 [0x0065C6B8+837304]\n\tOrdinal0 [0x006830EA+995562]\n\tOrdinal0 [0x006A449C+1131676]\n\tOrdinal0 [0x0067FC74+982132]\n\tOrdinal0 [0x006A46B4+1132212]\n\tOrdinal0 [0x006B4812+1198098]\n\tOrdinal0 [0x006A42B6+1131190]\n\tOrdinal0 [0x0067E860+976992]\n\tOrdinal0 [0x0067F756+980822]\n\tGetHandleVerifier [0x00A4CC62+2510274]\n\tGetHandleVerifier [0x00A3F760+2455744]\n\tGetHandleVerifier [0x0086EABA+551962]\n\tGetHandleVerifier [0x0086D916+547446]\n\tOrdinal0 [0x00775F3B+1990459]\n\tOrdinal0 [0x0077A898+2009240]\n\tOrdinal0 [0x0077A985+2009477]\n\tOrdinal0 [0x00783AD1+2046673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A6E+238]",
+      "time" : {
+        "start" : 1657435399634,
+        "stop" : 1657435407796,
+        "duration" : 8162
+      }
+    }, {
+      "uid" : "4d216eaab6ec060e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=103.0.5060.114)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x007DD953+2414931]\n\tOrdinal0 [0x0076F5E1+1963489]\n\tOrdinal0 [0x0065C6B8+837304]\n\tOrdinal0 [0x006830EA+995562]\n\tOrdinal0 [0x006A449C+1131676]\n\tOrdinal0 [0x0067FC74+982132]\n\tOrdinal0 [0x006A46B4+1132212]\n\tOrdinal0 [0x006B4812+1198098]\n\tOrdinal0 [0x006A42B6+1131190]\n\tOrdinal0 [0x0067E860+976992]\n\tOrdinal0 [0x0067F756+980822]\n\tGetHandleVerifier [0x00A4CC62+2510274]\n\tGetHandleVerifier [0x00A3F760+2455744]\n\tGetHandleVerifier [0x0086EABA+551962]\n\tGetHandleVerifier [0x0086D916+547446]\n\tOrdinal0 [0x00775F3B+1990459]\n\tOrdinal0 [0x0077A898+2009240]\n\tOrdinal0 [0x0077A985+2009477]\n\tOrdinal0 [0x00783AD1+2046673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A6E+238]",
+      "time" : {
+        "start" : 1657365538655,
+        "stop" : 1657365548751,
+        "duration" : 10096
+      }
+    }, {
+      "uid" : "47a7e02f94fa53f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=103.0.5060.114)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x007DD953+2414931]\n\tOrdinal0 [0x0076F5E1+1963489]\n\tOrdinal0 [0x0065C6B8+837304]\n\tOrdinal0 [0x006830EA+995562]\n\tOrdinal0 [0x006A449C+1131676]\n\tOrdinal0 [0x0067FC74+982132]\n\tOrdinal0 [0x006A46B4+1132212]\n\tOrdinal0 [0x006B4812+1198098]\n\tOrdinal0 [0x006A42B6+1131190]\n\tOrdinal0 [0x0067E860+976992]\n\tOrdinal0 [0x0067F756+980822]\n\tGetHandleVerifier [0x00A4CC62+2510274]\n\tGetHandleVerifier [0x00A3F760+2455744]\n\tGetHandleVerifier [0x0086EABA+551962]\n\tGetHandleVerifier [0x0086D916+547446]\n\tOrdinal0 [0x00775F3B+1990459]\n\tOrdinal0 [0x0077A898+2009240]\n\tOrdinal0 [0x0077A985+2009477]\n\tOrdinal0 [0x00783AD1+2046673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A6E+238]",
+      "time" : {
+        "start" : 1657365051319,
+        "stop" : 1657365060793,
+        "duration" : 9474
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "workspace" ]
+  },
+  "source" : "566fc4e15cd02ab0.json",
+  "parameterValues" : [ ]
+}

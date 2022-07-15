@@ -1,0 +1,392 @@
+{
+  "uid" : "1fc6c48cef55c59c",
+  "name" : "报备人员面试通过",
+  "fullName" : "cases.test_case_pytest#test_04",
+  "historyId" : "ba693dff19a7571f21ec7658a9d62b83",
+  "time" : {
+    "start" : 1657516887729,
+    "stop" : 1657516898278,
+    "duration" : 10549
+  },
+  "description" : "描述：成功或失败都结束",
+  "descriptionHtml" : "<p>描述：成功或失败都结束</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657516839449,
+      "stop" : 1657516853045,
+      "duration" : 13596
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657516839400,
+      "stop" : 1657516839448,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "描述：成功或失败都结束",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入综合数据处理",
+      "time" : {
+        "start" : 1657516888143,
+        "stop" : 1657516889996,
+        "duration" : 1853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击待反馈",
+      "time" : {
+        "start" : 1657516889996,
+        "stop" : 1657516891476,
+        "duration" : 1480
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击勾选框",
+      "time" : {
+        "start" : 1657516891476,
+        "stop" : 1657516891994,
+        "duration" : 518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "面试成功",
+      "time" : {
+        "start" : 1657516891994,
+        "stop" : 1657516893528,
+        "duration" : 1534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击面试时间框",
+      "time" : {
+        "start" : 1657516893528,
+        "stop" : 1657516895038,
+        "duration" : 1510
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择面试时间",
+      "time" : {
+        "start" : 1657516895038,
+        "stop" : 1657516895514,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "确认",
+      "time" : {
+        "start" : 1657516895514,
+        "stop" : 1657516897829,
+        "duration" : 2315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bf2938b2ed43ce9",
+        "name" : "21eb1efc-906e-42b6-b916-585c4c53c3bc-attachment.attach",
+        "source" : "3bf2938b2ed43ce9.attach",
+        "type" : "image/png",
+        "size" : 461418
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击结束",
+      "time" : {
+        "start" : 1657516897829,
+        "stop" : 1657516898277,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "83ab01fc0dcd887a",
+      "name" : "log",
+      "source" : "83ab01fc0dcd887a.txt",
+      "type" : "text/plain",
+      "size" : 1709
+    }, {
+      "uid" : "83e1a1aeffc4ff97",
+      "name" : "stdout",
+      "source" : "83e1a1aeffc4ff97.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "ae6cf96eda855e80",
+      "name" : "stderr",
+      "source" : "ae6cf96eda855e80.txt",
+      "type" : "text/plain",
+      "size" : 1872
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657516898278,
+      "stop" : 1657516899077,
+      "duration" : 799
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "正常报备"
+  }, {
+    "name" : "story",
+    "value" : "报备人员面试通过"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "tag",
+    "value" : "workspace"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "4112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3f898082630ba95e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: Unable to execute request for an existing session: NettyHttpHandler request execution error\nStacktrace:\njava.lang.RuntimeException: Unable to execute request for an existing session: NettyHttpHandler request execution error\r\n\tat org.openqa.selenium.grid.router.HandleSession.execute(HandleSession.java:151)\r\n\tat org.openqa.selenium.remote.http.Route$PredicatedRoute.handle(Route.java:373)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:336)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.grid.router.Router.execute(Router.java:91)\r\n\tat org.openqa.selenium.grid.web.CheckOriginHeader.lambda$apply$0(CheckOriginHeader.java:66)\r\n\tat org.openqa.selenium.grid.web.CheckContentTypeHeader.lambda$apply$0(CheckContentTypeHeader.java:70)\r\n\tat org.openqa.selenium.grid.web.EnsureSpecCompliantResponseHeaders.lambda$apply$0(EnsureSpecCompliantResponseHeaders.java:34)\r\n\tat org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)\r\n\tat org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:336)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.remote.http.Route$NestedRoute.handle(Route.java:270)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:336)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:336)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.remote.AddWebDriverSpecHeaders.lambda$apply$0(AddWebDriverSpecHeaders.java:35)\r\n\tat org.openqa.selenium.remote.ErrorFilter.lambda$apply$0(ErrorFilter.java:44)\r\n\tat org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)\r\n\tat org.openqa.selenium.remote.ErrorFilter.lambda$apply$0(ErrorFilter.java:44)\r\n\tat org.openqa.selenium.remote.http.Filter$1.execute(Filter.java:64)\r\n\tat org.openqa.selenium.netty.server.SeleniumHandler.lambda$channelRead0$0(SeleniumHandler.java:44)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\nCaused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:60648 after 300000 ms\r\n\tat java.util.concurrent.CompletableFuture.reportGet(Unknown Source)\r\n\tat java.util.concurrent.CompletableFuture.get(Unknown Source)\r\n\tat org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)\r\n\tat org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)\r\n\tat org.openqa.selenium.grid.web.ReverseProxyHandler.execute(ReverseProxyHandler.java:92)\r\n\tat org.openqa.selenium.grid.node.ProtocolConvertingSession.execute(ProtocolConvertingSession.java:75)\r\n\tat org.openqa.selenium.grid.node.local.SessionSlot.execute(SessionSlot.java:125)\r\n\tat org.openqa.selenium.grid.node.local.LocalNode.executeWebDriverCommand(LocalNode.java:447)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.AddWebDriverSpecHeaders.lambda$apply$0(AddWebDriverSpecHeaders.java:35)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.grid.security.AddSecretFilter.lambda$apply$0(AddSecretFilter.java:40)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.grid.node.CustomLocatorHandler.execute(CustomLocatorHandler.java:128)\r\n\tat org.openqa.selenium.remote.http.Route$CombinedRoute.handle(Route.java:336)\r\n\tat org.openqa.selenium.remote.http.Route.execute(Route.java:68)\r\n\tat org.openqa.selenium.grid.node.Node.execute(Node.java:240)\r\n\tat org.openqa.selenium.grid.web.CombinedHandler.execute(CombinedHandler.java:59)\r\n\tat org.openqa.selenium.grid.web.RoutableHttpClientFactory$1.execute(RoutableHttpClientFactory.java:72)\r\n\tat org.openqa.selenium.grid.web.ReverseProxyHandler.execute(ReverseProxyHandler.java:92)\r\n\tat org.openqa.selenium.grid.router.HandleSession.execute(HandleSession.java:122)\r\n\t... 28 more\r\nCaused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:60648 after 300000 ms\r\n\tat org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)\r\n\tat org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)\r\n\tat io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)\r\n\tat io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)\r\n\tat io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)\r\n\tat io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)\r\n\tat io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)\r\n\tat io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\r\n\t... 1 more",
+      "time" : {
+        "start" : 1657515938183,
+        "stop" : 1657516805131,
+        "duration" : 866948
+      }
+    }, {
+      "uid" : "8f7af2c3fb6a75d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657509343078,
+        "stop" : 1657509353514,
+        "duration" : 10436
+      }
+    }, {
+      "uid" : "527d52e509fc5962",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657508551750,
+        "stop" : 1657508562716,
+        "duration" : 10966
+      }
+    }, {
+      "uid" : "b231f78f420d5cd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657508134211,
+        "stop" : 1657508147160,
+        "duration" : 12949
+      }
+    }, {
+      "uid" : "b66c7265ddb2225a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657506983223,
+        "stop" : 1657506995914,
+        "duration" : 12691
+      }
+    }, {
+      "uid" : "a07185f830e60c8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657505921092,
+        "stop" : 1657505934512,
+        "duration" : 13420
+      }
+    }, {
+      "uid" : "6ca2523c51dc3715",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'",
+      "time" : {
+        "start" : 1657505695493,
+        "stop" : 1657505707762,
+        "duration" : 12269
+      }
+    }, {
+      "uid" : "a81cad8d5a2c9524",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'getscreenshot_as_png'",
+      "time" : {
+        "start" : 1657505515343,
+        "stop" : 1657505525493,
+        "duration" : 10150
+      }
+    }, {
+      "uid" : "3f2cc0d6639a8476",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657442135494,
+        "stop" : 1657442144747,
+        "duration" : 9253
+      }
+    }, {
+      "uid" : "87146b45407ad99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657441799026,
+        "stop" : 1657441808152,
+        "duration" : 9126
+      }
+    }, {
+      "uid" : "32955c23f83d45d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657366183976,
+        "stop" : 1657366198267,
+        "duration" : 14291
+      }
+    }, {
+      "uid" : "660ab2754db2bcd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657365928373,
+        "stop" : 1657365941998,
+        "duration" : 13625
+      }
+    }, {
+      "uid" : "ae8191f5ce7904b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 152). Other element would receive the click: <div tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"rcDialogTitle1\" class=\"ant-modal-wrap \">...</div>\n  (Session info: chrome=103.0.5060.114)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x007DD953+2414931]\n\tOrdinal0 [0x0076F5E1+1963489]\n\tOrdinal0 [0x0065C6B8+837304]\n\tOrdinal0 [0x0068FC27+1047591]\n\tOrdinal0 [0x0068DC08+1039368]\n\tOrdinal0 [0x0068B90B+1030411]\n\tOrdinal0 [0x0068A659+1025625]\n\tOrdinal0 [0x00680293+983699]\n\tOrdinal0 [0x006A449C+1131676]\n\tOrdinal0 [0x0067FC74+982132]\n\tOrdinal0 [0x006A46B4+1132212]\n\tOrdinal0 [0x006B4812+1198098]\n\tOrdinal0 [0x006A42B6+1131190]\n\tOrdinal0 [0x0067E860+976992]\n\tOrdinal0 [0x0067F756+980822]\n\tGetHandleVerifier [0x00A4CC62+2510274]\n\tGetHandleVerifier [0x00A3F760+2455744]\n\tGetHandleVerifier [0x0086EABA+551962]\n\tGetHandleVerifier [0x0086D916+547446]\n\tOrdinal0 [0x00775F3B+1990459]\n\tOrdinal0 [0x0077A898+2009240]\n\tOrdinal0 [0x0077A985+2009477]\n\tOrdinal0 [0x00783AD1+2046673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A6E+238]",
+      "time" : {
+        "start" : 1657365548943,
+        "stop" : 1657365550460,
+        "duration" : 1517
+      }
+    }, {
+      "uid" : "e847118b32b31e99",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div aria-haspopup=\"true\" class=\"ant-menu-submenu-title\" style=\"padding-left: 24px;\">...</div> is not clickable at point (135, 152). Other element would receive the click: <div tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"rcDialogTitle1\" class=\"ant-modal-wrap \">...</div>\n  (Session info: chrome=103.0.5060.114)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x007DD953+2414931]\n\tOrdinal0 [0x0076F5E1+1963489]\n\tOrdinal0 [0x0065C6B8+837304]\n\tOrdinal0 [0x0068FC27+1047591]\n\tOrdinal0 [0x0068DC08+1039368]\n\tOrdinal0 [0x0068B90B+1030411]\n\tOrdinal0 [0x0068A659+1025625]\n\tOrdinal0 [0x00680293+983699]\n\tOrdinal0 [0x006A449C+1131676]\n\tOrdinal0 [0x0067FC74+982132]\n\tOrdinal0 [0x006A46B4+1132212]\n\tOrdinal0 [0x006B4812+1198098]\n\tOrdinal0 [0x006A42B6+1131190]\n\tOrdinal0 [0x0067E860+976992]\n\tOrdinal0 [0x0067F756+980822]\n\tGetHandleVerifier [0x00A4CC62+2510274]\n\tGetHandleVerifier [0x00A3F760+2455744]\n\tGetHandleVerifier [0x0086EABA+551962]\n\tGetHandleVerifier [0x0086D916+547446]\n\tOrdinal0 [0x00775F3B+1990459]\n\tOrdinal0 [0x0077A898+2009240]\n\tOrdinal0 [0x0077A985+2009477]\n\tOrdinal0 [0x00783AD1+2046673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77AB7A6E+238]",
+      "time" : {
+        "start" : 1657365060987,
+        "stop" : 1657365062476,
+        "duration" : 1489
+      }
+    }, {
+      "uid" : "e1ef0fc4404dae33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657364910578,
+        "stop" : 1657364924436,
+        "duration" : 13858
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "workspace", "run(order=4)" ]
+  },
+  "source" : "1fc6c48cef55c59c.json",
+  "parameterValues" : [ ]
+}

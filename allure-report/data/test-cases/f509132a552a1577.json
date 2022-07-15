@@ -1,0 +1,301 @@
+{
+  "uid" : "f509132a552a1577",
+  "name" : "发起异常报备",
+  "fullName" : "cases.test_case_pytest#test_01",
+  "historyId" : "2a355f25c142cade234abd3e04252c15",
+  "time" : {
+    "start" : 1657610272231,
+    "stop" : 1657610288859,
+    "duration" : 16628
+  },
+  "description" : "招聘管理",
+  "descriptionHtml" : "<p>招聘管理</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: a bytes-like object is required, not 'NoneType'",
+  "statusTrace" : "self = <pages.workplace_page.recruit_page.recruit_page.Recruit object at 0x04A1BB50>\nloc = ('xpath', \"//*[@class='ant-message-custom-content ant-message-success']/span\")\nexpect = '上传成功！1'\n\n    def assert_text(self,loc,expect):\n        logging.info('断言有无{}'.format(expect))\n        try:\n>           assert expect in self.locator(loc).text\nE           AssertionError\n\nbase\\base_page.py:48: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nremote_driver = <selenium.webdriver.remote.webdriver.WebDriver (session=\"d5c627d8c3acda05933a45b568ff9049\")>\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.workspace1\n    @allure.feature(\"异常报备\")\n    @allure.story(\"发起异常报备\")\n    @allure.title(\"发起异常报备\")\n    def test_01(remote_driver):\n        wp=WorkPlace(remote_driver)\n        re = Recruit(remote_driver)\n        wp.open_recruit()\n>       re.abnormal_report(1)\n\ncases\\test_case_pytest.py:77: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\workplace_page\\recruit_page\\recruit_page.py:92: in abnormal_report\n    self.assert_text(self.tips,'上传成功！1')\nbase\\base_page.py:54: in assert_text\n    allure.attach(self.screen_short())\nd:\\工具\\python\\lib\\site-packages\\allure_commons\\_allure.py:179: in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nd:\\工具\\python\\lib\\site-packages\\allure_pytest\\listener.py:222: in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\nd:\\工具\\python\\lib\\site-packages\\allure_commons\\reporter.py:119: in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <allure_commons.logger.AllureFileLogger object at 0x042184D8>\nbody = None\nfile_name = '8073c513-c950-419b-975b-ff19dbe0cb20-attachment.attach'\n\n    @hookimpl\n    def report_attached_data(self, body, file_name):\n        destination = os.path.join(self._report_dir, file_name)\n        with open(destination, 'wb') as attached_file:\n            if isinstance(body, text_type):\n                attached_file.write(body.encode('utf-8'))\n            else:\n>               attached_file.write(body)\nE               TypeError: a bytes-like object is required, not 'NoneType'\n\nd:\\工具\\python\\lib\\site-packages\\allure_commons\\logger.py:62: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657610254917,
+      "stop" : 1657610255106,
+      "duration" : 189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657610255106,
+      "stop" : 1657610272229,
+      "duration" : 17123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "招聘管理",
+    "status" : "broken",
+    "statusMessage" : "TypeError: a bytes-like object is required, not 'NoneType'",
+    "statusTrace" : "self = <pages.workplace_page.recruit_page.recruit_page.Recruit object at 0x04A1BB50>\nloc = ('xpath', \"//*[@class='ant-message-custom-content ant-message-success']/span\")\nexpect = '上传成功！1'\n\n    def assert_text(self,loc,expect):\n        logging.info('断言有无{}'.format(expect))\n        try:\n>           assert expect in self.locator(loc).text\nE           AssertionError\n\nbase\\base_page.py:48: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nremote_driver = <selenium.webdriver.remote.webdriver.WebDriver (session=\"d5c627d8c3acda05933a45b568ff9049\")>\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.workspace1\n    @allure.feature(\"异常报备\")\n    @allure.story(\"发起异常报备\")\n    @allure.title(\"发起异常报备\")\n    def test_01(remote_driver):\n        wp=WorkPlace(remote_driver)\n        re = Recruit(remote_driver)\n        wp.open_recruit()\n>       re.abnormal_report(1)\n\ncases\\test_case_pytest.py:77: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\workplace_page\\recruit_page\\recruit_page.py:92: in abnormal_report\n    self.assert_text(self.tips,'上传成功！1')\nbase\\base_page.py:54: in assert_text\n    allure.attach(self.screen_short())\nd:\\工具\\python\\lib\\site-packages\\allure_commons\\_allure.py:179: in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nd:\\工具\\python\\lib\\site-packages\\allure_pytest\\listener.py:222: in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\nd:\\工具\\python\\lib\\site-packages\\allure_commons\\reporter.py:119: in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\nd:\\工具\\python\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <allure_commons.logger.AllureFileLogger object at 0x042184D8>\nbody = None\nfile_name = '8073c513-c950-419b-975b-ff19dbe0cb20-attachment.attach'\n\n    @hookimpl\n    def report_attached_data(self, body, file_name):\n        destination = os.path.join(self._report_dir, file_name)\n        with open(destination, 'wb') as attached_file:\n            if isinstance(body, text_type):\n                attached_file.write(body.encode('utf-8'))\n            else:\n>               attached_file.write(body)\nE               TypeError: a bytes-like object is required, not 'NoneType'\n\nd:\\工具\\python\\lib\\site-packages\\allure_commons\\logger.py:62: TypeError",
+    "steps" : [ {
+      "name" : "招聘中心",
+      "time" : {
+        "start" : 1657610275138,
+        "stop" : 1657610277704,
+        "duration" : 2566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "我要报备",
+      "time" : {
+        "start" : 1657610277704,
+        "stop" : 1657610278817,
+        "duration" : 1113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择异常报备",
+      "time" : {
+        "start" : 1657610278817,
+        "stop" : 1657610280635,
+        "duration" : 1818
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择需求框",
+      "time" : {
+        "start" : 1657610280635,
+        "stop" : 1657610281418,
+        "duration" : 783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择报备测试",
+      "time" : {
+        "start" : 1657610281419,
+        "stop" : 1657610282249,
+        "duration" : 830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "下一步",
+      "time" : {
+        "start" : 1657610282249,
+        "stop" : 1657610283170,
+        "duration" : 921
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "执行脚本生成异常报备数据",
+      "time" : {
+        "start" : 1657610283170,
+        "stop" : 1657610284421,
+        "duration" : 1251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1657610284421,
+        "stop" : 1657610286331,
+        "duration" : 1910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "下一步",
+      "time" : {
+        "start" : 1657610286331,
+        "stop" : 1657610287065,
+        "duration" : 734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1657610287065,
+        "stop" : 1657610288846,
+        "duration" : 1781
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: a bytes-like object is required, not 'NoneType'\n",
+      "statusTrace" : "  File \"D:\\selenium_compass\\pages\\workplace_page\\recruit_page\\recruit_page.py\", line 92, in abnormal_report\n    self.assert_text(self.tips,'上传成功！1')\n  File \"D:\\selenium_compass\\base\\base_page.py\", line 54, in assert_text\n    allure.attach(self.screen_short())\n  File \"d:\\工具\\python\\lib\\site-packages\\allure_commons\\_allure.py\", line 179, in __call__\n    plugin_manager.hook.attach_data(body=body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_hooks.py\", line 265, in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_manager.py\", line 80, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_callers.py\", line 60, in _multicall\n    return outcome.get_result()\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_result.py\", line 60, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"d:\\工具\\python\\lib\\site-packages\\allure_pytest\\listener.py\", line 222, in attach_data\n    self.allure_logger.attach_data(uuid4(), body, name=name, attachment_type=attachment_type, extension=extension)\n  File \"d:\\工具\\python\\lib\\site-packages\\allure_commons\\reporter.py\", line 119, in attach_data\n    plugin_manager.hook.report_attached_data(body=body, file_name=file_name)\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_hooks.py\", line 265, in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_manager.py\", line 80, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_callers.py\", line 60, in _multicall\n    return outcome.get_result()\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_result.py\", line 60, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"d:\\工具\\python\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"d:\\工具\\python\\lib\\site-packages\\allure_commons\\logger.py\", line 62, in report_attached_data\n    attached_file.write(body)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43d30ad7b6925097",
+        "name" : "8073c513-c950-419b-975b-ff19dbe0cb20-attachment.attach",
+        "source" : "43d30ad7b6925097.attach",
+        "type" : "application/octet-stream",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "15da4b43468a8540",
+      "name" : "log",
+      "source" : "15da4b43468a8540.txt",
+      "type" : "text/plain",
+      "size" : 2424
+    }, {
+      "uid" : "255decad7ca33fc6",
+      "name" : "stdout",
+      "source" : "255decad7ca33fc6.txt",
+      "type" : "text/plain",
+      "size" : 133
+    }, {
+      "uid" : "496833f89570b05a",
+      "name" : "stderr",
+      "source" : "496833f89570b05a.txt",
+      "type" : "text/plain",
+      "size" : 2659
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657610289429,
+      "stop" : 1657610290402,
+      "duration" : 973
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "异常报备"
+  }, {
+    "name" : "story",
+    "value" : "发起异常报备"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "workspace1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "29836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "workspace1" ]
+  },
+  "source" : "f509132a552a1577.json",
+  "parameterValues" : [ ]
+}
