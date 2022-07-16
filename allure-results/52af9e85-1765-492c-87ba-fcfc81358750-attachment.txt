@@ -1,2 +1,0 @@
-2022-07-13 18:06:24,977base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
-2022-07-13 18:06:24,979base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
