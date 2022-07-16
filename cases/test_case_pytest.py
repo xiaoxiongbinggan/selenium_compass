@@ -83,7 +83,7 @@ def test_01(remote_driver):
 @allure.feature("异常报备")
 @allure.story("处理异常报备的审批")
 @allure.title("处理异常报备的审批")
-# @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
+
 def test_02(remote_driver):
     wp = WorkPlace(remote_driver)
     ap = Approve(remote_driver)
