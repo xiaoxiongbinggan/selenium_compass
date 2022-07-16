@@ -21,8 +21,9 @@ class DataProcessing(BasePage):
     interview_time_now=(By.XPATH,'//*[text()="此刻"]')
     time_confirm_btn=(By.XPATH,'//*[text()="确 定"]/..')
     end_btn=(By.XPATH,'//div[@class="ant-modal-confirm-btns"]/button[2]')
+    @allure.step("step:步骤")
     def interview_results(self):
-        allure.dynamic.description('描述：成功或失败都结束')
+        allure.dynamic.description('描述：')
         with allure.step('进入综合数据处理'):
             self.click(self.datas_processing_son)
             time.sleep(1)
@@ -44,7 +45,6 @@ class DataProcessing(BasePage):
             time.sleep(1)
             screen_short=self.driver.get_screenshot_as_png()
             allure.attach(screen_short)
-
         with allure.step('点击结束'):
             self.click(self.end_btn)
 
@@ -66,3 +66,4 @@ if __name__ == '__main__':
     wp.open_datas()
     dp=DataProcessing(driver)
     dp.interview_results()
+    driver.quit()

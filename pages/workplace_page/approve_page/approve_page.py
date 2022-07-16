@@ -59,5 +59,5 @@ if __name__ == '__main__':
     wp.open_approve()
 
     ap=Approve(driver)
-    # memo='测试备注'
     ap.wait_approve()
+    driver.quit()

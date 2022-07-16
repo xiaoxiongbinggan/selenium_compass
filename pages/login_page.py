@@ -9,8 +9,8 @@ class Login(BasePage):
     password=(By.XPATH,"//input[@id='pwd']")
     login_btn=(By.XPATH,"//a[text()='登录并授权']")
 
+    # @pytest.mark.parametrize("memo",['测试备注1','测试备注2'])
     def login(self):
-
         self.input(self.username,13761362771)
         self.input(self.password,'qinyujie008')
         self.click(self.login_btn)

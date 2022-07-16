@@ -1,2 +1,0 @@
-创建成功: D:\selenium_compass\script\异常报备测试数据1条.xlsx
-D:\selenium_compass\files\screenshots\20220711-132103.png

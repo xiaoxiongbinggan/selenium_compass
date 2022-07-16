@@ -57,5 +57,6 @@ if __name__ == '__main__':
     wp = WorkPlace(driver)
     wp.open_recruit()
     time.sleep(1)
+    driver.quit()
 
 

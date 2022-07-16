@@ -5,7 +5,7 @@ $ pip install allure-pytest
 它会同时安装allure-pytest和allure-python-commons两个包。
 
 方法1：
-（1）：运行测试用例，生产测试报告文件
+（1）：运行测试用例，生成测试报告文件
 
 pytest 	test.py 		--alluredir=./tmp/results
 	脚本		测试报告文件路径
@@ -32,8 +32,8 @@ allure	 generate 	 ./tmp/results
 右键点击index.html--Open In--Browser--随便选择一个喜欢用的浏览器，就能打开报告了，和命令2打开的报告是一样的。（需要在pycharm里打开）
 
 
-pytest D:\auto_test\case\test_case_pytest.py -m web --alluredir=D:\auto_test\reports\reports
-allure serve D:\auto_test\reports\reports
+pytest D:\selenium_compass\cases\test_case_pytest.py -m web --alluredir=D:\auto_test\reports\reports
+allure serve D:\selenium_compass\reports
 
 
 

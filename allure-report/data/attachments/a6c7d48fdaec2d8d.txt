@@ -1,3 +1,0 @@
-创建成功: D:\selenium_compass\script\正常报备测试数据3条.xlsx
-D:\selenium_compass\files\screenshots\20220711-111459.png
-D:\selenium_compass\files\screenshots\20220711-111521.png

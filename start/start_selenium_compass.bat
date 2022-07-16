@@ -2,4 +2,4 @@
 D:
 
 
-pytest D:\auto_test\case\test_case_pytest.py -m workspace --alluredir=D:\auto_test\reports
+pytest D:\selenium_compass\cases\test_case_pytest.py -m workspace --alluredir=D:\selenium_compass\allure-results
