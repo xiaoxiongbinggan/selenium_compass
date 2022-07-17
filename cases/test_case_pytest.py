@@ -15,7 +15,7 @@ from pages.workplace_page.workplace_page import WorkPlace
 
 # 测试用例
 @pytest.fixture(scope="session")
-def remote_driver():
+def windows_remote_driver():
     """远程启动云服务器的浏览器"""
     # driver = webdriver.Remote(command_executor="http://chrome.fyzq.cc/wd/hub",
     #                           desired_capabilities=DesiredCapabilities.CHROME)
@@ -70,9 +70,9 @@ def user_driver():
 @allure.feature("异常报备")
 @allure.story("发起异常报备")
 @allure.title("发起异常报备")
-def test_01(remote_driver):
-    wp=WorkPlace(remote_driver)
-    re = Recruit(remote_driver)
+def test_01(windows_remote_driver):
+    wp=WorkPlace(windows_remote_driver)
+    re = Recruit(windows_remote_driver)
     wp.open_recruit()
     re.abnormal_report(1)
     time.sleep(1)
@@ -84,9 +84,9 @@ def test_01(remote_driver):
 @allure.story("处理异常报备的审批")
 @allure.title("处理异常报备的审批")
 
-def test_02(remote_driver):
-    wp = WorkPlace(remote_driver)
-    ap = Approve(remote_driver)
+def test_02(windows_remote_driver):
+    wp = WorkPlace(windows_remote_driver)
+    ap = Approve(windows_remote_driver)
     wp.open_approve()
     ap.wait_approve()
     time.sleep(1)
@@ -96,9 +96,9 @@ def test_02(remote_driver):
 @allure.feature("正常报备")
 @allure.story("发起正常报备")
 @allure.title("发起正常报备")
-def test_03(remote_driver):
-    wp=WorkPlace(remote_driver)
-    re=Recruit(remote_driver)
+def test_03(windows_remote_driver):
+    wp=WorkPlace(windows_remote_driver)
+    re=Recruit(windows_remote_driver)
     wp.open_recruit()
     re.normal_report(3)
     time.sleep(1)
@@ -108,10 +108,10 @@ def test_03(remote_driver):
 @allure.feature("正常报备")
 @allure.story("报备人员面试通过")
 @allure.title("报备人员面试通过")
-def test_04(remote_driver):
-    wp = WorkPlace(remote_driver)
+def test_04(windows_remote_driver):
+    wp = WorkPlace(windows_remote_driver)
     wp.open_datas()
-    dp=DataProcessing(remote_driver)
+    dp=DataProcessing(windows_remote_driver)
     dp.interview_results()
 
 
