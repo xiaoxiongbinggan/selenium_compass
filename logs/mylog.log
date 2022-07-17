@@ -5525,3 +5525,65 @@ Thu, 09 Jun 2022 20:19:35 37596 MainThread base_page.py[line:18] INFO This is in
 2022-07-16 21:07:56,166base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
 2022-07-16 21:07:56,775base_page.pyINFO点击元素('xpath', "//span[text()='审批管理']/..")
 2022-07-16 21:07:56,776base_page.pyINFO定位元素('xpath', "//span[text()='审批管理']/..")
+2022-07-17 09:41:57,453connectionpool.pyWARNINGRetrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05296FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2022-07-17 09:41:59,512connectionpool.pyWARNINGRetrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05305250>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2022-07-17 09:42:01,586connectionpool.pyWARNINGRetrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05305538>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2022-07-17 09:43:07,335connectionpool.pyWARNINGRetrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05306FA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2022-07-17 09:43:09,389connectionpool.pyWARNINGRetrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05377220>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2022-07-17 09:43:11,432connectionpool.pyWARNINGRetrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05377508>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2022-07-17 09:43:59,647base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
+2022-07-17 09:43:59,648base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
+2022-07-17 09:44:00,072base_page.pyINFO('xpath', "//input[@id='pwd']")输入框输入qinyujie008
+2022-07-17 09:44:00,073base_page.pyINFO定位元素('xpath', "//input[@id='pwd']")
+2022-07-17 09:44:00,518base_page.pyINFO点击元素('xpath', "//a[text()='登录并授权']")
+2022-07-17 09:44:00,518base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
+2022-07-17 09:44:13,401base_page.pyINFO点击元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-17 09:44:13,402base_page.pyINFO定位元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-17 09:44:16,129base_page.pyINFO点击元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-17 09:44:16,129base_page.pyINFO定位元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-17 09:44:17,921base_page.pyINFO点击元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-17 09:44:17,922base_page.pyINFO定位元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-17 09:44:18,411base_page.pyINFO点击元素('xpath', '//*[text()="异常报备"]/../span')
+2022-07-17 09:44:18,411base_page.pyINFO定位元素('xpath', '//*[text()="异常报备"]/../span')
+2022-07-17 09:44:19,850base_page.pyINFO点击元素('xpath', "//div[text()='请选择需求']")
+2022-07-17 09:44:19,851base_page.pyINFO定位元素('xpath', "//div[text()='请选择需求']")
+2022-07-17 09:44:22,355base_page.pyINFO点击元素('xpath', "//li[@title='报备测试']")
+2022-07-17 09:44:22,355base_page.pyINFO定位元素('xpath', "//li[@title='报备测试']")
+2022-07-17 09:44:22,785base_page.pyINFO点击元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:44:22,785base_page.pyINFO定位元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:44:24,507base_page.pyINFO('xpath', "//input[@accept='.xlsx, .xls']")输入框输入D:\selenium_compass\script\异常报备测试数据1条.xlsx
+2022-07-17 09:44:24,508base_page.pyINFO定位元素('xpath', "//input[@accept='.xlsx, .xls']")
+2022-07-17 09:44:25,904base_page.pyINFO点击元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:44:25,905base_page.pyINFO定位元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:44:26,287base_page.pyINFO断言有无：上传成功！
+2022-07-17 09:44:26,288base_page.pyINFO定位元素('xpath', "//*[@class='ant-message-custom-content ant-message-success']/span")
+2022-07-17 09:44:27,057base_page.pyINFO点击元素('xpath', "//span[@class='ant-modal-close-x']")
+2022-07-17 09:44:27,059base_page.pyINFO定位元素('xpath', "//span[@class='ant-modal-close-x']")
+2022-07-17 09:45:40,260base_page.pyINFO('xpath', "//input[@id='mobile']")输入框输入13761362771
+2022-07-17 09:45:40,261base_page.pyINFO定位元素('xpath', "//input[@id='mobile']")
+2022-07-17 09:45:40,690base_page.pyINFO('xpath', "//input[@id='pwd']")输入框输入qinyujie008
+2022-07-17 09:45:40,690base_page.pyINFO定位元素('xpath', "//input[@id='pwd']")
+2022-07-17 09:45:41,098base_page.pyINFO点击元素('xpath', "//a[text()='登录并授权']")
+2022-07-17 09:45:41,099base_page.pyINFO定位元素('xpath', "//a[text()='登录并授权']")
+2022-07-17 09:45:50,026base_page.pyINFO点击元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-17 09:45:50,026base_page.pyINFO定位元素('xpath', "//span[text()='招聘管理']/..")
+2022-07-17 09:45:52,768base_page.pyINFO点击元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-17 09:45:52,769base_page.pyINFO定位元素('xpath', "//a[text()='招聘中心']/..")
+2022-07-17 09:45:55,908base_page.pyINFO点击元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-17 09:45:55,909base_page.pyINFO定位元素('xpath', '/html/body/div[1]/section/section/main/div/div[2]/div/div[2]/div/div[1]/div[1]/div/div[3]/button')
+2022-07-17 09:45:56,496base_page.pyINFO点击元素('xpath', '//*[text()="异常报备"]/../span')
+2022-07-17 09:45:56,496base_page.pyINFO定位元素('xpath', '//*[text()="异常报备"]/../span')
+2022-07-17 09:45:57,991base_page.pyINFO点击元素('xpath', "//div[text()='请选择需求']")
+2022-07-17 09:45:57,993base_page.pyINFO定位元素('xpath', "//div[text()='请选择需求']")
+2022-07-17 09:46:00,467base_page.pyINFO点击元素('xpath', "//li[@title='报备测试']")
+2022-07-17 09:46:00,468base_page.pyINFO定位元素('xpath', "//li[@title='报备测试']")
+2022-07-17 09:46:00,900base_page.pyINFO点击元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:46:00,900base_page.pyINFO定位元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:46:02,479base_page.pyINFO('xpath', "//input[@accept='.xlsx, .xls']")输入框输入D:\selenium_compass\script\异常报备测试数据1条.xlsx
+2022-07-17 09:46:02,479base_page.pyINFO定位元素('xpath', "//input[@accept='.xlsx, .xls']")
+2022-07-17 09:46:03,895base_page.pyINFO点击元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:46:03,895base_page.pyINFO定位元素('xpath', "//span[text()='下一步']/..")
+2022-07-17 09:46:04,272base_page.pyINFO断言有无：上传成功！
+2022-07-17 09:46:04,272base_page.pyINFO定位元素('xpath', "//*[@class='ant-message-custom-content ant-message-success']/span")
+2022-07-17 09:46:04,654base_page.pyINFO点击元素('xpath', "//span[@class='ant-modal-close-x']")
+2022-07-17 09:46:04,655base_page.pyINFO定位元素('xpath', "//span[@class='ant-modal-close-x']")

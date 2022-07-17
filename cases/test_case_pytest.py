@@ -25,7 +25,7 @@ def remote_driver():
     desired_caps={}
     desired_caps['platform'] = 'WINDOWS'
     desired_caps['browserName'] = 'chrome'
-    driver = webdriver.Remote('http://127.0.0.1:4444/wd/hub',desired_caps)
+    driver = webdriver.Remote('http://192.168.7.10:4444/wd/hub',desired_caps)
 
     """ 远程启动浏览器配置2"""
     # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
