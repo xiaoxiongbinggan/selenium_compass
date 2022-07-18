@@ -4,7 +4,7 @@ import allure
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.service import Service
+from selenium.webdriver.chrome.service import Service
 
 from pages.login_page import Login
 from pages.workplace_page.approve_page.approve_page import Approve
@@ -28,9 +28,7 @@ def linux_driver():
     """ 
     启动浏览器实例
     """
-    s = Service(r'D:\selenium_compass\start\chromedriver.exe')
-    # driver = webdriver.Chrome(service=s, options=Options())
-    driver = webdriver.Chrome(options=Options(), executable_path=r'D:\selenium_compass\start\chromedriver.exe')
+    driver = webdriver.Chrome(service=s, options=Options())
     url = "https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
           "2Fconnect%2Foauth2%2Fsns_authorize%3Fappid%3Ddingoakln867f37kuvrott%26response_type%3D" \
           "code%26scope%3Dsnsapi_login%26state%3DSTATE%26redirect_uri%3Dhttp%253A%252F%252Ftest-cp.youlife.cn%252F%2523%252Flogin"
