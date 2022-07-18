@@ -1,0 +1,274 @@
+{
+  "uid" : "4b9915e9c8d28e36",
+  "name" : "报备人员面试通过",
+  "fullName" : "cases.test_case_pytest#test_04",
+  "historyId" : "ba693dff19a7571f21ec7658a9d62b83",
+  "time" : {
+    "start" : 1657853894491,
+    "stop" : 1657853905446,
+    "duration" : 10955
+  },
+  "description" : "描述：",
+  "descriptionHtml" : "<p>描述：</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1657853882194,
+      "stop" : 1657853882249,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "remote_driver",
+    "time" : {
+      "start" : 1657853882249,
+      "stop" : 1657853894488,
+      "duration" : 12239
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "描述：",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step:步骤",
+      "time" : {
+        "start" : 1657853896050,
+        "stop" : 1657853905446,
+        "duration" : 9396
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入综合数据处理",
+        "time" : {
+          "start" : 1657853896050,
+          "stop" : 1657853897988,
+          "duration" : 1938
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击待反馈",
+        "time" : {
+          "start" : 1657853897988,
+          "stop" : 1657853899413,
+          "duration" : 1425
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击勾选框",
+        "time" : {
+          "start" : 1657853899413,
+          "stop" : 1657853899868,
+          "duration" : 455
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "面试成功",
+        "time" : {
+          "start" : 1657853899868,
+          "stop" : 1657853901390,
+          "duration" : 1522
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击面试时间框",
+        "time" : {
+          "start" : 1657853901390,
+          "stop" : 1657853902810,
+          "duration" : 1420
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "选择面试时间",
+        "time" : {
+          "start" : 1657853902810,
+          "stop" : 1657853903269,
+          "duration" : 459
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "确认",
+        "time" : {
+          "start" : 1657853903269,
+          "stop" : 1657853905085,
+          "duration" : 1816
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3472aa21ab49ef5a",
+          "name" : "22db4a6d-cc3d-4c35-b204-c0a1241fc3e6-attachment.attach",
+          "source" : "3472aa21ab49ef5a.attach",
+          "type" : "image/png",
+          "size" : 446304
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击结束",
+        "time" : {
+          "start" : 1657853905085,
+          "stop" : 1657853905445,
+          "duration" : 360
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 8
+    } ],
+    "attachments" : [ {
+      "uid" : "ea1b2b56fc11eacf",
+      "name" : "log",
+      "source" : "ea1b2b56fc11eacf.txt",
+      "type" : "text/plain",
+      "size" : 2209
+    }, {
+      "uid" : "fe9ebc080991cabb",
+      "name" : "stderr",
+      "source" : "fe9ebc080991cabb.txt",
+      "type" : "text/plain",
+      "size" : 2426
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "remote_driver::0",
+    "time" : {
+      "start" : 1657853905446,
+      "stop" : 1657853906294,
+      "duration" : 848
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "报备人员面试通过"
+  }, {
+    "name" : "feature",
+    "value" : "正常报备"
+  }, {
+    "name" : "tag",
+    "value" : "workspace1"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-5D6NI12E"
+  }, {
+    "name" : "thread",
+    "value" : "19412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=4)", "workspace1" ]
+  },
+  "source" : "4b9915e9c8d28e36.json",
+  "parameterValues" : [ ]
+}
