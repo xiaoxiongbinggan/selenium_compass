@@ -12,9 +12,12 @@ from pages.workplace_page.data_processing_page.data_processing_page import DataP
 from pages.workplace_page.recruit_page.recruit_page import Recruit
 from pages.workplace_page.workplace_page import WorkPlace
 
+from pyvirtualdisplay import Display
 
 @pytest.fixture(scope="session")
 def linux_driver():
+    display = Display(visible=0, size=(800, 800))
+    display.start()
     """
     “–no-sandbox”参数是让Chrome在root权限下跑
     “–headless”参数是不用打开图形界面
