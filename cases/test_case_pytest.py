@@ -16,7 +16,7 @@ from pages.workplace_page.workplace_page import WorkPlace
 # 测试用例
 @pytest.fixture(scope="session")
 def windows_remote_driver():
-    """远程启动云服务器的浏览器"""
+    """远程启动redmi电脑的浏览器"""
     # driver = webdriver.Remote(command_executor="http://chrome.fyzq.cc/wd/hub",
     #                           desired_capabilities=DesiredCapabilities.CHROME)
 
@@ -28,7 +28,7 @@ def windows_remote_driver():
     driver = webdriver.Remote('http://192.168.7.10:4444/wd/hub',desired_caps)
 
     """ 远程启动浏览器配置2"""
-    # driver = webdriver.Remote( command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
+    # driver = webdriver.Remote( command_executor='http://192.168.7.10:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
 
     url="https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
         "2Fconnect%2Foauth2%2Fsns_authorize%3Fappid%3Ddingoakln867f37kuvrott%26response_type%3D" \
@@ -70,9 +70,9 @@ def user_driver():
 @allure.feature("异常报备")
 @allure.story("发起异常报备")
 @allure.title("发起异常报备")
-def test_01(windows_remote_driver):
-    wp=WorkPlace(windows_remote_driver)
-    re = Recruit(windows_remote_driver)
+def test_01(user_driver):
+    wp=WorkPlace(user_driver)
+    re = Recruit(user_driver)
     wp.open_recruit()
     re.abnormal_report(1)
     time.sleep(1)
