@@ -24,7 +24,7 @@ def linux_driver():
     Options().add_argument('--headless')
     Options().add_argument('blink-settings=imagesEnabled=false')
     Options().add_argument('--disable-gpu')
-    s = Service(r"D:\selenium_compass\start\chromedriver.exe")
+    s = Service(r"/opt/chromedriver")
     """ 
     启动浏览器实例
     """
