@@ -16,17 +16,18 @@ from pyvirtualdisplay import Display
 
 @pytest.fixture(scope="session")
 def linux_driver():
-    display = Display(visible=0, size=(800, 800))
+    display = Display(visible= 0, size=(800, 800))
     display.start()
     """
     “–no-sandbox”参数是让Chrome在root权限下跑
     “–headless”参数是不用打开图形界面
     """
-    Options().add_argument('--no-sandbox')
-    Options().add_argument('--disable-dev-shm-usage')
-    Options().add_argument('--headless')
-    Options().add_argument('blink-settings=imagesEnabled=false')
-    Options().add_argument('--disable-gpu')
+    options=Options()
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--headless')
+    options.add_argument('blink-settings=imagesEnabled=false')
+    options.add_argument('--disable-gpu')
     s = Service(r"/opt/chromedriver")
     """ 
     启动浏览器实例

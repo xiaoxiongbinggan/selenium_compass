@@ -24,7 +24,7 @@ eger = ['男', '女']
 
 
 def nor_creat_report(number):
-    filepath = r'D:\selenium_compass\script\正常报备测试数据{0}条.xlsx'.format(number)
+    filepath = '.\正常报备测试数据{0}条.xlsx'.format(number)
     fake = Faker('zh_CN')
     wb = openpyxl.Workbook()
     ws = wb.active
@@ -48,7 +48,7 @@ def nor_creat_report(number):
     wb.close()
 
 def abnor_creat_report(number):
-    filepath = r'D:\selenium_compass\script\异常报备测试数据{0}条.xlsx'.format(number)
+    filepath = '.\异常报备测试数据{0}条.xlsx'.format(number)
     fake = Faker('zh_CN')
     wb = openpyxl.Workbook()
     ws = wb.active

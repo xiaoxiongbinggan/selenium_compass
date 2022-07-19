@@ -1,6 +1,8 @@
+import os
 import time
 
 import allure
+import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -28,8 +30,6 @@ class Recruit(BasePage):
     tips=(By.XPATH,"//*[@class='ant-message-custom-content ant-message-success']/span")
     clost_btn=(By.XPATH,"//span[@class='ant-modal-close-x']")
 
-
-
     def normal_report(self,number):
         with allure.step('进入招聘中心'):
             self.click(self.recruit_center)
@@ -45,9 +45,11 @@ class Recruit(BasePage):
         with allure.step('生成正常报备数据并上传'):
             nor_creat_report(number)
             time.sleep(1)
-            self.input(self.select_text,r'D:\selenium_compass\script\正常报备测试数据{0}条.xlsx'.format(number))
-            time.sleep(1)
+            script_path=os.path.abspath(os.path.join(os.getcwd(),'../../../script/'))
+            self.input(self.select_text,script_path+'\正常报备测试数据{0}条.xlsx'.format(number))
+            time.sleep(2)
             self.click(self.next_button)
+            time.sleep(1)
         with allure.step('断言'):
             result=self.assert_text(self.tips,'上传成功！')
             assert result is True
@@ -66,10 +68,11 @@ class Recruit(BasePage):
             self.click(self.select_need)
             self.click(self.next_button)
         with allure.step('生成异常报备数据并上传'):
+            script_path = os.path.abspath(os.path.join(os.getcwd(), '../../../script/'))
             abnor_creat_report(number)
             time.sleep(1)
-            self.input(self.select_text,r'D:\selenium_compass\script\异常报备测试数据{0}条.xlsx'.format(number))
-            time.sleep(1)
+            self.input(self.select_text,script_path+'\异常报备测试数据{0}条.xlsx'.format(number))
+            time.sleep(2)
             self.click(self.next_button)
         with allure.step('断言'):
             result=self.assert_text(self.tips,'上传成功！')
