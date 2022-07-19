@@ -66,7 +66,7 @@ def user_driver():
 
 
 @pytest.mark.run(order=1)
-@pytest.mark.workspace
+@pytest.mark.abnormal
 @allure.feature("异常报备")
 @allure.story("发起异常报备")
 @allure.title("发起异常报备")
@@ -74,44 +74,45 @@ def test_01(user_driver):
     wp=WorkPlace(user_driver)
     re = Recruit(user_driver)
     wp.open_recruit()
+
     re.abnormal_report(1)
     time.sleep(1)
 
 
 @pytest.mark.run(order=2)
-@pytest.mark.workspace
+@pytest.mark.abnormal
 @allure.feature("异常报备")
 @allure.story("处理异常报备的审批")
 @allure.title("处理异常报备的审批")
 
-def test_02(windows_remote_driver):
-    wp = WorkPlace(windows_remote_driver)
-    ap = Approve(windows_remote_driver)
+def test_02(user_driver):
+    wp = WorkPlace(user_driver)
+    ap = Approve(user_driver)
     wp.open_approve()
     ap.wait_approve()
     time.sleep(1)
 
 @pytest.mark.run(order=3)
-@pytest.mark.workspace
+@pytest.mark.normal
 @allure.feature("正常报备")
 @allure.story("发起正常报备")
 @allure.title("发起正常报备")
-def test_03(windows_remote_driver):
-    wp=WorkPlace(windows_remote_driver)
-    re=Recruit(windows_remote_driver)
+def test_03(user_driver):
+    wp=WorkPlace(user_driver)
+    re=Recruit(user_driver)
     wp.open_recruit()
     re.normal_report(3)
     time.sleep(1)
 
 @pytest.mark.run(order=4)
-@pytest.mark.workspace
+@pytest.mark.normal
 @allure.feature("正常报备")
 @allure.story("报备人员面试通过")
 @allure.title("报备人员面试通过")
-def test_04(windows_remote_driver):
-    wp = WorkPlace(windows_remote_driver)
+def test_04(user_driver):
+    wp = WorkPlace(user_driver)
     wp.open_datas()
-    dp=DataProcessing(windows_remote_driver)
+    dp=DataProcessing(user_driver)
     dp.interview_results()
 
 

@@ -4,6 +4,7 @@ git status			查看当前路径和远程路径文件比较
 git commit -m "备注"	提交代码到缓冲区
 git push -u origin master	提交到<远程主机名> <远程分支名>
 
+git reset --hard 		版本回退
 git reset HEAD		整体回到上一次操作
 git reset HEAD xxx		xxx文件回到上一次操作 
 git rm -r --cached xxx	删除缓存区文件xxx
@@ -16,3 +17,11 @@ git remote -v		查看远程连接
 git remote add origin https://github.com/xiaoxiongbinggan/selenium_compass.git
 			和远端仓库建立连接
 git remote rm origin	删除连接的远程仓库
+
+
+
+
+
+
+
+

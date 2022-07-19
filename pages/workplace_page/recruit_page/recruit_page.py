@@ -45,8 +45,8 @@ class Recruit(BasePage):
         with allure.step('生成正常报备数据并上传'):
             nor_creat_report(number)
             time.sleep(1)
-            script_path=os.path.abspath(os.path.join(os.getcwd(),'../../../script/'))
-            self.input(self.select_text,script_path+'\正常报备测试数据{0}条.xlsx'.format(number))
+            script_path=os.path.abspath(os.path.join(os.getcwd(),'../../../../../../selenium-compass-remote/script'))
+            self.input(self.select_text,script_path+'/正常报备测试数据{0}条.xlsx'.format(number))
             time.sleep(2)
             self.click(self.next_button)
             time.sleep(1)
@@ -68,10 +68,10 @@ class Recruit(BasePage):
             self.click(self.select_need)
             self.click(self.next_button)
         with allure.step('生成异常报备数据并上传'):
-            script_path = os.path.abspath(os.path.join(os.getcwd(), '../../../script/'))
+            script_path = os.path.abspath(os.path.join(os.getcwd(), '../../../../../../selenium-compass-remote/script'))
             abnor_creat_report(number)
             time.sleep(1)
-            self.input(self.select_text,script_path+'\异常报备测试数据{0}条.xlsx'.format(number))
+            self.input(self.select_text,script_path+'/异常报备测试数据{0}条.xlsx'.format(number))
             time.sleep(2)
             self.click(self.next_button)
         with allure.step('断言'):

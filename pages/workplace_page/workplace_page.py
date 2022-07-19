@@ -28,7 +28,7 @@ class WorkPlace(BasePage):
     def open_recruit(self):
         allure.dynamic.description('招聘管理')
         self.click(self.recruit_manage)
-        time.sleep(1)
+
 
     def open_datas(self):
         allure.dynamic.description('综合数据处理')
