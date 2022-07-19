@@ -22,17 +22,17 @@ def linux_driver():
     “–no-sandbox”参数是让Chrome在root权限下跑
     “–headless”参数是不用打开图形界面
     """
-    options=Options()
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--headless')
-    options.add_argument('blink-settings=imagesEnabled=false')
-    options.add_argument('--disable-gpu')
+    chrome_options=Options()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('blink-settings=imagesEnabled=false')
+    chrome_options.add_argument('--disable-gpu')
     s = Service(r"/opt/chromedriver")
     """ 
     启动浏览器实例
     """
-    driver = webdriver.Chrome(service=s, options=Options())
+    driver = webdriver.Chrome(service=s, options=chrome_options)
     url = "https://login.dingtalk.com/login/index.htm?goto=https%3A%2F%2Foapi.dingtalk.com%" \
           "2Fconnect%2Foauth2%2Fsns_authorize%3Fappid%3Ddingoakln867f37kuvrott%26response_type%3D" \
           "code%26scope%3Dsnsapi_login%26state%3DSTATE%26redirect_uri%3Dhttp%253A%252F%252Ftest-cp.youlife.cn%252F%2523%252Flogin"
